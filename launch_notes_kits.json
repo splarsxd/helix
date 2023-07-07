@@ -82,13 +82,16 @@
 		  "active": false,
 		  "passive_ability": "Every 10th hit poison enemies for 3 seconds and grants you speed 1 for the same duration.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Hits should be registered hits, not hits that was blocked by the hit delay cooldown that only shows particles.",
-		  "details2": "DEV note, it's okay to make it just hits even if they don't deal any damage, if details1 is too advanced or impossible at worst.",
+		  "details1": "While the enemy is poisioned, antiheal is applied, halve the health restoration from soups for the duration of the poison.",
+		  "details2": "Hits should be registered hits, not hits that was blocked by the hit delay cooldown that only shows particles.",
+		  "details3": "DEV note, it's okay to make it just hits even if they don't deal any damage, if details1 is too advanced or impossible at worst.",
 		  "amount_of_hits": 10,
 		  "poison_strength": 4,
 		  "poison_duration": 3,
 		  "speed_strength": 1,
-		  "speed_duration": 3
+		  "speed_duration": 3,
+		  "antiheal_divider": 2,
+		  "antiheal_duration": 3
 	  },
 	  "Warrior": {
 		  "desc": "For every takedown Warrior is granted great buffs.",
@@ -123,12 +126,33 @@
 		"details5": "Shaman is unable to steal Great Buffs from Warrior.",
 		"details6": "Cooldown will start when the duration has ended.",
 		"cooldown": 80,
-		"duration": 10,
+		"duration": 4,
 		"heal": 0.20,
 		"increased_heal": 0.50,
 		"slow_strength": 3,
 		"slow_duration": 10
-		}
+		},
+	  "Siphoner": {
+		"desc": "Siphoner sustains by draining the lifeforce of weak opponents.",
+		"cost": 2650,
+		"skill": 2,
+		"passive": true,
+		"active": true,
+		"passive_ability": "Every 3rd drain is an empowered drain, damage and health restoration is doubled and gain speed 1.",
+		"active_ability": "Drains health from the selected target and heals you for the same amount.",
+		"details1": "First drain is 0.5 seconds, second drain is also 0.5 seconds, third drain is 1 second, and repeat.",
+		"details2": "If the selected targets health is at 8 or lower, passive empowered drain is applied instead of a regular active drain.",
+		"details3": "Will not spawn with any soups and also cannot use soups to restore health and can neither can access soup signs to refill.",
+		"details4": "Drain damage is pre-mitigation damage.",
+		"cooldown": 0.5,
+		"drain_damage": 4,
+		"drain_heal": 4,
+		"empowered_cooldown": 1,
+		"empowered_drain_damage": 8,
+		"empowered_drain_heal": 8,
+		"speed_strength": 1,
+		"speed_duration": 3
+	  }
 	},
 
     "Duelist": {
@@ -139,13 +163,14 @@
 		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
 		  "cost": 850,
 		  "skill": 3,
-		  "passive": false,
+		  "passive": true,
 		  "active": true,
-		  "passive_ability": "No passive ability.",
+		  "passive_ability": "When teleporting, you dodge all incoming attacks for 2 seconds.",
 		  "active_ability": "Teleport 1 block behind your last hit target or closest target.",
 		  "details1": "The ability should not be put on cooldown if no one is in range.",
 		  "cooldown": 11,
-		  "radius": 8
+		  "radius": 8,
+		  "dodge_duration": 2
 	  },
 	  "Monkey": {
 		"desc": "Monkey is a trickster whom has mastered the art of confusion.",
@@ -359,9 +384,10 @@
 		  "active": true,
 		  "passive_ability": "Increase health by 2 hearts per kill.",
 		  "active_ability": "Gain regeneration 5 for 10 seconds with a cooldown of 50 seconds.",
-		  "details1": "Starts with 3 rows of hearts via health boost effect and instantly healed.",
+		  "details1": "Starts with slowness 1 and 3 rows of hearts via health boost effect and instantly healed.",
 		  "details2": "Health boost stacking using Health boost effect.",
 		  "details3": "For every kill, the player is instantly healed to the new current max health.",
+		  "details4": "When active_ability is active, slowness is removed for the duration.",
 		  "cooldown": 50,
 		  "additional_health_boost_per_kill": 1,
 		  "regeneration": 5,
