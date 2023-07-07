@@ -5,11 +5,12 @@
 	  "Knight": "Auto max soup refill on kill. (Make it a variable on how many soups they get per kill, if the variable is set higher than inventory capacity then auto max refill.)",
 	  "Fisherman": "Fishing Rod teleports hooked players to you, and the direction you are facing. (Cooldown: 7 seconds)",
 	  "Enderman": "Gain an enderpearl, retreieve the enderpearl upon a teleportation. (Cooldown: 4 seconds) (Feather Falling 10) (Jump Boost 1)",
-	  "Alpha": "Summon 6 wolves that attacks your last hit opponent. (Duration: 15 seconds) (Cooldown: 35 seconds) (Wolf Damage: 10% max health pre-mitigation damage per wolf hit) (Wolf Health: 20 hearts)",
+	  "Alpha": "Summon 6 wolves that attacks your last hit opponent. (Duration: 15 seconds) (Cooldown: 35 seconds) (Wolf Damage: 10% max health pre-mitigation damage per wolf hit) (Wolf Health: 20 hearts aka 40 health)",
 	  "Viking": "Summon a lightning bolt. (50% current health as pre-mitigation damage)",
 	  "Basilisk": "Every 10th hit poison enemies for 3 seconds and grants you speed 1 for the same duration.",
 	  "Warrior": "For every kill you are granted strength 1, speed 1, resistance 1, regeneration 3 for 6 seconds.",
-	  "Shaman": "Heal for a percentage post-mitigation damage and steal all types of positive effects and enchantments."
+	  "Shaman": "Heal for a percentage post-mitigation damage and steal all types of positive effects and enchantments. (Cooldown: 80 seconds) (Duration: 4 seconds) (Applying Slowness 3 for 10 seconds)",
+	  "Siphoner": "Ability to drain the lifeforce of the opponents, has a bloodthirst for the weak. (Cooldown: 0.5 seconds) (Passive Cooldown: 1 second) (Speed 1 with a duration of 3 seconds when Passive is applied)"
 	},
 
     "Duelist": {
@@ -29,10 +30,10 @@
 	},
 
     "Tank": {
-	  "Star": "Emits an aura of darkness that applies slowness and blindess for 1 seconds also stun nearby players in a radius of 5 blocks for 3 seconds. (Health Boost 14)",
+	  "Star": "Emits an aura of darkness that applies slowness and blindess for 1 seconds also stun nearby players in a radius of 5 blocks for 3 seconds. (Health Boost 14 and Slowness 1)",
 	  "Dragon": "Blast enemies AOE (Radius: 8 blocks) (4 hearts of pre-mitigation damage) also ignites opponents for 4 seconds. (Cooldown: 40 seconds) (Fire Resistance 1)",
 	  "Hedgehog": "Resistance 2 (Cooldown: 20 seconds) (Thorn 50% of the opponents melee damage, not projectile damage.)",
-	  "Juggernaut": "Regeneration 5 for 10 seconds with a cooldown of 50 seconds. Gain half a heart after each kill. (Health Boost stacking 255 max)"
+	  "Juggernaut": "Regeneration 5 for 10 seconds with a cooldown of 50 seconds. Gain half a heart after each kill. (Health Boost stacking 255 max) (Slowness 1)"
 	}
   }
 }
