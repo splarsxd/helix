@@ -1,0 +1,38 @@
+{
+  "Kits":
+  {
+	"Brawler": {
+	  "Knight": "Auto max soup refill on kill. (Make it a variable on how many soups they get per kill, if the variable is set higher than inventory capacity then auto max refill.)",
+	  "Fisherman": "Fishing Rod teleports hooked players to you, and the direction you are facing. (Cooldown: 7 seconds)",
+	  "Enderman": "Gain an enderpearl, retreieve the enderpearl upon a teleportation. (Cooldown: 4 seconds) (Feather Falling 10) (Jump Boost 1)",
+	  "Alpha": "Summon 6 wolves that attacks your last hit opponent. (Duration: 15 seconds) (Cooldown: 35 seconds) (Wolf Damage: 10% max health pre-mitigation damage per wolf hit) (Wolf Health: 20 hearts)",
+	  "Viking": "Summon a lightning bolt. (50% current health as pre-mitigation damage)",
+	  "Basilisk": "Every 10th hit poison enemies for 3 seconds and grants you speed 1 for the same duration.",
+	  "Warrior": "For every kill you are granted strength 1, speed 1, resistance 1, regeneration 3 for 6 seconds.",
+	  "Shaman": "Heal for a percentage post-mitigation damage and steal all types of positive effects and enchantments."
+	},
+
+    "Duelist": {
+	  "Ninja": "Teleport 1 block behind your closest target or last hit target. (Cooldown: 11 seconds) (Range: 8 blocks)",
+	  "Monkey": "Change opponents currently held item to another slot in their hotbar (Cooldown: 5 seconds) | Swap HP with your opponent (Cooldown: 20 seconds) | Become invisible for 4 seconds. (Cooldown: 10 seconds)",
+	  "Hyper": "Gain permanent speed 2. Speed level goes up for every 3rd hit with a cap of level 6 and decreases back to level 2 after 4 seconds of not hitting any opponents.",
+	  "Rogue": "Go completely invisible/vanish for 8 seconds, while invisible gain an additional level of sharpness on your weapon and speed 2 for the duration you are invisible. (Cooldown: 60 seconds)",
+	  "Slayer": "Passively restores 1 heart when critically striking and ability grants 2 additional levels of sharpness on the sword for 10 seconds. (Cooldown: 80 seconds)",
+	  "Phoenix": "Dash/launch forwards with Shift (Amount: 5 blocks) (Cooldown: 8 seconds)",
+	  "Challenger": "You weaken your selected target until either one of you dies. (Weakness 1) (Cooldown: 120 seconds)"
+	},
+
+    "Ranged": {
+	  "Inferno": "Ignites on hit for 4 seconds.",
+	  "Artillery": "Get one arrow every 5 seconds, only if you don't have one already.",
+	  "Snowman": "Your snowballs does 1 heart of true damage, applying slowness 1 on enemies for 1 seconds. Every 5 seconds your snowballs gets replenished if you already don't have 16 snowballs. (Capped @ 16 snowballs) (Spawns with 16 snowballs) (Speed 1)"
+	},
+
+    "Tank": {
+	  "Star": "Emits an aura of darkness that applies slowness and blindess for 1 seconds also stun nearby players in a radius of 5 blocks for 3 seconds. (Health Boost 14)",
+	  "Dragon": "Blast enemies AOE (Radius: 8 blocks) (4 hearts of pre-mitigation damage) also ignites opponents for 4 seconds. (Cooldown: 40 seconds) (Fire Resistance 1)",
+	  "Hedgehog": "Resistance 2 (Cooldown: 20 seconds) (Thorn 50% of the opponents melee damage, not projectile damage.)",
+	  "Juggernaut": "Regeneration 5 for 10 seconds with a cooldown of 50 seconds. Gain half a heart after each kill. (Health Boost stacking 255 max)"
+	}
+  }
+}
