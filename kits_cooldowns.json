@@ -9,7 +9,8 @@
 	  "Viking": "Active: 40s Cooldown, 8s Duration",
 	  "Basilisk": null,
 	  "Warrior": "Passive: 6s Duration",
-	  "Shaman": "Active: 80s Cooldown, 10s Duration"
+	  "Shaman": "Active: 80s Cooldown, 4s Duration",
+	  "Siphoner": "Active: 0.5s Cooldown | Passive: 1s Cooldown"
 	},
 
     "Duelist": {
@@ -32,7 +33,7 @@
 	  "Star": "Active: 45s Cooldown, 3s Duration | Passive: 5s Duration",
 	  "Dragon": "Active: 40s Cooldown, 4s Duration",
 	  "Hedgehog": "Active: 20s Cooldown, 8s Duration | Passive: 10s Cooldown",
-	  "Juggernaut": "50s Cooldown, 10s Duration"
+	  "Juggernaut": "Active: 50s Cooldown, 10s Duration"
 	}
   }
 }
