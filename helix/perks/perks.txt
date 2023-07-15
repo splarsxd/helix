@@ -1,5 +1,5 @@
 Domination:
-* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
+* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stack for Ranged)
 * Cap of 10 stacks. (40x Melee | 10x Ranged)
 * When at max stacks you gain an additional sharpness or power level.
 * All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
