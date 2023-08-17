@@ -10,7 +10,7 @@
 	  "Basilisk": "Every 10th hit poison enemies for 3 seconds and grants you speed 1 for the same duration.",
 	  "Warrior": "For every kill you are granted strength 1, speed 1, resistance 1, regeneration 3 for 6 seconds.",
 	  "Shaman": "Heal for a percentage post-mitigation damage and steal all types of positive effects and enchantments. (Cooldown: 80 seconds) (Duration: 4 seconds) (Applying Slowness 3 for 10 seconds)",
-	  "Siphoner": "Ability to drain the lifeforce of the opponents, has a bloodthirst for the weak. (Cooldown: 0.5 seconds) (Passive Cooldown: 1 second) (Speed 1 with a duration of 3 seconds when Passive is applied)"
+	  "Siphoner": "Ability to drain the lifeforce of the opponents, has a bloodthirst for the weak. (Cooldown: 0.5 seconds) (Speed 2 with a duration of 4 for every drain)"
 	},
 
     "Duelist": {
