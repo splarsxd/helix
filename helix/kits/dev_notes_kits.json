@@ -20,11 +20,12 @@
 	  "Rogue": "Go completely invisible/vanish for 8 seconds, while invisible gain an additional level of sharpness on your weapon and speed 2 for the duration you are invisible. (Cooldown: 60 seconds)",
 	  "Slayer": "Passively restores 1 heart when critically striking and ability grants 2 additional levels of sharpness on the sword for 10 seconds. (Cooldown: 80 seconds)",
 	  "Phoenix": "Dash/launch forwards with Shift (Amount: 5 blocks) (Cooldown: 8 seconds)",
-	  "Challenger": "You weaken your selected target until either one of you dies. (Weakness 1) (Cooldown: 120 seconds)"
+	  "Challenger": "You weaken your selected target until either one of you dies. (Weakness 1) (Cooldown: 120 seconds)",
+	  "Pirate": "You gain double gold and rewards for every kill, you may cleanse debuffs and be immune to abilities for a duration of 1 second. (Cooldown: 10 seconds)"
 	},
 
     "Ranged": {
-	  "Inferno": "Ignites on hit for 4 seconds.",
+	  "Inferno": "Ignites opponents on hit for 6 seconds.",
 	  "Artillery": "Get one arrow every 5 seconds, only if you don't have one already.",
 	  "Snowman": "Your snowballs does 1 heart of true damage, applying slowness 1 on enemies for 1 seconds. Every 5 seconds your snowballs gets replenished if you already don't have 16 snowballs. (Capped @ 16 snowballs) (Spawns with 16 snowballs) (Speed 1)"
 	},
