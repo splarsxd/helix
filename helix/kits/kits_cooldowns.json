@@ -20,7 +20,8 @@
 	  "Rogue": "Active: 60s Cooldown, 8s Duration",
 	  "Slayer": "Active: 70s Cooldown, 10s Duration",
 	  "Phoenix": "Active: 8s Cooldown",
-	  "Challenger": "Active: 120s Cooldown, 7s Duration"
+	  "Challenger": "Active: 120s Cooldown, 7s Duration",
+	  "Pirate": "Active: 10s Cooldown, 1s Duration"
 	},
 
     "Ranged": {
