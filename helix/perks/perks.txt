@@ -1,5 +1,5 @@
 Domination:
-* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stack for Ranged)
+* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
 * Cap of 10 stacks. (40x Melee | 10x Ranged)
 * When at max stacks you gain an additional sharpness or power level.
 * All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
@@ -15,3 +15,20 @@ Endurance:
 Exterminate:
 * Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
 * Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
+* Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
+
+Anchor:
+* Horizontal knockback is removed from both you and your opponent.
+* Cooldown: None
+
+Restoration:
+* For every kill you are healed to maximum health.
+* Cooldown: None
+
+Dissolve:
+* Gain 50% cooldown reduction on all abilities.
+* Cooldown: None
+
+Immunity:
+* You are immune to all debuffs, this includes anchor.
+* Cooldown: None
