@@ -260,7 +260,7 @@
 		  "active_ability": "You weaken your selected target until either one of you dies, all current effects will be removed from both players.",
 		  "details1": "If either one dies, the weakness effect is removed from the selected target and respective effects removed will be restored.",
 		  "details2": "Cooldown will not begin to count down until either of you have been slain.",
-		  "details3": "Cannot remove Great Buffs from Warrior, weakness may still be applied.",
+		  "details3": "Cannot remove Great Buffs from Warrior.",
 
 		  "easteregg1": "If Challenger kills Warrior, Challenger is granted Great Buffs for 12 seconds.",
 		  "easteregg2": "If Challenger kills Slayer, Challenger is granted an additional sharpness level on their weapon permanently.",
@@ -272,6 +272,17 @@
 		  "weakness_strength": 1,
 		  "weakness_duration": 99999,
 		  "excalibur_damage_duration": 7
+	  },
+	  "Pirate": {
+		"desc": "Pirate thrives on collecting rewards and gold from plundering enemies.",
+		"cost": 2650,
+		"skill": 3,
+		"passive": true,
+		"active": true,
+		"passive_ability": "For every kill you are granted double gold and 3 golden apples.",
+		"active_ability": "Cleanse all debuffs and be immune to abilities for 1 seconds.",
+		"cooldown": 10,
+		"duration": 1
 	  }
 	},
 
@@ -285,7 +296,7 @@
 		  "skill": 1,
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Every third arrow may ignite an opponent for 6 seconds if hit.",
+		  "passive_ability": "Every third arrow ignites an opponent for 6 seconds if hit.",
 		  "active_ability": "No ability activation.",
 		  "ignite_duration": 6
 	  },
@@ -334,6 +345,7 @@
 		  "details2": "Do not restore any health if nobody was stunned in the area, and put the ability on cooldown.",
 		  "details3": "Refresh passive debuffs on players still found in its range if they have not left yet.",
 		  "details4": "Health boost 14, slowness 1",
+		  "details5": "Do not restore health if Pirate was immune, will still restore health if Pirate cleanses it afterwards, since the stun is applied first.",
 		  "cooldown": 45,
 		  "aura_of_darkness_radius": 4,
 		  "tickrate_of_aura_of_darkness": "Checks once per two seconds.",
