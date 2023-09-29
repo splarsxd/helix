@@ -7,6 +7,7 @@ Domination:
 Rush:
 * Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
 * Cooldown: 10 seconds. (When the effect has expired, the cooldown timer will start.)
+* Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
 
 Endurance:
 * Gain resistance (2 Melee | 1 Ranged) for (2s Melee | 2s Ranged) seconds and regeneration (2 Melee | 1 Ranged) for (5s Melee | 5s Ranged) seconds upon taking damage.
@@ -16,6 +17,7 @@ Exterminate:
 * Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
 * Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
 * Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
+* Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
 
 Anchor:
 * Horizontal knockback is removed from both you and your opponent.
@@ -32,3 +34,8 @@ Dissolve:
 Immunity:
 * You are immune to all debuffs, this includes anchor.
 * Cooldown: None
+
+Resilience:
+* Gain (2 Melee | 1 Ranged) rows of absorption hearts after not taking damage for 10 seconds.
+* While affected with absorption, gain protection on all armour equipment.
+* Cooldown: 10 seconds. (Cooldown begins upon taking damage.)
