@@ -3,6 +3,7 @@ Domination:
 * Cap of 10 stacks. (40x Melee | 10x Ranged)
 * When at max stacks you gain an additional sharpness or power level.
 * All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
+* Rule for Vampire: Restore 2 health per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
 
 Rush:
 * Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
