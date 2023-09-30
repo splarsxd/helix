@@ -4,39 +4,48 @@ Domination:
 * When at max stacks you gain an additional sharpness or power level.
 * All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
 * Rule for Vampire: Restore 2 health per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
+* Icon: Diamond
 
-Rush:
+Sugar Rush:
 * Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
 * Cooldown: 10 seconds. (When the effect has expired, the cooldown timer will start.)
 * Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
+* Icon: Sugar
 
 Endurance:
 * Gain resistance (2 Melee | 1 Ranged) for (2s Melee | 2s Ranged) seconds and regeneration (2 Melee | 1 Ranged) for (5s Melee | 5s Ranged) seconds upon taking damage.
 * Cooldown: 20 seconds. (When the effect has expired, the cooldown timer will start.)
+* Icon: Iron Ingot
 
 Exterminate:
 * Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
 * Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
 * Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
 * Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
+* Icon: Redstone
 
 Anchor:
 * Horizontal knockback is removed from both you and your opponent.
 * Cooldown: None
+* Icon: Anvil
 
 Restoration:
 * For every kill you are healed to maximum health.
 * Cooldown: None
+* Icon: Glistering Melon
 
 Dissolve:
 * Gain 50% cooldown reduction on all abilities.
 * Cooldown: None
+* Icon: Gold Nugget
 
 Immunity:
 * You are immune to all debuffs, this includes anchor.
 * Cooldown: None
+* Icon: Milk
 
 Resilience:
 * Gain (2 Melee | 1 Ranged) rows of absorption hearts after not taking damage for 10 seconds.
 * While affected with absorption, gain protection on all armour equipment.
 * Cooldown: 10 seconds. (Cooldown begins upon taking damage.)
+* Icon: Golden Apple
