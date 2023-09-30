@@ -4,17 +4,17 @@
 	"Brawler": {
 	  "Knight": null,
 	  "Fisherman": "Active: 7s Cooldown",
-	  "Enderman": "Active: 4s Cooldown",
+	  "Bomber": null,
 	  "Alpha": "Active: 35s Cooldown, 15s Duration",
-	  "Viking": "Active: 40s Cooldown, 8s Duration",
+	  "Viking": "Active: 40s Cooldown, 8s Duration | Passive: 6s",
 	  "Basilisk": "Passives: 1: (Poison: 3s Duration), 2: (Speed: 3s Duration), 3: (Antiheal: 3s Duration)",
 	  "Warrior": "Passive Default: 6s Duration | Passive Empowered: 12s Duration",
 	  "Shaman": "Active: 80s Cooldown, 4s Duration, Slow: 10s Duration",
-	  "Siphoner": "Active: 0.5s Cooldown"
+	  "Vampire": "Active: 0.5s Cooldown"
 	},
 
     "Duelist": {
-	  "Ninja": "Active: 11s Cooldown | Passive: 2s Duration",
+	  "Ninja": "Active: 11s Cooldown | Passive: 2s Duration | Enderpearl Cooldown: 4s",
 	  "Monkey": "Actives: 1: (5s Cooldown), 2: (20s Cooldown), 3: (10s Cooldown, 4s Duration)",
 	  "Hyper": "Passive: 4s Duration",
 	  "Rogue": "Active: 60s Cooldown, 8s Duration",
@@ -26,6 +26,7 @@
 
     "Ranged": {
 	  "Inferno": "Passive: 6s Duration",
+	  "Scout": "Passive: 1s Duration",
 	  "Artillery": "Passive: 5s Duration",
 	  "Snowman": null
 	},
