@@ -51,6 +51,6 @@ Resilience:
 * Icon: Golden Apple
 
 Combo Star:
-* Hitting an opponent removes the Hit Cooldown Delay for a duration of 2 seconds.
+* Hitting an opponent halves the Hit Cooldown Delay for a duration of 2 seconds.
 * Cooldown: 8 seconds. (When the duration has expired, the cooldown timer will start.)
 * Icon: Pufferfish
