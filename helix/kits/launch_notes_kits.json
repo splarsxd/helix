@@ -30,7 +30,7 @@
 		  "cooldown": 7
 	  },
 	  "Bomber": {
-		  "desc": "Bomber deals massive damage with explosions.",
+		  "desc": "Bomber deals massive damage in an area with explosions.",
 		  "cost": 650,
 		  "icon": "TNT",
 		  "passive": true,
