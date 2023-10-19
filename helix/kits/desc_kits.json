@@ -3,14 +3,14 @@
   {
 	"Brawler": {
 	  "Knight": "Gain a new set of soups for every takedown.",
-	  "Fisherman": "Fisherman is given a Fishing Rod that teleports hooked opponents to them.",
+	  "Fisherman": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
 	  "Bomber": "Bomber deals massive damage in an area with explosions.",
-	  "Alpha": "An Alpha become more fierceful with their pack.",
-	  "Viking": "As a descent of the heavenly, Viking wield the ability to strike the selected target with lightning.",
-	  "Basilisk": "A Basilisk's bite is extremely dangerous and hurts when in combat.",
-	  "Warrior": "For every kill Warriors are granted great buffs.",
+	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
+	  "Viking": "Viking is a relentless force driven by rage, feared amongst everyone.",
+	  "Basilisk": "Basilisk strives in long term battles poisoning opponents.",
+	  "Warrior": "For every takedown Warrior is granted great buffs.",
 	  "Shaman": "Shaman channels the spirit realm to enter spirit mode.",
-	  "Vampire": "Drains the lifeforce of opponent, bloodthirsty for the weak."
+	  "Vampire": "Vampire sustains by draining the lifeforce of weak opponents."
 	},
 
     "Duelist": {
@@ -35,7 +35,7 @@
 	  "Star": "Stars are forged with immense density emitting powerful darkness.",
 	  "Dragon": "As the Dragon rises so does their flame breath.",
 	  "Hedgehog": "Hedgehogs has extreme tankiness while gaining their resistances.",
-	  "Juggernaut": "Juggernauts are really huge being able to almost face tank anything"
+	  "Juggernaut": "Juggernaut is really huge being able to almost face tank anything"
 	}
   }
 }
