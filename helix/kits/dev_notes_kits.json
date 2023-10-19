@@ -9,7 +9,7 @@
 	  "Viking": "Summon a lightning bolt that deals 50% current health as pre-mitigation damage, and weaken your opponents for 6 seconds, if they hit you 20 times in a 6 second window.",
 	  "Basilisk": "Every 10th hit poison enemies for 3 seconds and grants you speed 1 for the same duration.",
 	  "Warrior": "For every kill you are granted strength 1, speed 1, resistance 1, regeneration 3 for 6 seconds.",
-	  "Shaman": "Heal for a percentage post-mitigation damage and steal all types of positive effects and enchantments. (Cooldown: 80 seconds) (Duration: 4 seconds) (Applying Slowness 3 for 10 seconds)",
+	  "Shaman": "Heal for a percentage of post-mitigation damage dealt and steal all types of positive effects and enchantments. (Cooldown: 80 seconds) (Duration: 4 seconds) (Applying Slowness 3 for 10 seconds)",
 	  "Vampire": "Ability to drain the lifeforce of the opponents, has a bloodthirst for the weak. (Cooldown: 0.5 seconds) (Speed 2 with a duration of 4 for every drain)"
 	},
 
@@ -33,7 +33,7 @@
 
     "Tank": {
 	  "Star": "Apply slowness and blindess for 5 seconds also stun nearby players in a radius of 5 blocks for 3 seconds. (Health Boost 14 and Slowness 1)",
-	  "Dragon": "Blast enemies AOE (Radius: 8 blocks) (4 hearts of pre-mitigation damage) also ignites opponents for 4 seconds. (Cooldown: 40 seconds) (Fire Resistance 1)",
+	  "Dragon": "Passively Burns enemies, and actively blast enemies AOE (Radius: 8 blocks) (4 hearts of pre-mitigation damage) also ignites opponents for 4 seconds. (Cooldown: 40 seconds) (Fire Resistance 1)",
 	  "Hedgehog": "Resistance 2 (Cooldown: 20 seconds) (Thorn 50% of the opponents melee damage, not projectile damage.)",
 	  "Juggernaut": "Regeneration 5 for 10 seconds with a cooldown of 50 seconds. Gain half a heart after each kill. (Health Boost stacking 255 max) (Slowness 1)"
 	}
