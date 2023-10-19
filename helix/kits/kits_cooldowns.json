@@ -34,7 +34,7 @@
     "Tank": {
 	  "Star": "Active: 45s Cooldown, 3s Duration | Passive: 5s Duration",
 	  "Dragon": "Active: 40s Cooldown, 4s Duration",
-	  "Hedgehog": "Active: 20s Cooldown, 8s Duration | Passive: 10s Cooldown",
+	  "Hedgehog": "Active: 20s Cooldown, 8s Duration",
 	  "Juggernaut": "Active: 50s Cooldown, 10s Duration"
 	}
   }
