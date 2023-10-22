@@ -1,9 +1,9 @@
 Domination:
-* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
-* Cap of 10 stacks. (40x Melee | 10x Ranged)
+* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged | 2x stacks for Vampire)
+* Cap of 10 stacks. (40x Melee | 10x Ranged | 5x Vampire)
 * When at max stacks you gain an additional sharpness or power level.
-* All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
-* Rule for Vampire: Restore 2 health per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
+* Vampire: Restore 2 health per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
+* All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged | 12s Vampire) seconds.
 * Icon: Diamond
 
 Sugar Rush:
@@ -46,6 +46,8 @@ Resilience:
 * Icon: Golden Apple
 
 Combo Star:
-* Hitting an opponent halves the Hit Cooldown Delay for a duration of 2 seconds.
+* Melee: Hitting an opponent halves the Hit Cooldown Delay for a duration of 2 seconds.
+* Ranged: Hitting an opponent removes the charge up time for a duration of 2 seconds.
+* Vampire: Drains the opponent twice, this will also heal twice.
 * Cooldown: 8 seconds. (When the duration has expired, the cooldown timer will start.)
 * Icon: Pufferfish
