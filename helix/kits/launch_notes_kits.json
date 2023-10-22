@@ -157,6 +157,7 @@
     "Duelist": {
 		"desc": "Specialises in aggressive playstyles to outplay an opponent.",
 		"type": "Melee",
+		"icon": "Diamond Sword",
 
 	  "Ninja": {
 		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
@@ -295,6 +296,7 @@
     "Ranged": {
 		"desc": "Damage opponents from afar whilst keeping your distance.",
 		"type": "Ranged",
+		"icon": "Bow",
 
 	  "Inferno": {
 		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze on hit.",
@@ -356,6 +358,7 @@
     "Tank": {
 		"desc": "Endure brutal amounts of damage.",
 		"type": "Melee",
+		"icon": "Diamond Chestplate",
 
 	  "Star": {
 		  "desc": "Stars are forged with immense density emitting powerful darkness.",
