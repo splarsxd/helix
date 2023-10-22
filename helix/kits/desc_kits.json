@@ -2,7 +2,7 @@
   "Kits":
   {
 	"Brawler": {
-	  "Knight": "Gain a new set of soups for every takedown.",
+	  "Knight": "Heal and gain a new set of soups for every takedown.",
 	  "Fisherman": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
 	  "Bomber": "Bomber deals massive damage in an area with explosions.",
 	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
