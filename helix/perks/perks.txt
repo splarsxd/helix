@@ -1,56 +1,41 @@
-Domination:
-* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
-* Cap of 10 stacks. (40x Melee | 10x Ranged)
-* When at max stacks you gain an additional sharpness or power level.
-* All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
-* Rule for Vampire: Restore 2 health per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
-* Icon: Diamond
+{
+  "Kits":
+  {
+	"Brawler": {
+	  "Knight": null,
+	  "Fisherman": "Active: 7s Cooldown",
+	  "Bomber": null,
+	  "Alpha": "Active: 35s Cooldown, 15s Duration",
+	  "Viking": "Active: 40s Cooldown, 8s Duration | Passive: 6s",
+	  "Basilisk": "Passives: 1: (Poison: 3s Duration), 2: (Speed: 3s Duration), 3: (Antiheal: 3s Duration)",
+	  "Warrior": "Passive Default: 6s Duration | Passive Empowered: 12s Duration",
+	  "Shaman": "Active: 80s Cooldown, 4s Duration, Slow: 10s Duration",
+	  "Vampire": "Active: 0.5s Cooldown"
+	},
 
-Sugar Rush:
-* Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
-* Cooldown: 10 seconds. (When the effect has expired, the cooldown timer will start.)
-* Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
-* Icon: Sugar
+    "Duelist": {
+	  "Ninja": "Active: 11s Cooldown | Passive: 2s Duration | Enderpearl Cooldown: 4s",
+	  "Monkey": "Actives: 1: (5s Cooldown), 2: (20s Cooldown), 3: (10s Cooldown, 4s Duration)",
+	  "Hyper": "Passive: 4s Duration",
+	  "Rogue": "Active: 60s Cooldown, 8s Duration",
+	  "Slayer": "Active: 70s Cooldown, 10s Duration",
+	  "Phoenix": "Active: 8s Cooldown",
+	  "Challenger": "Active: 120s Cooldown, 7s Duration",
+	  "Pirate": "Active: 10s Cooldown, 1s Duration"
+	},
 
-Endurance:
-* Gain resistance (2 Melee | 1 Ranged) for (2s Melee | 2s Ranged) seconds and regeneration (2 Melee | 1 Ranged) for (5s Melee | 5s Ranged) seconds upon taking damage.
-* Cooldown: 20 seconds. (When the effect has expired, the cooldown timer will start.)
-* Icon: Iron Ingot
+    "Ranged": {
+	  "Inferno": "Passive: 6s Duration",
+	  "Scout": "Passive: 1s Duration",
+	  "Artillery": "Passive: 5s Duration",
+	  "Snowman": null
+	},
 
-Exterminate:
-* Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
-* Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
-* Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
-* Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
-* Icon: Redstone
-
-Anchor:
-* Horizontal knockback is removed from both you and your opponent.
-* Cooldown: None
-* Icon: Anvil
-
-Restoration:
-* For every kill you are healed to maximum health.
-* Cooldown: None
-* Icon: Glistering Melon
-
-Dissolve:
-* Gain 50% cooldown reduction on all abilities.
-* Cooldown: None
-* Icon: Gold Nugget
-
-Immunity:
-* You are immune to all debuffs, this includes anchor.
-* Cooldown: None
-* Icon: Milk
-
-Resilience:
-* Gain (2 Melee | 1 Ranged) rows of absorption hearts after not taking damage for 10 seconds.
-* While affected with absorption, gain protection on all armour equipment.
-* Cooldown: 10 seconds. (Cooldown begins upon taking damage.)
-* Icon: Golden Apple
-
-Combo Star:
-* Hitting an opponent halves the Hit Cooldown Delay for a duration of 2 seconds.
-* Cooldown: 8 seconds. (When the duration has expired, the cooldown timer will start.)
-* Icon: Pufferfish
+    "Tank": {
+	  "Star": "Active: 45s Cooldown, 3s Duration | Passive: 5s Duration",
+	  "Dragon": "Active: 40s Cooldown, 4s Duration",
+	  "Hedgehog": "Active: 20s Cooldown, 8s Duration",
+	  "Juggernaut": "Active: 50s Cooldown, 10s Duration"
+	}
+  }
+}
