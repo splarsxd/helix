@@ -1,0 +1,41 @@
+{
+  "Kits":
+  {
+	"Brawler": {
+	  "Knight": null,
+	  "Alpha": 650,
+	  "Viking": 650,
+	  "Basilisk": 650,
+	  "Warrior": 1252,
+	  "Slayer": 1650,
+	  "Challenger": 1650,
+	  "Shaman": 1650,
+	  "Vampire": 1650
+	},
+	
+    "Duelist": {
+	  "Fisherman": 850,
+	  "Bomber": 850,
+	  "Ninja": 850,
+	  "Monkey": 850,
+	  "Hyper": 1250,
+	  "Rogue": 1250,
+	  "Phoenix": 1650,
+	  "Pirate": 1650
+	},
+
+    "Ranged": {
+	  "Inferno": 1650,
+	  "Scout": 1650,
+	  "Artillery": 2650,
+	  "Snowman": 2650
+	},
+
+    "Tank": {
+	  "Star": 1650,
+	  "Dragon": 1650,
+	  "Hedgehog": 2650,
+	  "Juggernaut": 2650
+	}
+  }
+}
