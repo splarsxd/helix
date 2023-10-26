@@ -3,24 +3,24 @@
   {
 	"Brawler": {
 	  "Knight": "Heal and gain a new set of soups for every takedown.",
-	  "Fisherman": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
-	  "Bomber": "Bomber deals massive damage in an area with explosions.",
 	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
 	  "Viking": "Viking is a relentless force driven by rage, feared amongst everyone.",
 	  "Basilisk": "Basilisk strives in long term battles poisoning opponents.",
 	  "Warrior": "For every takedown Warrior is granted great buffs.",
+	  "Slayer": "Slayer is unmatched in raw brutal strength therefore insanely scary to go up against.",
+	  "Challenger": "Challenger may weaken a soul until either one is vanquished.",
 	  "Shaman": "Shaman channels the spirit realm to enter spirit mode.",
 	  "Vampire": "Vampire sustains by draining the lifeforce of weak opponents."
 	},
-
+	
     "Duelist": {
+	  "Fisherman": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
+	  "Bomber": "Bomber deals massive damage in an area with explosions.",
 	  "Ninja": "Ninja is able to quickly position themselves behind their closest target in the blink of an eye.",
 	  "Monkey": "Monkey is a trickster whom has mastered the art of confusion.",
 	  "Hyper": "Hyper is insanely agile on their feet. Speed level increases in combat. Decreases after not hitting enemies.",
 	  "Rogue": "A master of stealth may go completely invisible.",
-	  "Slayer": "Slayer is unmatched in raw brutal strength therefore insanely scary to go up against.",
 	  "Phoenix": "Phoenix is free to dash in any direction.",
-	  "Challenger": "Challenger may weaken a soul until either one is vanquished.",
 	  "Pirate": "Pirate thrives on collecting rewards and gold from plundering enemies."
 	},
 
