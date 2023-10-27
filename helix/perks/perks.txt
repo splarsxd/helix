@@ -35,7 +35,7 @@ Dissolve:
 * Icon: Glistering Melon
 
 Immunity:
-* You are immune to all debuffs, this includes anchor.
+* You are immune to all debuffs, this includes anchor and Bomber knockback.
 * Cooldown: None
 * Icon: Milk
 
