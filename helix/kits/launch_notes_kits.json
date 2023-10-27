@@ -283,7 +283,7 @@
 		  "details1": "May not launch themselves upwards or downwards if applicable.",
 		  "active_cooldown": 8,
 		  "launch_amount": 5,
-		  "absorption_hearts": 2,
+		  "absorption_health": 4,
 		  "absorption_duration": 3
 	  },
 	  "Pirate": {
@@ -352,7 +352,7 @@
 		  "active_ability": "No ability activation.",
 		  "details1": "Replenish 16 snowballs when you run out of them by using your last snowball.",
 		  "details2": "Spawns with 16 snowballs and cannot gain more than 16 snowballs from replenishes.",
-		  "snowball_damage": 1.5,
+		  "snowball_damage": 3,
 		  "speed_strength": 1,
 		  "speed_duration": 99999,
 		  "slowness_strength": 1,
@@ -398,7 +398,7 @@
 		  "passive_radius": 4,
 		  "passive_damage": 0.05,
 		  "active_radius": 8,
-		  "blast_damage": 4,
+		  "blast_damage": 8,
 		  "ignite_duration": 4
 	  },
 	  "Hedgehog": {
