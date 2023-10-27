@@ -1,0 +1,49 @@
+{
+  "Kits":
+  {
+	"Brawler": {
+      "icon": "Fire Charge",
+
+	  "Knight": "Diamond Sword",
+	  "Alpha": "Bone",
+	  "Viking": "Diamond Axe",
+	  "Basilisk": "Fermented Spider Eye",
+	  "Warrior": "Diamond Helmet",
+	  "Slayer": "Blaze Powder",
+	  "Challenger": "Glowstone Dust",
+	  "Shaman": "Ghast Tear",
+	  "Vampire": "Rose Red"
+	},
+	
+    "Duelist": {
+      "icon": "Diamond Sword",
+
+	  "Fisherman": "Fishing Rod",
+	  "Bomber": "TNT",
+	  "Ninja": "Slime",
+	  "Monkey": "Blaze Rod",
+	  "Hyper": "Feather",
+	  "Rogue": "Paper",
+	  "Phoenix": "Magma Cream",
+	  "Pirate": "Gold Ingot"
+	},
+
+    "Ranged": {
+      "icon": "Bow",
+
+	  "Inferno": "Bow",
+	  "Scout": "Chain Helmet",
+	  "Artillery": "Arrow",
+	  "Snowman": "Snowball"
+	},
+
+    "Tank": {
+      "icon": "Chestplate",
+
+	  "Star": "Nether Star",
+	  "Dragon": "Fire Charge",
+	  "Hedgehog": "Nether Brick",
+	  "Juggernaut": "Orange Dye #351:14"
+	}
+  }
+}
