@@ -2,9 +2,11 @@ Domination:
 * Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged | 2x stacks for Vampire)
 * Cap of 10 stacks. (40x Melee | 10x Ranged | 5x Vampire)
 * When at max stacks you gain an additional sharpness or power level.
-* Vampire: Restore 2 health per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
 * All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged | 12s Vampire) seconds.
 * Icon: Diamond
+* Domination Rule for Vampire: Restore 2hp per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
+* Domination Rule for Snowman: Increases damage by 1hp, from 3hp > 4hp per snowball.
+
 
 Sugar Rush:
 * Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
@@ -30,7 +32,7 @@ Anchor:
 * Icon: Anvil
 
 Dissolve:
-* Gain 50% cooldown reduction on all abilities.
+* Gain 50% cooldown reduction on all abilities and Soup Signs.
 * Cooldown: None
 * Icon: Glistering Melon
 
@@ -48,6 +50,7 @@ Resilience:
 Combo Star:
 * Melee: Hitting an opponent halves the Hit Cooldown Delay for a duration of 2 seconds.
 * Ranged: Hitting an opponent removes the charge up time for a duration of 2 seconds.
-* Vampire: Drains the opponent twice, this will also heal twice.
 * Cooldown: 8 seconds. (When the duration has expired, the cooldown timer will start.)
 * Icon: Pufferfish
+* Rule for Vampire: Drains the opponent twice, this will also heal twice.
+* Rule for Snowman: Gains the effects of Melee.
