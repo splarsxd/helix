@@ -46,11 +46,12 @@
 		  "active": true,
 		  "passive_ability": "Weakens opponents for every 20th hit onto you for 6 seconds.",
 		  "active_ability": "Summon a lightning bolt on the selected target and deal 50% of their current health as pre-mitigation damage and set opponent ablaze for 8 seconds.",
-		  "details1": "The weakness applies onto the enemies after the enemies have hit Viking 20 times, the weakness application caps at Weakness 10.",
+		  "details1": "The weakness applies onto the enemies after the enemies have hit Viking 20 times, the weakness stacks caps at Weakness 5.",
 		  "cooldown": 40,
 		  "amount_of_hits": 20,
 		  "weakness_strength": 1,
 		  "weakness_duration": 6,
+		  "weakness_level_cap": 5,
 		  "lightning_damage": 0.5,
 		  "ignition_duration": 8
 	  },
