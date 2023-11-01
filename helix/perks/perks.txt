@@ -39,7 +39,7 @@ Dissolve:
 Immunity:
 * You are immune to all debuffs, this includes anchor and Bomber knockback.
 * Cooldown: None
-* Icon: Milk
+* Icon: Milk Bucket
 
 Resilience:
 * Gain (2 Melee | 1 Ranged) rows of absorption hearts after not taking damage for 10 seconds.
