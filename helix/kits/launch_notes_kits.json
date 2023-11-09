@@ -425,14 +425,16 @@
 		  "active": true,
 		  "passive_ability": "Increase health by 2 hearts every takedown.",
 		  "active_ability": "Gain regeneration 5 for 10 seconds with a cooldown of 50 seconds.",
-		  "details1": "Starts with slowness 1 and 3 rows of hearts via health boost effect and instantly healed.",
+		  "details1": "Starts with slowness 1 and 3 rows of hearts via health boost effect.",
 		  "details2": "Health boost stacking using Health boost effect.",
-		  "details3": "For every takedown, the player is instantly healed to the new current max health.",
-		  "details4": "When active_ability is active, slowness is removed for the duration.",
+		  "details3": "When active_ability is active, slowness is removed for the duration.",
 		  "cooldown": 50,
-		  "additional_health_boost_per_kill": 1,
 		  "regeneration": 5,
-		  "regeneration_duration": 10
+		  "regeneration_duration": 10,
+		  "base_health_boost": 9,
+		  "additional_health_boost_per_kill": 1,
+		  "slowness_strength": 1,
+		  "slowness_duration": 99999
 	  }
 	}
   }
