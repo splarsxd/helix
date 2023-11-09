@@ -282,6 +282,7 @@
 		  "passive_ability": "Grants 2 hearts of absorption for every dash for 3 seconds.",
 		  "active_ability": "Dash/launch forwards with SHIFT",
 		  "details1": "May not launch themselves upwards or downwards if applicable.",
+		  "details2": "Should negate all forms of fall damage.",
 		  "active_cooldown": 8,
 		  "launch_amount": 5,
 		  "absorption_health": 4,
