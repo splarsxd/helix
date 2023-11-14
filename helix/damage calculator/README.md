@@ -2,25 +2,25 @@
 minecraft damage calculator made by splars#1252 for helix souppvp documentation calculations</br>
 check damage pre-mitigation and post-mitigation and depending variety of variables for kitpvp
 
-help:
-    help : Shows available commands.
-    reset : Restore all options to DEFAULT.
-    armour : Displays available armour.
-    swords : Displays available swords.
-    effects : Displays available effects.
-    resethp / reset hp : Sets current health to maximum health.
-    hp : Display current Health.
-    set : Change variables and options.
-    start : Starts the process.
+    help:
+        help : Shows available commands.
+        reset : Restore all options to DEFAULT.
+        armour : Displays available armour.
+        swords : Displays available swords.
+        effects : Displays available effects.
+        resethp / reset hp : Sets current health to maximum health.
+        hp : Display current Health.
+        set : Change variables and options.
+        start : Starts the process.
 
-set (help):
-    Armour: set full iron | set boots diamond | set naked / set full naked
-    Sword: set sword stone | set sword air
-    Health: set hp | set maxhp
-    Protection: set prot chestplate | set full prot 4
-    Sharpness: set sharpness | set sharpness 3 | set sharpness 0
-    Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear
-    Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)
+    set (help):
+        Armour: set full iron | set boots diamond | set naked / set full naked
+        Sword: set sword stone | set sword air
+        Health: set hp | set maxhp
+        Protection: set prot chestplate | set full prot 4
+        Sharpness: set sharpness | set sharpness 3 | set sharpness 0
+        Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear
+        Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)
 
     Armour:
         To set a specific armour piece, enter the specified piece and the type of armour: "set helmet diamond" | "set chestplate iron" | "set leggings chainmail" | "set boots gold"
