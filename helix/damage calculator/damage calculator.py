@@ -164,7 +164,7 @@ def main():
             print("Armour: set full iron | set boots diamond | set naked / set full naked")
             print("Sword: set sword stone | set sword air")
             print("Health: set hp | set maxhp")
-            print("Protection: set prot chestplate | set prot 4 all")
+            print("Protection: set prot chestplate | set full prot 4")
             print("Sharpness: set sharpness | set sharpness 3 | set sharpness 0")
             print("Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear")
             print("Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)")
