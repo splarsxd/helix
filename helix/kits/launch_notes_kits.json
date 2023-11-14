@@ -70,7 +70,7 @@
 		  "poison_duration": 3,
 		  "speed_strength": 1,
 		  "speed_duration": 3,
-		  "antiheal_percentage": 2,
+		  "antiheal_percentage": 50,
 		  "antiheal_duration": 3
 	  },
 	  "Warrior": {
