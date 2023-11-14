@@ -499,7 +499,7 @@ def main():
                 if strength > 0:
                     damage = damage + sword * formula["strength"] * strength
                 if weakness > 0:
-                    damage = damage - formula["weakness"] * weakness
+                    damage = damage - -formula["weakness"] * weakness
                 if sharpness > 0:
                     damage = damage + 1.25 * sharpness
 
