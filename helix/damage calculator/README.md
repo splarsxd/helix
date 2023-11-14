@@ -22,6 +22,7 @@ check damage pre-mitigation and post-mitigation and depending variety of variabl
         Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear
         Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)
 
+
     Armour:
         To set a specific armour piece, enter the specified piece and the type of armour: "set helmet diamond" | "set chestplate iron" | "set leggings chainmail" | "set boots gold"
         To set all of the armour pieces, enter full instead of a specified piece: "set full iron"
