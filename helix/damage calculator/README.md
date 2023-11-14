@@ -13,8 +13,15 @@ help:
     set : Change variables and options.
     start : Starts the process.
 
-
 set (help):
+    Armour: set full iron | set boots diamond | set naked / set full naked
+    Sword: set sword stone | set sword air
+    Health: set hp | set maxhp
+    Protection: set prot chestplate | set full prot 4
+    Sharpness: set sharpness | set sharpness 3 | set sharpness 0
+    Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear
+    Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)
+
     Armour:
         To set a specific armour piece, enter the specified piece and the type of armour: "set helmet diamond" | "set chestplate iron" | "set leggings chainmail" | "set boots gold"
         To set all of the armour pieces, enter full instead of a specified piece: "set full iron"
