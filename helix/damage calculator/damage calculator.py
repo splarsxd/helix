@@ -322,12 +322,12 @@ def main():
             prot_boots = int(input("Set Protection on Boots: "))
             print(f"Successfully set protection {prot_boots} on Helmet.")
 
-        if choice == "set full prot 1":
-            prot_helmet = 1
-            prot_chestplate = 1
-            prot_leggings = 1
-            prot_boots = 1
-            print("Successfully set all armour to protection 1.")
+        if choice == "set full prot 0":
+            prot_helmet = 0
+            prot_chestplate = 0
+            prot_leggings = 0
+            prot_boots = 0
+            print("Successfully cleared protection on all armour.")
 
         if choice == "set full prot 1":
             prot_helmet = 1
