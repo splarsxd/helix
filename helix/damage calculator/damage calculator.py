@@ -187,7 +187,7 @@ def main():
             print("Protection: set prot chestplate | set full prot 4")
             print("Sharpness: set sharpness | set sharpness 3 | set sharpness 0")
             print("Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear")
-            print("Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)")
+            print("Other: set critical | set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)")
 
 
         # set health options
