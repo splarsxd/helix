@@ -52,19 +52,19 @@ armour = {
 effects = {
     "vanilla": {
         "strength": 1.3,
-        "weakness": -0.5
+        "weakness": -1.0
     },
 
     "helix": {
         "strength": 0.8,
-        "weakness": -1.0
+        "weakness": -2.0
     }
 }
 
 # default settings
 maxhp = 20
 hp = 20
-sword = swords["IRON_SWORD"]
+sword = swords["DIAMOND_SWORD"]
 helmet = armour["IRON_HELMET"]
 chestplate = armour["IRON_CHESTPLATE"]
 leggings = armour["IRON_LEGGINGS"]
@@ -80,24 +80,42 @@ prot_leggings = 0
 prot_boots = 0
 seconds = 1
 LAST = 0
+critical = False
 
 def main():
-    global maxhp, hp, sword, helmet, chestplate, leggings, boots, strength, weakness, sharpness, formula, hits, prot_helmet, prot_chestplate, prot_leggings, prot_boots, LAST, seconds
+    global maxhp, hp, sword, helmet, chestplate, leggings, boots, strength, weakness, sharpness, formula, hits, prot_helmet, prot_chestplate, prot_leggings, prot_boots, seconds, LAST, critical
     AR = helmet + chestplate + leggings + boots
     PROT = prot_helmet + prot_chestplate + prot_leggings + prot_boots
 
-    print(f"Max Health: {round(maxhp, 2)}")
-    print(f"Health: {round(hp, 2)}")
-    print(f"Missing health: {round(maxhp, 2)-round(hp, 2)}\n")
+    print(f"Max Health: {round(maxhp, 4)}")
+    print(f"Health: {round(hp, 4)}")
+    print(f"Missing health: {round(maxhp-hp, 4)}\n")
 
     if sharpness > 0:
         print(f"Sword: {sword} | Sharpness level: {sharpness}")
     else:
         print(f"Sword: {sword}")
-    print(f"Helmet: {helmet}")
-    print(f"Chestplate: {chestplate}")
-    print(f"Leggings: {leggings}")
-    print(f"Boots: {boots}")
+
+    if prot_helmet > 0:
+        print(f"Helmet: {helmet} | Protection level: {prot_helmet}")
+    else:
+        print(f"Helmet: {helmet}")
+
+    if prot_chestplate > 0:
+        print(f"Chestplate: {chestplate} | Protection level: {prot_chestplate}")
+    else:
+        print(f"Chestplate: {chestplate}")
+
+    if prot_leggings > 0:
+        print(f"Leggings: {leggings} | Protection level: {prot_leggings}")
+    else:
+        print(f"Leggings: {leggings}")
+
+    if prot_boots > 0:
+        print(f"Boots: {boots} | Protection level: {prot_boots}")
+    else:
+        print(f"Boots: {boots}")
+
     print(f"Total AR: {AR}")
     print(f"Total PROT: {PROT}")
     if formula == effects["vanilla"]:
@@ -107,7 +125,8 @@ def main():
     print(f"Strength level: {strength}")
     print(f"Weakness level: {weakness}")
     print(f"Hits: {hits}")
-    print(f"Damage: {LAST} | Seconds: {seconds} | DPS: {LAST / seconds}\n")
+    print(f"Critical Strike: {critical}")
+    print(f"Damage: {LAST} / Seconds: {seconds} = DPS: {LAST / seconds}\n")
 
     print("Type help to display available commands.\n")
     try:
@@ -126,11 +145,11 @@ def main():
         if choice == "reset":
             maxhp = 20
             hp = 20
-            sword = 7
-            helmet = 2
-            chestplate = 6
-            leggings = 5
-            boots = 2
+            sword = swords["DIAMOND_SWORD"]
+            helmet = armour["IRON_HELMET"]
+            chestplate = armour["IRON_CHESTPLATE"]
+            leggings = armour["IRON_LEGGINGS"]
+            boots = armour["IRON_BOOTS"]
             strength = 0
             weakness = 0
             sharpness = 0
@@ -142,6 +161,7 @@ def main():
             prot_boots = 0
             LAST = 0
             seconds = 1
+            critical = False
             print(f"Successfully reset stats to DEFAULT.")
 
         if choice == "armour":
@@ -154,11 +174,11 @@ def main():
             print(f"{effects}")
 
         if choice == "hp":
-            print(f"Health: {round(hp, 2)}/{round(maxhp, 2)}")
+            print(f"Health: {round(hp, 4)}/{round(maxhp, 4)}")
         
         if choice == "resethp" or choice == "reset hp":
             hp = maxhp
-            print(f"Successfully set health to {round(hp, 2)}.")
+            print(f"Successfully set health to {round(hp, 4)}.")
 
         if choice == "set":
             print("Armour: set full iron | set boots diamond | set naked / set full naked")
@@ -175,17 +195,40 @@ def main():
             hp = float(input("Set health: "))
             if hp > maxhp:
                 maxhp = hp
-            print(f"Successfully set health to {round(hp, 2)}.")
+            print(f"Successfully set health to {round(hp, 4)}.")
 
         if choice == "set maxhp":
-            hp = float(input("Set maximum health: "))
-            print(f"Successfully set maximum health to {round(maxhp, 2)}.")
+            maxhp = float(input("Set maximum health: "))
+            print(f"Successfully set maximum health to {round(maxhp, 4)}.")
 
 
         # set hits options
         if choice == "set hits":
             hits = int(input("Set amount of hits that will be simulated: "))
             print(f"Successfully set hits to {hits}")
+
+
+        # set seconds options
+        if choice == "set seconds":
+            seconds = float(input("Set seconds: "))
+            print(f"Successfully set seconds to {seconds}.")
+        
+        # set critical strike options
+        if choice == "set critical" or choice == "set criticals":
+            if critical == False:
+                critical = True
+                print(f"Successfully set Critical Strikes to {critical}")
+            else:
+                critical = False
+                print(f"Successfully set Critical Strikes to {critical}")
+        
+        if choice == "set critical on" or choice == "set criticals on":
+            critical = True
+            print(f"Successfully set Critical Strikes to {critical}")
+
+        if choice == "set critical off" or choice == "set criticals off":
+            critical = False
+            print(f"Successfully set Critical Strikes to {critical}")
 
 
         # set formula options
@@ -233,37 +276,62 @@ def main():
 
         if choice == "set sword air":
             sword = 1
-            print("Successfully set sword to barefist.")
+            if sharpness > 0:
+                sharpness = 0
+                print("Successfully cleared sharpness and set sword to barefist.")
+            else:
+                print("Successfully set sword to barefist.")
 
 
         # set sharpness options
         if choice == "set sharpness":
-            sharpness = int(input("Set Sharpness on Sword: "))
-            print(f"Successfully set sharpness {sharpness} on Sword.")
+            if sword >= 5:
+                sharpness = int(input("Set Sharpness on Sword: "))
+                print(f"Successfully set sharpness {sharpness} on Sword.")
+            else:
+                print(f"You cannot set sharpness to barefist.")
 
         if choice == "set sharpness 0":
-            sharpness = 0
-            print(f"Successfully cleared sharpness on Sword.")
+            if sword >= 5:
+                sharpness = 0
+                print(f"Successfully cleared sharpness on Sword.")
+            else:
+                print(f"You cannot clear sharpness on barefist.")
 
         if choice == "set sharpness 1":
-            sharpness = 1
-            print(f"Successfully set sharpness {sharpness} on Sword.")
+            if sword >= 5:
+                sharpness = 1
+                print(f"Successfully set sharpness {sharpness} on Sword.")
+            else:
+                print(f"You cannot set sharpness to barefist.")
 
         if choice == "set sharpness 2":
-            sharpness = 2
-            print(f"Successfully set sharpness {sharpness} on Sword.")
+            if sword >= 5:
+                sharpness = 2
+                print(f"Successfully set sharpness {sharpness} on Sword.")
+            else:
+                print(f"You cannot set sharpness to barefist.")
 
         if choice == "set sharpness 3":
-            sharpness = 3
-            print(f"Successfully set sharpness {sharpness} on Sword.")
+            if sword >= 5:
+                sharpness = 3
+                print(f"Successfully set sharpness {sharpness} on Sword.")
+            else:
+                print(f"You cannot set sharpness to barefist.")
 
         if choice == "set sharpness 4":
-            sharpness = 4
-            print(f"Successfully set sharpness {sharpness} on Sword.")
+            if sword >= 5:
+                sharpness = 4
+                print(f"Successfully set sharpness {sharpness} on Sword.")
+            else:
+                print(f"You cannot set sharpness to barefist.")
 
         if choice == "set sharpness 5":
-            sharpness = 5
-            print(f"Successfully set sharpness {sharpness} on Sword.")
+            if sword >= 5:
+                sharpness = 5
+                print(f"Successfully set sharpness {sharpness} on Sword.")
+            else:
+                print(f"You cannot set sharpness to barefist.")
 
 
         # set effects options
@@ -307,55 +375,82 @@ def main():
 
         # set prot options
         if choice == "set prot helmet":
-            prot_helmet = int(input("Set Protection on Helmet: "))
-            print(f"Successfully set protection {prot_helmet} on Helmet.")
+            if helmet >= 1:
+                prot_helmet = int(input("Set Protection on Helmet: "))
+                print(f"Successfully set protection {prot_helmet} on Helmet.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set prot chestplate":
-            prot_chestplate = int(input("Set Protection on Chestplate: "))
-            print(f"Successfully set protection {prot_chestplate} on Chestplate.")
+            if chestplate >= 3:
+                prot_chestplate = int(input("Set Protection on Chestplate: "))
+                print(f"Successfully set protection {prot_chestplate} on Chestplate.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set prot leggings":
-            prot_leggings = int(input("Set Protection on Leggings: "))
-            print(f"Successfully set protection {prot_leggings} on Leggings.")
+            if leggings >= 2:
+                prot_leggings = int(input("Set Protection on Leggings: "))
+                print(f"Successfully set protection {prot_leggings} on Leggings.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set prot boots":
-            prot_boots = int(input("Set Protection on Boots: "))
-            print(f"Successfully set protection {prot_boots} on Helmet.")
+            if boots >= 1:
+                prot_boots = int(input("Set Protection on Boots: "))
+                print(f"Successfully set protection {prot_boots} on Helmet.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set full prot 0":
-            prot_helmet = 0
-            prot_chestplate = 0
-            prot_leggings = 0
-            prot_boots = 0
-            print("Successfully cleared protection on all armour.")
+            if AR > 0:
+                prot_helmet = 0
+                prot_chestplate = 0
+                prot_leggings = 0
+                prot_boots = 0
+                print("Successfully cleared protection on all armour.")
+            else:
+                print("You cannot clear protection from naked.")
 
         if choice == "set full prot 1":
-            prot_helmet = 1
-            prot_chestplate = 1
-            prot_leggings = 1
-            prot_boots = 1
-            print("Successfully set all armour to protection 1.")
+            if AR > 0:
+                prot_helmet = 1
+                prot_chestplate = 1
+                prot_leggings = 1
+                prot_boots = 1
+                print("Successfully set all armour to protection 1.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set full prot 2":
-            prot_helmet = 2
-            prot_chestplate = 2
-            prot_leggings = 2
-            prot_boots = 2
-            print("Successfully set all armour to protection 2.")
+            if AR > 0:
+                prot_helmet = 2
+                prot_chestplate = 2
+                prot_leggings = 2
+                prot_boots = 2
+                print("Successfully set all armour to protection 2.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set full prot 3":
-            prot_helmet = 3
-            prot_chestplate = 3
-            prot_leggings = 3
-            prot_boots = 3
-            print("Successfully set all armour to protection 3.")
+            if AR > 0:
+                prot_helmet = 3
+                prot_chestplate = 3
+                prot_leggings = 3
+                prot_boots = 3
+                print("Successfully set all armour to protection 3.")
+            else:
+                print("You cannot set protection to naked.")
 
         if choice == "set full prot 4":
-            prot_helmet = 4
-            prot_chestplate = 4
-            prot_leggings = 4
-            prot_boots = 4
-            print("Successfully set all armour to protection 4.")
+            if AR > 0:
+                prot_helmet = 4
+                prot_chestplate = 4
+                prot_leggings = 4
+                prot_boots = 4
+                print("Successfully set all armour to protection 4.")
+            else:
+                print("You cannot set protection to naked.")
 
 
         # set armour options
@@ -395,11 +490,22 @@ def main():
             print("Successfully set all armour to Leather.")
 
         if choice == "set naked" or choice == "set full naked":
-            helmet = 0
-            chestplate = 0
-            leggings = 0
-            boots = 0
-            print("Successfully set all armour to air.")
+            if PROT > 0:
+                prot_helmet = 0
+                prot_chestplate = 0
+                prot_leggings = 0
+                prot_boots = 0
+                helmet = 0
+                chestplate = 0
+                leggings = 0
+                boots = 0
+                print("Successfully cleared protection from armour and set all armour to air.")
+            else:
+                helmet = 0
+                chestplate = 0
+                leggings = 0
+                boots = 0
+                print("Successfully set all armour to air.")
 
 
         # set armour specific options
@@ -487,11 +593,6 @@ def main():
             print("Successfully set Boots to LEATHER_BOOTS.")
 
 
-        # set seconds options
-        if choice == "set seconds":
-            seconds = float(input("Set seconds: "))
-            print(f"Successfully set seconds to {seconds}.")
-
         # start the simulation process
         if choice == "start":
             if formula == effects["vanilla"]:
@@ -500,6 +601,8 @@ def main():
                     damage = damage + sword * formula["strength"] * strength
                 if weakness > 0:
                     damage = damage - -formula["weakness"] * weakness
+                if critical == True:
+                    damage = damage * 1.5 + 0.25
                 if sharpness > 0:
                     damage = damage + 1.25 * sharpness
 
@@ -509,15 +612,17 @@ def main():
                     damage = damage + sword * formula["strength"] * strength
                 if weakness > 0:
                     damage = damage - -formula["weakness"] * weakness
+                if critical == True:
+                    damage = damage * 1.5 + 0.25
                 if sharpness > 0:
                     damage = damage + 1.25 * sharpness
 
             pre = damage * hits
             post = damage * (1-AR*4/100) * (1-PROT*4/100) * hits
-            hp -= round(post, 2)
-            LAST = round(post, 2)
-            print(f"Damage pre-mitigation: {round(pre, 2)}")
-            print(f"Damage post-mitigation: {round(post, 2)}")
+            hp -= round(post, 4)
+            LAST = round(post, 4)
+            print(f"Damage pre-mitigation: {round(pre, 4)}")
+            print(f"Damage post-mitigation: {round(post, 4)}")
 
     except:
         print("\nError in parameters, please report to splars#1252")
