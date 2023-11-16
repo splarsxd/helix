@@ -21,7 +21,7 @@ Supports: Cross Platform (Windows, Mac and Linux.)
         Protection: set prot chestplate | set full prot 4
         Sharpness: set sharpness | set sharpness 3 | set sharpness 0
         Effects: set effect strength | set effect weakness 2 | set effect strength 0 | set effect clear
-        Other: set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)
+        Other: set critical | set hits | set formula | set formula VANILLA/HELIX | set seconds (USED FOR CALCULATING DPS)
 
 
     Armour:
@@ -52,6 +52,10 @@ Supports: Cross Platform (Windows, Mac and Linux.)
         To set a specified level of effects, enter: "set effect strength 1" | "set effect strength 2" | "set effect weakness 1" | "set effect weakness 2"
         To remove one effect, enter: "set effect strength 0" | "set effect weakness 0"
         To clear both effects, enter: "set effect clear" or "set effects clear"
+
+    Critical:
+        To set critical hits to be simulated, enter: "set critical" or "set criticals" | "set critical on" or "set criticals on"
+        To disable critical hits to be simulated, enter: "set critical off" or "set criticals off"
 
     Hits:
         To set the amount of hits that will be simulated, enter: "set hits"
