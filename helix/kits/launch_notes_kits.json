@@ -250,6 +250,8 @@
 		  "passive_ability": "Speed level increases for every 3rd hit with a cap of level 6 and decreases back to level 2 after 4 seconds of not hitting any players.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Does NOT stack with mobs, ONLY players, the hit should be a successful registered hit, and not a hit that was blocked because of the hit delay cooldown that only shows particles.",
+		  "details2": "Passive hits should last 2 seconds so if you hit someone 2 times, you cannot wait an indefinite amount of time to activate the passive for a third hit.",
+		  "passive_duration": 2,
 		  "base_speed": 2,
 		  "base_speed_duration": 99999,
 		  "bonus_speed_level": 1,
