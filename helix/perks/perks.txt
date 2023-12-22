@@ -7,7 +7,6 @@ Domination:
 * Domination Rule for Vampire: Restore 2hp per ability cast. (Does not deal more damage, only heals 1 heart more every ability cast.)
 * Domination Rule for Snowman: Increases damage by 1hp, from 3hp > 4hp per snowball.
 
-
 Sugar Rush:
 * Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
 * Cooldown: 10 seconds. (When the effect has expired, the cooldown timer will start.)
