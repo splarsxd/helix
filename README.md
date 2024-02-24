@@ -1,3 +1,12 @@
-# open
-helix kitpvp documentation</br>
-check stats and status for kitpvp
+# helix
+## helix kitpvp documentation</br>
+* Loadouts
+* Abilities
+* Icons
+* Pricing
+* Counters
+* Classes
+* Functionlity
+* Cooldowns & Durations
+* Perks
+* Damage Calculator (Exe Crossplatform)
