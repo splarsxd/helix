@@ -7,7 +7,7 @@
 		"icon": "Fire Charge",
 
 	  "Knight": {
-		  "desc": "Heal and gain a new set of soups for every takedown.",
+		  "desc": "Upon takedown, Knight fully heals and replenishes their set of soups.",
 		  "cost": 0,
 		  "icon": "Diamond Sword",
 		  "passive": true,
@@ -144,7 +144,7 @@
 		  "slow_duration": 10
 	  },
 	  "Vampire": {
-		  "desc": "Vampire drains the lifeforce of weak opponents.",
+		  "desc": "Vampire sustains by draining the lifeforce of their opponents.",
 		  "cost": 1650,
 		  "icon": "Rose Red",
 		  "passive": true,
@@ -180,7 +180,7 @@
 		  "cooldown": 7
 	  },
 	  "Bomber": {
-		  "desc": "Bomber deals massive damage in an area with explosions.",
+		  "desc": "Bomber causes devastating area damage with explosive attacks.",
 		  "cost": 850,
 		  "icon": "TNT",
 		  "passive": true,
@@ -285,7 +285,7 @@
 		  "launch_amount": 5
 	  },
 	  "Pirate": {
-		  "desc": "Pirate thrives on collecting rewards and gold from plundering enemies.",
+		  "desc": "Pirate excels at plundering, earning gold and golden apples for each takedown.",
 		  "cost": 1650,
 		  "icon": "Gold Ingot",
 		  "passive": true,
@@ -417,7 +417,7 @@
 		  "passive_thorn": 0.5
 	  },
 	  "Juggernaut": {
-		  "desc": "Juggernauts are able to face tank anything.",
+		  "desc": "Juggernauts are massive, being able to face tank anything.",
 		  "cost": 2650,
 		  "icon": "Orange Dye #351:14",
 		  "passive": true,
