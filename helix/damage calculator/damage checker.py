@@ -2,7 +2,7 @@ from os import system as sys
 
 value = 2.8
 count = 1
-print(f"Damage | Hits")
+print("Damage | Hits")
 
 while True:
     if (value * count).is_integer():
