@@ -2,11 +2,14 @@
 ## helix kitpvp documentation</br>
 * Loadouts
 * Abilities
+* Descriptions
+* Cooldowns & Durations
 * Icons
 * Pricing
-* Counters
 * Classes
+* Counters
 * Functionlity
-* Cooldowns & Durations
 * Perks
+* Easter Eggs
 * Damage Calculator (Exe Crossplatform)
+* Damage Checker (Python)
