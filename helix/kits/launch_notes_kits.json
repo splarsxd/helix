@@ -139,7 +139,7 @@
 		  "cooldown": 80,
 		  "duration": 4,
 		  "heal": 0.20,
-		  "damage_mitigation": 2,
+		  "damage_mitigation": 1,
 		  "slow_strength": 3,
 		  "slow_duration": 10
 	  },
@@ -152,7 +152,7 @@
 		  "passive_ability": "Lifesteal 80% of damage dealt post-mitigation.",
 		  "active_ability": "Entering a bloodlust grants speed, increases lifesteal to 160% for a duration.",
 		  "details1": "Will not spawn with any soups and also cannot use soups to restore health and can neither access refills.",
-		  "cooldown": 20,
+		  "cooldown": 25,
 		  "duration": 10,
 		  "heal": 0.80,
 		  "empowered_heal": 1.60,
@@ -304,7 +304,7 @@
 		"icon": "Bow",
 
 	  "Inferno": {
-		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze on hit.",
+		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
 		  "cost": 1650,
 		  "icon": "Bow",
 		  "passive": true,
@@ -349,13 +349,13 @@
 		  "icon": "Snowball",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Apply slowness for a short duration.",
+		  "passive_ability": "Apply slowness on arrow hit for a short duration.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Snowman has permanent Speed 1.",
 		  "speed_strength": 1,
 		  "speed_duration": 99999,
 		  "slowness_strength": 1,
-		  "slowness_duration": 1
+		  "slowness_duration": 3
 	  }
 	},
 
@@ -377,13 +377,13 @@
 		  "details3": "Health boost 14, slowness 1",
 		  "details4": "Do not restore health if Pirate was immune, will still restore health if Pirate cleanses it afterwards, since the stun is applied first.",
 		  "cooldown": 45,
+		  "stun_radius": 5,
+		  "stun_duration": 3,
+		  "heal": 80,
 		  "slowness_strength": 2,
 		  "slowness_duration": 5,
 		  "blind_strength": 1,
-		  "blindness_duration": 5,
-		  "stun_radius": 5,
-		  "stun_duration": 3,
-		  "heal": 80
+		  "blindness_duration": 5
 	  },
 	  "Dragon": {
 		  "desc": "Dragon blasts targets aflame in an area.",
@@ -395,7 +395,7 @@
 		  "active_ability": "Blasts enemies in a radius of 8 blocks to deal 4 hearts of pre-mitigation damage and also ignites blasted opponents for 4 seconds.",
 		  "details1": "Dragon has permanent Fire Resistance 1.",
 		  "cooldown": 40,
-		  "heal": 2,
+		  "heal": 0.05,
 		  "radius": 8,
 		  "blast_damage": 8,
 		  "ignition_duration": 4,
@@ -412,9 +412,9 @@
 		  "active_ability": "Gain resistance 2 for 8 seconds.",
 		  "details1": "Does not thorn projectile damage only melee damage.",
 		  "cooldown": 20,
-		  "passive_thorn": 0.5,
 		  "resistance_strength": 2,
-		  "resistance_duration": 8
+		  "resistance_duration": 8,
+		  "passive_thorn": 0.5
 	  },
 	  "Juggernaut": {
 		  "desc": "Juggernauts are able to face tank anything.",
