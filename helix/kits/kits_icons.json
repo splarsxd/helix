@@ -27,8 +27,8 @@
 	  "Phoenix": "Magma Cream",
 	  "Pirate": "Gold Ingot"
 	},
-
-    "Ranged": {
+	
+	"Ranged": {
 	  "icon": "Bow",
 
 	  "Inferno": "Bow",
@@ -36,8 +36,8 @@
 	  "Artillery": "Arrow",
 	  "Snowman": "Snowball"
 	},
-
-    "Tank": {
+	
+	"Tank": {
 	  "icon": "Diamond Chestplate",
 
 	  "Star": "Nether Star",
