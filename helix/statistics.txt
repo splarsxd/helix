@@ -1,0 +1,36 @@
+* Statistics:
+   Souppvp:
+      Picks (picks + 1) | Everytime someone picks a kit from the souppvp kit menu.
+         Kit Picks (kit_picks + 1) | Everytime someone picks a specific kit from the souppvp kit menu.
+         Kit Pickrate (kit_picks / picks) | The amount of times a kit got picked compared to total picks.
+
+      Kills | Everytime someone scores a kill.
+         Kit Kills (kit_kills + 1) | Everytime someone scores a kill with a specific kit.
+         Player Kills (player_kills + 1) | Everytime the player scores a kill.
+
+      Deaths | Everytime someone dies.
+         Kit Deaths (kit_deaths + 1) | Everytime someone dies with a specific kit.
+         Player Deaths (player_deaths + 1) | Everytime the player dies.
+
+      KDR | Measures the amount of total kills per total death.
+         Kit KDR (kit_kills / kit_deaths) | Measures the amount of kit kills before death.
+         Player KDR (player_kills / player_deaths) | Measures the amount of player kills before death.
+
+
+   Ranked:
+      Games (player_games + 1)| Evertime a game starts.
+      Picks (picks + 1) | Everytime someone picks a kit from the ranked kit menu. (THERE IS 2 PICKS FOR 1 GAME)
+         Kit Picks (kit_picks + 1) | Everytime someone picks a specific kit from the ranked kit menu.
+         Kit Pickrate (kit_picks / picks) | The amount of times a kit got picked compared to total picks.
+
+      Wins | Everytime someone wins a ranked game.
+         Kit Wins (kit_wins + 1) | Everytime someone wins a ranked game with a specific kit.
+         Player Wins (player_wins + 1) | Evertime the player wins a game.
+      
+      Loses | Everytime someone loses a ranked game.
+         Kit Loss (kit_loss + 1) | Everytime someone loses a ranked game with a specific kit.
+         Player Loss (player_loss + 1) | Evertime the player loses a game.
+
+      WR | Measures the amount of wins per games.
+         Kit Winrate (kit_wins / kit_picks) | Measures the amount of kit wins per game.
+         Player Winrate (player_wins / player_games) | Measures the amount of players wins per games.
