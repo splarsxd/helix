@@ -1,0 +1,191 @@
+{
+    "Kits":
+    {
+      "Brawler": {
+        "Knight": {
+            "weapon": "DIAMOND_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Alpha": {
+            "weapon": "IRON_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Viking": {
+            "weapon": "DIAMOND_AXE",
+            "helmet": "null",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Basilisk": {
+            "weapon": "IRON_SWORD",
+            "helmet": "CHAINMAIL_HELMET",
+            "chestplate": "CHAINMAIL_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Warrior": {
+            "weapon": "IRON_SWORD",
+            "helmet": "DIAMOND_HELMET",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "GOLDEN_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Slayer": {
+            "weapon": "DIAMOND_SWORD",
+            "helmet": "null",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "CHAINMAIL_LEGGINGS",
+            "boots": "DIAMOND_BOOTS"
+        },
+        "Challenger": {
+            "weapon": "IRON_SWORD",
+            "helmet": "CHAINMAIL_HELMET",
+            "chestplate": "CHAINMAIL_CHESTPLATE",
+            "leggings": "CHAINMAIL_LEGGINGS",
+            "boots": "DIAMOND_BOOTS"
+        },
+        "Shaman": {
+            "weapon": "IRON_SWORD",
+            "helmet": "GOLDEN_HELMET",
+            "chestplate": "GOLDEN_CHESTPLATE",
+            "leggings": "GOLDEN_LEGGINGS",
+            "boots": "GOLDEN_BOOTS"
+        },
+        "Vampire": {
+            "weapon": "DIAMOND_SWORD",
+            "helmet": "LEATHER_HELMET: #993333",
+            "chestplate": "LEATHER_CHESTPLATE: #993333",
+            "leggings": "LEATHER_LEGGINGS: #993333",
+            "boots": "LEATHER_BOOTS: #993333"
+        }
+      },
+  
+      "Duelist": {
+        "Fisherman": {
+            "weapon": "IRON_SWORD",
+            "helmet": "null",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Bomber": {
+            "weapon": "IRON_SWORD",
+            "helmet": "LEATHER_HELMET: #993333",
+            "chestplate": "CHAINMAIL_CHESTPLATE",
+            "leggings": "GOLDEN_LEGGINGS",
+            "boots": "DIAMOND_BOOTS"
+        },
+        "Ninja": {
+            "weapon": "IRON_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "LEATHER_LEGGINGS: #4C4C4C",
+            "boots": "IRON_BOOTS"
+        },
+        "Monkey": {
+            "weapon": "IRON_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "GOLDEN_CHESTPLATE",
+            "leggings": "GOLDEN_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Hyper": {
+            "weapon": "IRON_SWORD",
+            "helmet": "LEATHER_HELMET: #FFFFFF",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "CHAINMAIL_LEGGINGS",
+            "boots": "LEATHER_BOOTS: #FFFFFF"
+        },
+        "Rogue": {
+            "weapon": "IRON_SWORD",
+            "helmet": "CHAINMAIL_HELMET",
+            "chestplate": "CHAINMAIL_CHESTPLATE",
+            "leggings": "CHAINMAIL_LEGGINGS",
+            "boots": "CHAINMAIL_BOOTS"
+        },
+        "Phoenix": {
+            "weapon": "IRON_SWORD",
+            "helmet": "null",
+            "chestplate": "GOLDEN_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "DIAMOND_BOOTS"
+        },
+        "Pirate": {
+            "weapon": "IRON_SWORD",
+            "helmet": "LEATHER_HELMET: #191919",
+            "chestplate": "GOLDEN_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        }
+      },
+  
+      "Ranged": {
+        "Inferno": {
+            "weapon": "BOW: Infinity",
+            "helmet": "LEATHER_HELMET: #E5E533",
+            "chestplate": "LEATHER_CHESTPLATE: #E5E533",
+            "leggings": "GOLDEN_LEGGINGS",
+            "boots": "GOLDEN_BOOTS"
+        },
+        "Scout": {
+            "weapon": "BOW: Infinity",
+            "helmet": "CHAINMAIL_HELMET",
+            "chestplate": "null",
+            "leggings": "null",
+            "boots": "CHAINMAIL_BOOTS"
+        },
+        "Artillery": {
+            "weapon": "BOW",
+            "helmet": "LEATHER_HELMET: #4C4C4C",
+            "chestplate": "null",
+            "leggings": "null",
+            "boots": "null"
+        },
+        "Snowman": {
+            "weapon": "IRON_SWORD & BOW: Infinity",
+            "helmet": "LEATHER_HELMET: #FFFFFF",
+            "chestplate": "LEATHER_CHESTPLATE: #FFFFFF",
+            "leggings": "LEATHER_LEGGINGS: #FFFFFF",
+            "boots": "LEATHER_BOOTS: #FFFFFF"
+        }
+      },
+  
+      "Tank": {
+        "Star": {
+            "weapon": "STONE_SWORD",
+            "helmet": "DIAMOND_HELMET",
+            "chestplate": "DIAMOND_CHESTPLATE",
+            "leggings": "DIAMOND_LEGGINGS",
+            "boots": "DIAMOND_BOOTS"
+        },
+        "Dragon": {
+            "weapon": "STONE_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "DIAMOND_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Hedgehog": {
+            "weapon": "STONE_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "DIAMOND_CHESTPLATE",
+            "leggings": "DIAMOND_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        },
+        "Juggernaut": {
+            "weapon": "STONE_SWORD",
+            "helmet": "IRON_HELMET",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "DIAMOND_LEGGINGS",
+            "boots": "IRON_BOOTS"
+        }
+      }
+    }
+}
