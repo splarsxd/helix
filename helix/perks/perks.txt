@@ -46,5 +46,6 @@ Resilience:
 
 Combo Star:
 * Every consecutive hit on the same target will increase your damage by (5% Melee | 10% Ranged), up to 50% for (5s Melee | 10s Ranged) seconds.
+* Capped at (10x Melee | 5x Ranged).
 * Cooldown: None
 * Icon: Pufferfish
