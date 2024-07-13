@@ -14,8 +14,8 @@
 
 	  "Total": 10002
 	},
-	
-    "Duelist": {
+
+	"Duelist": {
 	  "Fisherman": 1650,
 	  "Bomber": 1650,
 	  "Ninja": 1650,
@@ -28,7 +28,7 @@
 	  "Total": 13200
 	},
 
-    "Ranged": {
+	"Ranged": {
 	  "Inferno": 2650,
 	  "Scout": 2650,
 	  "Artillery": 2650,
@@ -37,7 +37,7 @@
 	  "Total": 10600
 	},
 
-    "Tank": {
+	"Tank": {
 	  "Star": 3200,
 	  "Dragon": 3200,
 	  "Hedgehog": 3200,
