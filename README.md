@@ -11,5 +11,7 @@
 * Functionlity
 * Perks
 * Easter Eggs
+* Statistics
+* Calculations
 * Damage Calculator (Exe Crossplatform)
 * Damage Checker (Python)
