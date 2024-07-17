@@ -21,7 +21,7 @@
 	  },
 	  "Alpha": {
 		  "desc": "Alpha becomes a lot more fierceful with the pack.",
-		  "cost": 650,
+		  "cost": 1250,
 		  "icon": "Bone",
 		  "passive": false,
 		  "active": true,
@@ -40,7 +40,7 @@
 	  },
 	  "Viking": {
 		  "desc": "Viking is a relentless force driven by rage, feared amongst everyone.",
-		  "cost": 650,
+		  "cost": 1250,
 		  "icon": "Diamond Axe",
 		  "passive": true,
 		  "active": true,
@@ -57,7 +57,7 @@
 	  },
 	  "Basilisk": {
 		  "desc": "Basilisk strives in long term battles poisoning opponents.",
-		  "cost": 650,
+		  "cost": 1250,
 		  "icon": "Fermented Spider Eye",
 		  "passive": true,
 		  "active": false,
@@ -92,7 +92,7 @@
 	  },
 	  "Slayer": {
 		  "desc": "Slayer is unmatched in raw brutal strength.",
-		  "cost": 1650,
+		  "cost": 1250,
 		  "icon": "Blaze Powder",
 		  "passive": true,
 		  "active": true,
@@ -106,7 +106,7 @@
 	  },
 	  "Challenger": {
 		  "desc": "Challenger may weaken a soul until either one is vanquished.",
-		  "cost": 1650,
+		  "cost": 1250,
 		  "icon": "Glowstone Dust",
 		  "passive": true,
 		  "active": true,
@@ -124,7 +124,7 @@
 	  },
 	  "Shaman": {
 		  "desc": "Shaman channels the spirit realm to enter spirit mode.",
-		  "cost": 1650,
+		  "cost": 1250,
 		  "icon": "Ghast Tear",
 		  "passive": true,
 		  "active": true,
@@ -145,7 +145,7 @@
 	  },
 	  "Vampire": {
 		  "desc": "Vampire sustains by draining the lifeforce of their opponents.",
-		  "cost": 1650,
+		  "cost": 1250,
 		  "icon": "Rose Red",
 		  "passive": true,
 		  "active": true,
@@ -169,7 +169,7 @@
 
 	  "Fisherman": {
 		  "desc": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
-		  "cost": 850,
+		  "cost": 0,
 		  "icon": "Fishing Rod",
 		  "passive": false,
 		  "active": true,
@@ -181,7 +181,7 @@
 	  },
 	  "Bomber": {
 		  "desc": "Bomber causes devastating area damage with explosive attacks.",
-		  "cost": 850,
+		  "cost": 1650,
 		  "icon": "TNT",
 		  "passive": true,
 		  "active": false,
@@ -201,7 +201,7 @@
 	  },
 	  "Ninja": {
 		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
-		  "cost": 850,
+		  "cost": 1650,
 		  "icon": "Slime",
 		  "passive": true,
 		  "active": true,
@@ -219,7 +219,7 @@
 	  },
 	  "Monkey": {
 		  "desc": "Monkey is a trickster whom has mastered the art of confusion.",
-		  "cost": 850,
+		  "cost": 1650,
 		  "main_icon1": "Blaze Rod",
 		  "icon2": "Beacon",
 		  "icon3": "Paper",
@@ -238,7 +238,7 @@
 	  },
 	  "Hyper": {
 		  "desc": "Hyper is insanely agile on their feet.",
-		  "cost": 1250,
+		  "cost": 1650,
 		  "icon": "Feather",
 		  "passive": true,
 		  "active": false,
@@ -256,7 +256,7 @@
 	  },
 	  "Rogue": {
 		  "desc": "A master of stealth may go completely invisible.",
-		  "cost": 1250,
+		  "cost": 1650,
 		  "icon": "Paper",
 		  "passive": true,
 		  "active": true,
@@ -305,7 +305,7 @@
 
 	  "Inferno": {
 		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
-		  "cost": 1650,
+		  "cost": 0,
 		  "icon": "Bow",
 		  "passive": true,
 		  "active": false,
@@ -315,7 +315,7 @@
 	  },
 	  "Scout": {
 		  "desc": "Scout is extremely dangerous due to withering arrows which denies healing.",
-		  "cost": 1650,
+		  "cost": 2650,
 		  "icon": "Chain Helmet",
 		  "passive": true,
 		  "active": false,
@@ -366,7 +366,7 @@
 
 	  "Star": {
 		  "desc": "Stars are forged with immense density emitting powerful darkness.",
-		  "cost": 1650,
+		  "cost": 0,
 		  "icon": "Nether Star",
 		  "passive": true,
 		  "active": true,
@@ -387,7 +387,7 @@
 	  },
 	  "Dragon": {
 		  "desc": "Dragon blasts targets aflame in an area.",
-		  "cost": 1650,
+		  "cost": 3200,
 		  "icon": "Fire Charge",
 		  "passive": true,
 		  "active": true,
@@ -404,7 +404,7 @@
 	  },
 	  "Hedgehog": {
 		  "desc": "Hedgehogs are extremely resiliant and shrugs damage off with ease.",
-		  "cost": 2650,
+		  "cost": 3200,
 		  "icon": "Nether Brick",
 		  "passive": true,
 		  "active": true,
@@ -418,7 +418,7 @@
 	  },
 	  "Juggernaut": {
 		  "desc": "Juggernauts are massive, being able to face tank anything.",
-		  "cost": 2650,
+		  "cost": 3200,
 		  "icon": "Orange Dye #351:14",
 		  "passive": true,
 		  "active": true,
