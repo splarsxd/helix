@@ -2,7 +2,7 @@
   "Kits":
   {
 	"Brawler": {
-	  "Knight": null,
+	  "Knight": 0,
 	  "Alpha": 1250,
 	  "Viking": 1250,
 	  "Basilisk": 1250,
@@ -16,7 +16,7 @@
 	},
 
 	"Duelist": {
-	  "Fisherman": 1650,
+	  "Fisherman": 0,
 	  "Bomber": 1650,
 	  "Ninja": 1650,
 	  "Monkey": 1650,
@@ -25,27 +25,27 @@
 	  "Phoenix": 1650,
 	  "Pirate": 1650,
 
-	  "Total": 13200
+	  "Total": 11550
 	},
 
 	"Ranged": {
-	  "Inferno": 2650,
+	  "Inferno": 0,
 	  "Scout": 2650,
 	  "Artillery": 2650,
 	  "Snowman": 2650,
 
-	  "Total": 10600
+	  "Total": 7950
 	},
 
 	"Tank": {
-	  "Star": 3200,
+	  "Star": 0,
 	  "Dragon": 3200,
 	  "Hedgehog": 3200,
 	  "Juggernaut": 3200,
 
-	  "Total": 12800
+	  "Total": 9600
 	},
 
-	"Total": 46602
+	"Total": 39102
   }
 }
