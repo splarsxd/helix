@@ -18,7 +18,7 @@
         },
         "Viking": {
             "weapon": "DIAMOND_AXE",
-            "helmet": "null",
+            "helmet": "AIR",
             "chestplate": "IRON_CHESTPLATE",
             "leggings": "IRON_LEGGINGS",
             "boots": "IRON_BOOTS"
@@ -34,12 +34,12 @@
             "weapon": "IRON_SWORD",
             "helmet": "DIAMOND_HELMET",
             "chestplate": "IRON_CHESTPLATE",
-            "leggings": "GOLDEN_LEGGINGS",
+            "leggings": "GOLD_LEGGINGS",
             "boots": "IRON_BOOTS"
         },
         "Slayer": {
             "weapon": "DIAMOND_SWORD",
-            "helmet": "null",
+            "helmet": "AIR",
             "chestplate": "IRON_CHESTPLATE",
             "leggings": "CHAINMAIL_LEGGINGS",
             "boots": "DIAMOND_BOOTS"
@@ -53,10 +53,10 @@
         },
         "Shaman": {
             "weapon": "IRON_SWORD",
-            "helmet": "GOLDEN_HELMET",
-            "chestplate": "GOLDEN_CHESTPLATE",
-            "leggings": "GOLDEN_LEGGINGS",
-            "boots": "GOLDEN_BOOTS"
+            "helmet": "GOLD_HELMET",
+            "chestplate": "GOLD_CHESTPLATE",
+            "leggings": "GOLD_LEGGINGS",
+            "boots": "GOLD_BOOTS"
         },
         "Vampire": {
             "weapon": "DIAMOND_SWORD",
@@ -70,7 +70,7 @@
       "Duelist": {
         "Fisherman": {
             "weapon": "IRON_SWORD",
-            "helmet": "null",
+            "helmet": "AIR",
             "chestplate": "IRON_CHESTPLATE",
             "leggings": "IRON_LEGGINGS",
             "boots": "IRON_BOOTS"
@@ -79,7 +79,7 @@
             "weapon": "IRON_SWORD",
             "helmet": "LEATHER_HELMET: #993333",
             "chestplate": "CHAINMAIL_CHESTPLATE",
-            "leggings": "GOLDEN_LEGGINGS",
+            "leggings": "GOLD_LEGGINGS",
             "boots": "DIAMOND_BOOTS"
         },
         "Ninja": {
@@ -92,8 +92,8 @@
         "Monkey": {
             "weapon": "IRON_SWORD",
             "helmet": "IRON_HELMET",
-            "chestplate": "GOLDEN_CHESTPLATE",
-            "leggings": "GOLDEN_LEGGINGS",
+            "chestplate": "GOLD_CHESTPLATE",
+            "leggings": "GOLD_LEGGINGS",
             "boots": "IRON_BOOTS"
         },
         "Hyper": {
@@ -112,15 +112,15 @@
         },
         "Phoenix": {
             "weapon": "IRON_SWORD",
-            "helmet": "null",
-            "chestplate": "GOLDEN_CHESTPLATE",
+            "helmet": "AIR",
+            "chestplate": "GOLD_CHESTPLATE",
             "leggings": "IRON_LEGGINGS",
             "boots": "DIAMOND_BOOTS"
         },
         "Pirate": {
             "weapon": "IRON_SWORD",
             "helmet": "LEATHER_HELMET: #191919",
-            "chestplate": "GOLDEN_CHESTPLATE",
+            "chestplate": "GOLD_CHESTPLATE",
             "leggings": "IRON_LEGGINGS",
             "boots": "IRON_BOOTS"
         }
@@ -131,22 +131,22 @@
             "weapon": "BOW: Infinity",
             "helmet": "LEATHER_HELMET: #E5E533",
             "chestplate": "LEATHER_CHESTPLATE: #E5E533",
-            "leggings": "GOLDEN_LEGGINGS",
-            "boots": "GOLDEN_BOOTS"
+            "leggings": "GOLD_LEGGINGS",
+            "boots": "GOLD_BOOTS"
         },
         "Scout": {
             "weapon": "BOW: Infinity",
             "helmet": "CHAINMAIL_HELMET",
-            "chestplate": "null",
-            "leggings": "null",
+            "chestplate": "AIR",
+            "leggings": "AIR",
             "boots": "CHAINMAIL_BOOTS"
         },
         "Artillery": {
             "weapon": "BOW",
             "helmet": "LEATHER_HELMET: #4C4C4C",
-            "chestplate": "null",
-            "leggings": "null",
-            "boots": "null"
+            "chestplate": "AIR",
+            "leggings": "AIR",
+            "boots": "AIR"
         },
         "Snowman": {
             "weapon": "IRON_SWORD & BOW: Infinity",
