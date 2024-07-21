@@ -202,7 +202,7 @@
 	  "Ninja": {
 		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
 		  "cost": 1650,
-		  "icon": "Slime",
+		  "icon": "Slime Ball",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "After teleporting, you dodge all incoming attacks and projectiles for a short duration.",
@@ -430,7 +430,7 @@
 		  "regeneration": 5,
 		  "regeneration_duration": 10,
 		  "base_health_boost": 10,
-		  "additional_health_boost_per_kill": 1,
+		  "additional_health_boost": 1,
 		  "slowness_strength": 1,
 		  "slowness_duration": 99999
 	  }
