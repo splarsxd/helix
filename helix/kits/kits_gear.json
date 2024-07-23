@@ -185,6 +185,13 @@
             "chestplate": "IRON_CHESTPLATE",
             "leggings": "DIAMOND_LEGGINGS",
             "boots": "IRON_BOOTS"
+        },
+        "Behemoth": {
+            "weapon": "STONE_SWORD",
+            "helmet": "DIAMOND_HELMET",
+            "chestplate": "DIAMOND_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boost": "DIAMOND_BOOTS"
         }
       }
     }
