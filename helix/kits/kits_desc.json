@@ -2,7 +2,7 @@
   "Kits":
   {
 	"Brawler": {
-	  "desc": "Brawlers are monstrous fighters in battle that deal a lot damage.",
+	  "desc": "Monstrous fighters in battle that deal a lot damage.",
 
 	  "Knight": "Upon takedown, Knight fully heals and replenishes their set of soups.",
 	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
@@ -11,7 +11,7 @@
 	  "Warrior": "For every takedown Warrior is granted great buffs.",
 	  "Slayer": "Slayer is unmatched in raw brutal strength.",
 	  "Challenger": "Challenger may weaken a soul until either one is vanquished.",
-	  "Shaman": "Shaman channels the spirit realm to enter spirit mode.",
+	  "Shaman": "Shaman may enter spirit mode to gain advantage in combat.",
 	  "Vampire": "Vampire sustains by draining the lifeforce of their opponents."
 	},
 	
@@ -20,11 +20,11 @@
 
 	  "Fisherman": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
 	  "Bomber": "Bomber causes devastating area damage with explosive attacks.",
-	  "Ninja": "Ninja is able to quickly position themselves behind their closest target in the blink of an eye.",
+	  "Ninja": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
 	  "Monkey": "Monkey is a trickster whom has mastered the art of confusion.",
 	  "Hyper": "Hyper is insanely agile on their feet.",
-	  "Rogue": "A master of stealth may go completely invisible.",
-	  "Phoenix": "Phoenix is free to dash in any direction.",
+	  "Rogue": "Rogue is a master of stealth whom may go completely invisible.",
+	  "Phoenix": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
 	  "Pirate": "Pirate excels at plundering, earning gold and golden apples for each takedown."
 	},
 
@@ -34,16 +34,17 @@
 	  "Inferno": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
 	  "Scout": "Scout is extremely dangerous due to withering arrows which denies healing.",
 	  "Artillery": "Artillery has impeccable damage but has to be careful.",
-	  "Snowman": "Snowman slows opponents and are quick on their feet."
+	  "Snowman": "Snowman slows opponents and is quick on their feet."
 	},
 
     "Tank": {
-	  "desc": "Endure brutal amounts of damage.",
+	  "desc": "Endure brutal amounts of unimaginable damage.",
 
-	  "Star": "Stars are forged with immense density emitting powerful darkness.",
-	  "Dragon": "Dragon blasts targets aflame in an area.",
-	  "Hedgehog": "Hedgehogs are extremely resiliant and shrugs damage off with ease.",
-	  "Juggernaut": "Juggernauts are massive, being able to face tank anything."
+	  "Star": "Star is forged with immense density emitting powerful darkness.",
+	  "Dragon": "Dragon is a scary combatant whom blasts targets aflame in an area.",
+	  "Hedgehog": "Hedgehog is extremely resiliant and shrugs damage off with ease.",
+	  "Juggernaut": "Juggernaut is incredibly massive, being able to face tank anything.",
+	  "Behemoth": "Behemoth is an ungodly titan, standing unbroken amidst the chaos."
 	}
   }
 }
