@@ -4,12 +4,12 @@
 	"Brawler": {
 		"desc": "Brawlers are monstrous fighters in battle that deal a lot damage.",
 		"type": "Melee",
-		"icon": "Fire Charge",
+		"icon": "FIREBALL",
 
 	  "Knight": {
 		  "desc": "Upon takedown, Knight fully heals and replenishes their set of soups.",
 		  "cost": 0,
-		  "icon": "Diamond Sword",
+		  "icon": "DIAMOND_SWORD",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "For every takedown you are healed to maximum health and refill your inventory with soups.",
@@ -22,7 +22,7 @@
 	  "Alpha": {
 		  "desc": "Alpha becomes a lot more fierceful with the pack.",
 		  "cost": 1250,
-		  "icon": "Bone",
+		  "icon": "BONE",
 		  "passive": false,
 		  "active": true,
 		  "passive_ability": "No passive ability.",
@@ -34,14 +34,14 @@
 		  "wolves_amount": 6,
 		  "wolf_maximum_health": 20,
 		  "wolf_health": 20,
-		  "wolf_damage": 0.1,
+		  "wolf_damage": 0.10,
 		  "speed_strength": 1,
 		  "speed_duration": 15
 	  },
 	  "Viking": {
 		  "desc": "Viking is a relentless force driven by rage, feared amongst everyone.",
 		  "cost": 1250,
-		  "icon": "Diamond Axe",
+		  "icon": "DIAMOND_AXE",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Weakens opponents for every tenth hit onto you for a duration.",
@@ -52,13 +52,13 @@
 		  "weakness_strength": 1,
 		  "weakness_duration": 8,
 		  "weakness_level_cap": 3,
-		  "%current_health_damage": 0.5,
+		  "%current_health_damage": 0.50,
 		  "ignition_duration": 8
 	  },
 	  "Basilisk": {
 		  "desc": "Basilisk strives in long term battles poisoning opponents.",
 		  "cost": 1250,
-		  "icon": "Fermented Spider Eye",
+		  "icon": "FERMENTED_SPIDER_EYE",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Every tenth hit poison enemies and grants speed for a short duration.",
@@ -69,13 +69,13 @@
 		  "poison_duration": 3,
 		  "speed_strength": 1,
 		  "speed_duration": 3,
-		  "antiheal_ratio": 0.5,
+		  "antiheal_ratio": 0.50,
 		  "antiheal_duration": 3
 	  },
 	  "Warrior": {
 		  "desc": "For every takedown Warrior is granted great buffs.",
 		  "cost": 1252,
-		  "icon": "Diamond Helmet",
+		  "icon": "DIAMOND_HELMET",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "For every takedown you are granted strength, speed, resistance and regeneration for a duration.",
@@ -93,7 +93,7 @@
 	  "Slayer": {
 		  "desc": "Slayer is unmatched in raw brutal strength.",
 		  "cost": 1250,
-		  "icon": "Blaze Powder",
+		  "icon": "BLAZE_POWDER",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Restores health when successfully landing a critical strike.",
@@ -107,7 +107,7 @@
 	  "Challenger": {
 		  "desc": "Challenger may weaken a soul until either one is vanquished.",
 		  "cost": 1250,
-		  "icon": "Glowstone Dust",
+		  "icon": "GLOWSTONE_DUST",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Deal pre-mitigation damage every tenth hit.",
@@ -123,9 +123,9 @@
 		  "weakness_duration": 99999
 	  },
 	  "Shaman": {
-		  "desc": "Shaman channels the spirit realm to enter spirit mode.",
+		  "desc": "Shaman may enter spirit mode to gain advantage in combat.",
 		  "cost": 1250,
-		  "icon": "Ghast Tear",
+		  "icon": "GHAST_TEAR",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Heal a portion of damage dealt post-mitigation and take reduced damage.",
@@ -146,7 +146,7 @@
 	  "Vampire": {
 		  "desc": "Vampire sustains by draining the lifeforce of their opponents.",
 		  "cost": 1250,
-		  "icon": "Rose Red",
+		  "icon": "RED_ROSE",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Lifesteal 80% of damage dealt post-mitigation.",
@@ -165,12 +165,12 @@
     "Duelist": {
 		"desc": "Specialises in aggressive playstyles to outplay an opponent.",
 		"type": "Melee",
-		"icon": "Diamond Sword",
+		"icon": "DIAMOND_SWORD",
 
 	  "Fisherman": {
 		  "desc": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
 		  "cost": 0,
-		  "icon": "Fishing Rod",
+		  "icon": "FISHING_ROD",
 		  "passive": false,
 		  "active": true,
 		  "passive_ability": "No passive ability.",
@@ -185,16 +185,12 @@
 		  "icon": "TNT",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Increase Jump Boost when you detonate a TNT for a duration.",
+		  "passive_ability": "Takedown with TNT grants more TNT and other rewards.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Spawns with 16 TNT, they cannot destroy terrain, grant 8 TNT for every takedown with a cap of 64.",
-		  "details2": "Bomber is granted Jump Boost 1 permanently, Blast Protection 10 and feather falling 5 on boots.",
-		  "details3": "Jump Boost level stacking is capped at 2.",
-		  "base_jump_boost_strength": 1,
-		  "base_jump_boost_duration": 99999,
-		  "additional_jump_boost_strength": 1,
-		  "additional_jump_boost_duration": 20,
-		  "jump_boost_level_cap": 2,
+		  "details1": "Blast Protection 10 and feather falling 5 on boots.",
+		  "tnt": 16,
+		  "additional_tnt": 8,
+		  "random_reward": ["Speed1 / 10s / 33%", "Jumpboost1 / 20s / 33%", "Triple Gold / 33%", "Strength1 / 10s / 1%"],
 		  "radius": 3,
 		  "explosion_damage": 4,
 		  "explosion_knockback_type": "Perimeter"
@@ -202,7 +198,7 @@
 	  "Ninja": {
 		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
 		  "cost": 1650,
-		  "icon": "Slime Ball",
+		  "icon": "SLIME_BALL",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "After teleporting, you dodge all incoming attacks and projectiles for a short duration.",
@@ -220,7 +216,7 @@
 	  "Monkey": {
 		  "desc": "Monkey is a trickster whom has mastered the art of confusion.",
 		  "cost": 1650,
-		  "main_icon1": "Blaze Rod",
+		  "main_icon1": "BLAZE_ROD",
 		  "icon2": "Beacon",
 		  "icon3": "Paper",
 		  "passive": false,
@@ -239,7 +235,7 @@
 	  "Hyper": {
 		  "desc": "Hyper is insanely agile on their feet.",
 		  "cost": 1650,
-		  "icon": "Feather",
+		  "icon": "FEATHER",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Increases speed level for every third hit.",
@@ -255,9 +251,9 @@
 		  "speed_cap": 6
 	  },
 	  "Rogue": {
-		  "desc": "A master of stealth may go completely invisible.",
+		  "desc": "Rogue is a master of stealth whom may go completely invisible.",
 		  "cost": 1650,
-		  "icon": "Paper",
+		  "icon": "PAPER",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Your attacks deal bonus damage of the target's missing health.",
@@ -271,9 +267,9 @@
 		  "%missing_health_damage_duration": 8
 	  },
 	  "Phoenix": {
-		  "desc": "Phoenix is free to dash forwards in any direction.",
+		  "desc": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
 		  "cost": 1650,
-		  "icon": "Magma Cream",
+		  "icon": "MAGMA_CREAM",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Health restoration by soups is increased by 20%",
@@ -281,13 +277,13 @@
 		  "details1": "May not launch themselves upwards or downwards if applicable.",
 		  "details2": "Should negate all forms of fall damage.",
 		  "cooldown": 8,
-		  "heal_ratio": 1.2,
+		  "heal_ratio": 1.20,
 		  "launch_amount": 5
 	  },
 	  "Pirate": {
 		  "desc": "Pirate excels at plundering, earning gold and golden apples for each takedown.",
 		  "cost": 1650,
-		  "icon": "Gold Ingot",
+		  "icon": "GOLD_INGOT",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "For every takedown you are granted double gold and golden apples.",
@@ -301,12 +297,12 @@
     "Ranged": {
 		"desc": "Damage opponents from afar whilst keeping your distance.",
 		"type": "Ranged",
-		"icon": "Bow",
+		"icon": "BOW",
 
 	  "Inferno": {
 		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
 		  "cost": 0,
-		  "icon": "Bow",
+		  "icon": "BOW",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Your arrows sets targets ablaze for a duration.",
@@ -316,7 +312,7 @@
 	  "Scout": {
 		  "desc": "Scout is extremely dangerous due to withering arrows which denies healing.",
 		  "cost": 2650,
-		  "icon": "Chain Helmet",
+		  "icon": "CHAINMAIL_HELMET",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Every third hit on the same target applies wither and grants invisibility for a short duration.",
@@ -335,7 +331,7 @@
 	  "Artillery": {
 		  "desc": "Artillery has impeccable damage but has to be careful.",
 		  "cost": 2650,
-		  "icon": "Arrow",
+		  "icon": "ARROW",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Get one arrow every 5 seconds, only if you don't have one already.",
@@ -344,9 +340,9 @@
 		  "cooldown": 5
 	  },
 	  "Snowman": {
-		  "desc": "Snowman slows opponents and are quick on their feet.",
+		  "desc": "Snowman slows opponents and is quick on their feet.",
 		  "cost": 2650,
-		  "icon": "Snowball",
+		  "icon": "SNOWBALL",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Apply slowness on arrow hit for a short duration.",
@@ -360,14 +356,14 @@
 	},
 
     "Tank": {
-		"desc": "Endure brutal amounts of damage.",
+		"desc": "Endure brutal amounts of unimaginable damage.",
 		"type": "Melee",
-		"icon": "Diamond Chestplate",
+		"icon": "DIAMOND_CHESTPLATE",
 
 	  "Star": {
-		  "desc": "Stars are forged with immense density emitting powerful darkness.",
+		  "desc": "Star is forged with immense density emitting powerful darkness.",
 		  "cost": 0,
-		  "icon": "Nether Star",
+		  "icon": "NETHER_STAR",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Apply a strong slowness and blindness every 30th hit for 5 seconds.",
@@ -386,9 +382,9 @@
 		  "blindness_duration": 5
 	  },
 	  "Dragon": {
-		  "desc": "Dragon blasts targets aflame in an area.",
+		  "desc": "Dragon is a scary combatant whom blasts targets aflame in an area.",
 		  "cost": 3200,
-		  "icon": "Fire Charge",
+		  "icon": "FIREBALL",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Regenerate 5% maximum health every second.",
@@ -403,9 +399,9 @@
 		  "fire_resistance_duration": 99999
 	  },
 	  "Hedgehog": {
-		  "desc": "Hedgehogs are extremely resiliant and shrugs damage off with ease.",
+		  "desc": "Hedgehog is extremely resiliant and shrugs damage off with ease.",
 		  "cost": 3200,
-		  "icon": "Nether Brick",
+		  "icon": "NETHER_BRICK_ITEM",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Thorn half of the opponents pre-mitigated melee damage back to the opponent.",
@@ -414,12 +410,12 @@
 		  "cooldown": 20,
 		  "resistance_strength": 2,
 		  "resistance_duration": 8,
-		  "passive_thorn": 0.5
+		  "passive_thorn": 0.50
 	  },
 	  "Juggernaut": {
-		  "desc": "Juggernauts are massive, being able to face tank anything.",
+		  "desc": "Juggernaut is incredibly massive, being able to face tank anything.",
 		  "cost": 3200,
-		  "icon": "Orange Dye #351:14",
+		  "icon": "ORANGE_DYE",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Increase health for every takedown.",
@@ -433,6 +429,20 @@
 		  "additional_health_boost": 1,
 		  "slowness_strength": 1,
 		  "slowness_duration": 99999
+	  },
+	  "Behemoth": {
+		  "desc": "Behemoth is an ungodly titan, standing unbroken amidst the chaos.",
+		  "cost": 3200,
+		  "icon": "EMERALD",
+		  "passive": true,
+		  "active": true,
+		  "passive_ability": "Gain resistance for every 20% of maximum health lost.",
+		  "active_ability": "Gain absorption hearts for a duration.",
+		  "cooldown": 25,
+		  "duration": 5,
+		  "additional_resistance": 1,
+		  "resistance_cap": 4,
+		  "maximum_health_threshold": 0.20
 	  }
 	}
   }
