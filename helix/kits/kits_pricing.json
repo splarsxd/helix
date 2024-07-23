@@ -42,10 +42,11 @@
 	  "Dragon": 3200,
 	  "Hedgehog": 3200,
 	  "Juggernaut": 3200,
+	  "Behemoth": 3200,
 
-	  "Total": 9600
+	  "Total": 12800
 	},
 
-	"Total": 39102
+	"Total": 42302
   }
 }
