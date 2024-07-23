@@ -2,48 +2,49 @@
   "Kits":
   {
 	"Brawler": {
-	  "icon": "Fire Charge",
+	  "icon": "FIREBALL",
 		
-	  "Knight": "Diamond Sword",
-	  "Alpha": "Bone",
-	  "Viking": "Diamond Axe",
-	  "Basilisk": "Fermented Spider Eye",
-	  "Warrior": "Diamond Helmet",
-	  "Slayer": "Blaze Powder",
-	  "Challenger": "Glowstone Dust",
-	  "Shaman": "Ghast Tear",
-	  "Vampire": "Rose Red"
+	  "Knight": "DIAMOND_SWORD",
+	  "Alpha": "BONE",
+	  "Viking": "DIAMOND_AXE",
+	  "Basilisk": "FERMENTED_SPIDER_EYE",
+	  "Warrior": "DIAMOND_HELMET",
+	  "Slayer": "BLAZE_POWDER",
+	  "Challenger": "GLOWSTONE_DUST",
+	  "Shaman": "GHAST_TEAR",
+	  "Vampire": "RED_ROSE"
 	},
 	
 	"Duelist": {
-	  "icon": "Diamond Sword",
+	  "icon": "DIAMOND_SWORD",
 
-	  "Fisherman": "Fishing Rod",
+	  "Fisherman": "FISHING_ROD",
 	  "Bomber": "TNT",
-	  "Ninja": "Slime",
-	  "Monkey": "Blaze Rod",
-	  "Hyper": "Feather",
-	  "Rogue": "Paper",
-	  "Phoenix": "Magma Cream",
-	  "Pirate": "Gold Ingot"
+	  "Ninja": "SLIME_BALL",
+	  "Monkey": "BLAZE_ROD",
+	  "Hyper": "FEATHER",
+	  "Rogue": "PAPER",
+	  "Phoenix": "MAGMA_CREAM",
+	  "Pirate": "GOLD_INGOT"
 	},
 	
 	"Ranged": {
-	  "icon": "Bow",
+	  "icon": "BOW",
 
-	  "Inferno": "Bow",
-	  "Scout": "Chain Helmet",
-	  "Artillery": "Arrow",
-	  "Snowman": "Snowball"
+	  "Inferno": "BOW",
+	  "Scout": "CHAINMAIL_HELMET",
+	  "Artillery": "ARROW",
+	  "Snowman": "SNOWBALL"
 	},
 	
 	"Tank": {
-	  "icon": "Diamond Chestplate",
+	  "icon": "DIAMOND_CHESTPLATE",
 
-	  "Star": "Nether Star",
-	  "Dragon": "Fire Charge",
-	  "Hedgehog": "Nether Brick",
-	  "Juggernaut": "Orange Dye #351:14"
+	  "Star": "NETHER_STAR",
+	  "Dragon": "FIREBALL",
+	  "Hedgehog": "NETHER_BRICK_ITEM",
+	  "Juggernaut": "ORANGE_DYE",
+	  "Behemoth": "EMERALD"
 	}
   }
 }
