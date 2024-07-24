@@ -130,7 +130,7 @@
 		  "active_ability": "Entering spirit mode allows you to slow your target and steal all positive effects from your target.",
 		  "details1": "Does not steal negative effects from target.",
 		  "details2": "Puts ability on cooldown even if the target has no effects to steal, since slow is still applied.",
-		  "details3": "Effects stolen does not expire, only restored by exiting spirit mode.",
+		  "details3": "Effects last as long as you are in spirit mode and are given back to the original player when exiting spirit mode.",
 		  "details4": "Refresh the duration of spirit mode by hitting a player.",
 		  "details5": "Shaman is unable to steal Great Buffs from Warrior nor apply a slow during Great Buffs, still puts the ability on cooldown.",
 		  "details6": "Cooldown will start when the duration has ended.",
