@@ -13,5 +13,5 @@
 * Easter Eggs
 * Statistics
 * Calculations
-* Damage Calculator (Exe Crossplatform)
-* Damage Checker (Python)
+* Damage Calculator (Python & Exe Crossplatform)
+* Damage Checker (Python & Exe Crossplatform)
