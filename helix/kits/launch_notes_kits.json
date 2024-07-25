@@ -126,7 +126,7 @@
 		  "icon": "GHAST_TEAR",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Heal a portion of damage dealt post-mitigation and take reduced damage.",
+		  "passive_ability": "Heal a portion of your damage dealt post-mitigation and take reduced damage.",
 		  "active_ability": "Entering spirit mode allows you to slow your target and steal all positive effects from your target.",
 		  "details1": "Does not steal negative effects from target.",
 		  "details2": "Puts ability on cooldown even if the target has no effects to steal, since slow is still applied.",
