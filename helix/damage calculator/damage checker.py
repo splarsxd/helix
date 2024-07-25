@@ -1,6 +1,6 @@
 from os import system as sys
 
-value = 2.8
+value = float(input("Enter value: "))
 count = 1
 print("Damage | Hits")
 
