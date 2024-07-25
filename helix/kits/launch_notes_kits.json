@@ -434,12 +434,13 @@
 		  "active": true,
 		  "passive_ability": "Gain resistance for every 20% of maximum health lost.",
 		  "active_ability": "Gain absorption hearts for a duration.",
-		  "details1": "Behemoth has permanent Health Boost 4.",
+		  "details1": "Maximum Resistance level stacking reached at 20% of maximum health.",
+		  "details2": "Behemoth has permanent Health Boost 4.",
 		  "cooldown": 25,
 		  "duration": 5,
 		  "additional_resistance": 1,
 		  "resistance_cap": 4,
-		  "maximum_health_threshold": 0.20
+		  "maximum_resistance_health_threshold": 0.20
 	  }
 	}
   }
