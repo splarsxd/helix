@@ -32,10 +32,9 @@
 		  "cooldown": 50,
 		  "duration": 15,
 		  "wolves_amount": 6,
-		  "wolf_maximum_health": 20,
 		  "wolf_health": 20,
 		  "wolf_damage": 0.10,
-		  "speed_strength": 1,
+		  "speed_amplifier": 1,
 		  "speed_duration": 15
 	  },
 	  "Viking": {
@@ -49,7 +48,7 @@
 		  "details1": "The weakness applies onto the enemies after the enemies have hit Viking 10 times, the weakness stacks caps at Weakness 3.",
 		  "cooldown": 40,
 		  "amount_of_hits": 10,
-		  "weakness_strength": 1,
+		  "weakness_amplifier": 1,
 		  "weakness_duration": 8,
 		  "weakness_level_cap": 3,
 		  "%current_health_damage": 0.50,
@@ -65,9 +64,9 @@
 		  "active_ability": "No ability activation.",
 		  "details1": "Whilst the enemy is poisoned, Fatal Wounds is applied, halve the health restoration from soups.",
 		  "amount_of_hits": 10,
-		  "poison_strength": 4,
+		  "poison_amplifier": 4,
 		  "poison_duration": 3,
-		  "speed_strength": 1,
+		  "speed_amplifier": 1,
 		  "speed_duration": 3,
 		  "antiheal_ratio": 0.50,
 		  "antiheal_duration": 3
@@ -83,10 +82,10 @@
 		  "details1": "The great buffs resets on takedown, it does not stack, also gain protection 1 on your helmet.",
 		  "details2": "Immune to all negative effects during great buffs.",
 		  "great_buffs": {
-			"increase_damage_strength": 1,
-			"speed_strength": 1,
-			"resistance_strength": 1,
-			"regeneration_strength": 3
+			"strength_amplifier": 1,
+			"speed_amplifier": 1,
+			"resistance_amplifier": 1,
+			"regeneration_amplifier": 3
 		  },
 		  "great_buffs_duration": 6
 	  },
@@ -101,8 +100,7 @@
 		  "cooldown": 70,
 		  "duration": 10,
 		  "heal": 2,
-		  "additional_sharpness_level": 2,
-		  "additional_sharpness_duration": 10
+		  "additional_sharpness_level": 2
 	  },
 	  "Challenger": {
 		  "desc": "Challenger may weaken a soul until either one is vanquished.",
@@ -112,12 +110,11 @@
 		  "active": true,
 		  "passive_ability": "Deal additional pre-mitigation damage every tenth hit.",
 		  "active_ability": "Permanently weaken your selected target untill either one dies.",
-		  "details1": "Cooldown will not begin to count down until your target have been slain, will be reset if you die though.",
-		  "details2": "Cannot weaken Warrior while affected by Great Buffs.",
+		  "details1": "Cannot weaken Warrior while affected by Great Buffs.",
 		  "cooldown": 120,
 		  "amount_of_hits": 10,
 		  "premitigation_damage": 2,
-		  "weakness_strength": 1,
+		  "weakness_amplifier": 1,
 		  "weakness_duration": 99999
 	  },
 	  "Shaman": {
@@ -137,7 +134,7 @@
 		  "duration": 4,
 		  "heal": 0.20,
 		  "damage_mitigation": 1,
-		  "slow_strength": 3,
+		  "slow_amplifier": 3,
 		  "slow_duration": 10
 	  },
 	  "Vampire": {
@@ -154,7 +151,7 @@
 		  "heal": 0.80,
 		  "empowered_heal": 1.60,
 		  "empowered_heal_duration": 10,
-		  "speed_strength": 2,
+		  "speed_amplifier": 2,
 		  "speed_duration": 10
 	  }
 	},
@@ -182,12 +179,12 @@
 		  "icon": "TNT",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Takedown with TNT grants more TNT and other rewards.",
+		  "passive_ability": "Takedown with TNT grants more TNT and triple gold.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Bomber is granted Blast Protection 10 and Feather Falling 5 on Boots.",
 		  "tnt": 16,
 		  "additional_tnt": 8,
-		  "random_reward": ["Speed1 / 10s / 33%", "Jumpboost1 / 20s / 33%", "Triple Gold / 33%", "Strength1 / 10s / 1%"],
+		  "gold_modifier": 3,
 		  "radius": 3,
 		  "explosion_damage": 4,
 		  "explosion_knockback_type": "Perimeter"
@@ -206,6 +203,7 @@
 		  "details4": "Ninja is granted Feather Falling 10 on Boots.",
 		  "cooldown": 11,
 		  "enderpearl_cooldown": 4,
+		  "additional_enderpearl": 1,
 		  "radius": 8,
 		  "dodge_duration": 1
 	  },
@@ -257,7 +255,7 @@
 		  "details1": "Can still damage themselves from Hedgehog passive ability.",
 		  "cooldown": 60,
 		  "invisibility_duration": 8,
-		  "speed_strength": 2,
+		  "speed_amplifier": 2,
 		  "speed_duration": 8,
 		  "%missing_health_damage": 0.25,
 		  "%missing_health_damage_duration": 8
@@ -269,12 +267,14 @@
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Health restoration by soups is increased by 20%",
-		  "active_ability": "Gain the ability to dash mostly horizontally.",
+		  "active_ability": "Gain the ability to double jump and dash horizontally.",
 		  "details1": "May not launch themselves upwards or downwards if applicable.",
 		  "details2": "Should negate all forms of fall damage.",
-		  "cooldown": 8,
+		  "cooldown_double_jump": 0,
+		  "cooldown_dash": 8,
 		  "heal_ratio": 1.20,
-		  "launch_amount": 5
+		  "double_jump": 5,
+		  "dash_amount": 5
 	  },
 	  "Pirate": {
 		  "desc": "Pirate excels at plundering, earning gold and golden apples for each takedown.",
@@ -283,10 +283,9 @@
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "For every takedown you are granted double gold and golden apples.",
-		  "active_ability": "Consuming a golden apple will cleanse all debuffs and be immune to abilities for a short duration.",
+		  "active_ability": "Consuming a golden apple will cleanse all debuffs.",
 		  "gold_modifier": 2,
-		  "golden_apples": 3,
-		  "duration": 3
+		  "golden_apples": 3
 	  }
 	},
 
@@ -315,10 +314,10 @@
 		  "active_ability": "No ability activation.",
 		  "details1": "Whilst the enemy is withered, Immortal Wounds is applied, all health restoration from soups is denied.",
 		  "details2": "Scout has permanent Speed 1.",
-		  "speed_strength": 1,
+		  "speed_amplifier": 1,
 		  "speed_duration": 99999,
 		  "amount_of_hits": 3,
-		  "wither_strength": 3,
+		  "wither_amplifier": 3,
 		  "wither_duration": 2,
 		  "invisibility_duration": 2,
 		  "antiheal_ratio": 1.0,
@@ -344,9 +343,9 @@
 		  "passive_ability": "Apply slowness on arrow hit for a short duration.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Snowman has permanent Speed 1.",
-		  "speed_strength": 1,
+		  "speed_amplifier": 1,
 		  "speed_duration": 99999,
-		  "slowness_strength": 1,
+		  "slowness_amplifier": 1,
 		  "slowness_duration": 3
 	  }
 	},
@@ -372,9 +371,9 @@
 		  "stun_radius": 5,
 		  "stun_duration": 3,
 		  "heal": 80,
-		  "slowness_strength": 2,
+		  "slowness_amplifier": 2,
 		  "slowness_duration": 5,
-		  "blind_strength": 1,
+		  "blind_amplifier": 1,
 		  "blindness_duration": 5
 	  },
 	  "Dragon": {
@@ -390,8 +389,8 @@
 		  "heal": 0.05,
 		  "radius": 8,
 		  "blast_damage": 8,
-		  "ignition_duration": 4,
-		  "fire_resistance_strength": 1,
+		  "ignition_duration": 5,
+		  "fire_resistance_amplifier": 1,
 		  "fire_resistance_duration": 99999
 	  },
 	  "Hedgehog": {
@@ -404,7 +403,7 @@
 		  "active_ability": "Gain resistance 2 for 8 seconds.",
 		  "details1": "Does not thorn projectile damage only melee damage.",
 		  "cooldown": 20,
-		  "resistance_strength": 2,
+		  "resistance_amplifier": 2,
 		  "resistance_duration": 8,
 		  "passive_thorn": 0.50
 	  },
@@ -423,7 +422,7 @@
 		  "regeneration_duration": 10,
 		  "base_health_boost": 10,
 		  "additional_health_boost": 1,
-		  "slowness_strength": 1,
+		  "slowness_amplifier": 1,
 		  "slowness_duration": 99999
 	  },
 	  "Behemoth": {
