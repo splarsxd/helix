@@ -2,7 +2,7 @@
 	"Eastereggs": {
 		"Rules": {
 			"Permanent": "Permanent Easter Eggs can only be done once.",
-			"Temporary": "Temporary Easter Eggs can be multiple times."
+			"Temporary": "Temporary Easter Eggs can be done multiple times."
 		},
 
 		"Quest_for_Glory": "If either Slayer or Challenger kills one another, they will be granted a permanent sharpness level on their weapon."
