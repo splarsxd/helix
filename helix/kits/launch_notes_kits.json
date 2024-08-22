@@ -228,12 +228,10 @@
 		  "active": false,
 		  "passive_ability": "Increases speed level for every third hit.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Passive hits should last 3 seconds so if you hit someone 2 times, you cannot wait an indefinite amount of time to activate the passive for a third hit.",
-		  "details2": "Speed level decreases back to level 2 after 4 seconds of not hitting any players.",
+		  "details1": "Speed level decreases back to level 2 after 4 seconds of not hitting any players.",
+		  "details2": "Hyper has permanent Speed 2.",
 		  "amount_of_hits": 3,
-		  "passive_duration": 4,
-		  "speed_amplifier": 2,
-		  "speed_duration": 99999,
+		  "duration": 4,
 		  "additional_speed_level": 1,
 		  "speed_cap": 6
 	  },
@@ -416,7 +414,7 @@
 		  "cooldown": 25,
 		  "duration": 5,
 		  "additional_resistance": 1,
-		  "maximum_resistance_health_threshold": 4
+		  "resistance_for_maximum_health_lost": 0.20
 	  }
 	}
   }
