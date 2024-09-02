@@ -7,7 +7,7 @@
 		"icon": "FIREBALL",
 
 	  "Knight": {
-		  "desc": "Upon takedown, Knight fully heals and replenishes their set of soups.",
+		  "desc": "Knight replenishes their resources with each takedown.",
 		  "cost": 0,
 		  "icon": "DIAMOND_SWORD",
 		  "passive": true,
@@ -45,7 +45,7 @@
 		  "passive_ability": "Weakens opponents for every tenth hit onto you for a duration.",
 		  "active_ability": "Summon a lightning bolt on the selected target and deal half of their current health as pre-mitigation damage and set opponent ablaze for a duration.",
 		  "details1": "The weakness applies onto the enemies after the enemies have hit Viking 10 times, the weakness stacks caps at Weakness 3.",
-		  "cooldown": 40,
+		  "cooldown": 30,
 		  "amount_of_hits": 10,
 		  "weakness_amplifier": 1,
 		  "weakness_duration": 8,
@@ -61,15 +61,15 @@
 		  "active": false,
 		  "passive_ability": "Every tenth hit poison enemies and grants speed for a short duration.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Whilst the enemy is poisoned, Fatal Wounds is applied, halve the health restoration from soups.",
+		  "details1": "Whilst the enemy is poisoned, Fatal Wounds is applied.",
 		  "amount_of_hits": 10,
-		  "duration": 3,
+		  "duration": 5,
 		  "speed_amplifier": 1,
-		  "poison_amplifier": 4,
-		  "antiheal_ratio": 0.50
+		  "poison_amplifier": 1,
+		  "antiheal-ratio": 0.2
 	  },
 	  "Warrior": {
-		  "desc": "For every takedown Warrior is granted great buffs.",
+		  "desc": "Warrior is blessed by the heavens after each takedown.",
 		  "cost": 1252,
 		  "icon": "DIAMOND_HELMET",
 		  "passive": true,
@@ -84,7 +84,7 @@
 			"resistance_amplifier": 1,
 			"regeneration_amplifier": 3
 		  },
-		  "great_buffs_duration": 6
+		  "great_buffs_duration": 15
 	  },
 	  "Slayer": {
 		  "desc": "Slayer is unmatched in raw brutal strength.",
@@ -93,8 +93,8 @@
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Restores health when successfully landing a critical strike.",
-		  "active_ability": "Grants 2 additional levels of sharpness for a duration.",
-		  "cooldown": 70,
+		  "active_ability": "Grants additional levels of sharpness for a duration.",
+		  "cooldown": 40,
 		  "duration": 10,
 		  "heal": 2,
 		  "additional_sharpness_level": 2
@@ -105,11 +105,11 @@
 		  "icon": "GLOWSTONE_DUST",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Deal additional pre-mitigation damage every tenth hit.",
+		  "passive_ability": "Deal additional pre-mitigation damage every third hit.",
 		  "active_ability": "Permanently weaken your selected target untill either one dies.",
 		  "details1": "Cannot weaken Warrior while affected by Great Buffs.",
-		  "cooldown": 120,
-		  "amount_of_hits": 10,
+		  "cooldown": 80,
+		  "amount_of_hits": 3,
 		  "premitigation_damage": 2,
 		  "weakness_amplifier": 1
 	  },
@@ -126,9 +126,9 @@
 		  "details3": "Effects last as long as you are in spirit mode and are given back to the original player when exiting spirit mode.",
 		  "details4": "Refresh the duration of spirit mode by hitting a player.",
 		  "details5": "Shaman is unable to steal Great Buffs from Warrior nor apply a slow during Great Buffs, still puts the ability on cooldown.",
-		  "cooldown": 80,
+		  "cooldown": 50,
 		  "duration": 4,
-		  "heal": 0.20,
+		  "heal-ratio": 0.20,
 		  "damage_mitigation": 1,
 		  "slow_amplifier": 3,
 		  "slow_duration": 10
@@ -144,9 +144,25 @@
 		  "details1": "Will not spawn with any soups and also cannot use soups to restore health and can neither access refills.",
 		  "cooldown": 25,
 		  "duration": 10,
-		  "heal": 0.80,
-		  "empowered_heal": 1.60,
+		  "heal-ratio": 0.80,
+		  "bloodlust_heal-ratio": 1.60,
 		  "speed_amplifier": 2
+	  },
+	  "Alchemist": {
+		"desc": "Alchemist wield forbidden magical brews to gain the upper hand in battle.",
+		"cost": 1250,
+		"icon": "POTION #16460",
+		"passive": true,
+		"active": false,
+		"passive_ability": "For every takedown, you brew arcane potions.",
+		"active_ability": "No ability activation.",
+		"details1": "Spawns with 3 splash harming potions.",
+		"potions": [
+			"Splash Potion of Harming       | n/a | 2x | 100% Chance",
+			"Splash Potion of Speed 1       | 10s | 1x | 50% Chance",
+			"Splash Potion of Absorption 4  | 10s | 1x | 40% Chance",
+			"Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
+		]
 	  }
 	},
 
@@ -180,7 +196,8 @@
 		  "additional_tnt": 8,
 		  "gold_modifier": 3,
 		  "radius": 3,
-		  "explosion_damage": 4,
+		  "explosion_damage": 5,
+		  "reduced_explosion_damage": 2.5,
 		  "explosion_knockback_type": "Perimeter"
 	  },
 	  "Ninja": {
@@ -192,33 +209,29 @@
 		  "passive_ability": "Teleporting makes you dodge all incoming attacks and projectiles for a short duration.",
 		  "active_ability": "Teleport behind your last hit target or closest target.",
 		  "details1": "The ability should not be put on cooldown if no one is in range.",
-		  "details2": "Spawns with 8 enderpearls, every takedown grants a new enderpearl with a cap of 8.",
+		  "details2": "Spawns with 8 enderpearls, every takedown grants new enderpearls with a cap of 8.",
 		  "details3": "Enderpearl teleportation also apply the passive.",
 		  "details4": "Ninja is granted Feather Falling 10 on Boots.",
 		  "cooldown": 11,
-		  "enderpearl_cooldown": 4,
-		  "additional_enderpearl": 1,
+		  "enderpearl_cooldown": 2,
+		  "additional_enderpearl": 2,
 		  "radius": 8,
 		  "dodge_duration": 1
 	  },
 	  "Monkey": {
 		  "desc": "Monkey is a trickster whom has mastered the art of confusion.",
 		  "cost": 1650,
-		  "main_icon1": "BLAZE_ROD",
-		  "icon2": "Beacon",
-		  "icon3": "Paper",
+		  "icon1": "BLAZE_ROD",
+		  "icon2": "Paper",
 		  "passive": false,
 		  "active": true,
 		  "passive_ability": "No passive ability.",
 		  "active_ability1": "Change opponents currently held item to another slot in their hotbar.",
-		  "active_ability2": "Swap health with your opponent.",
-		  "active_ability3": "Become invisible for a short duration.",
-		  "details1": "If Monkey swaps more health than his maximum health can hold, Monkey will have his current health set to his maximum health.",
-		  "details2": "Monkey is granted Projectile Protection 8 on Leggings.",
-		  "active_ability1_cooldown": 5,
-		  "active_ability2_cooldown": 20,
-		  "active_ability3_cooldown": 10,
-		  "invisibility_duration": 4
+		  "active_ability2": "Become invisible for a short duration.",
+		  "details1": "Monkey is granted Projectile Protection 6 on Leggings.",
+		  "swapping_cooldown": 6,
+		  "invisibility_cooldown": 20,
+		  "duration": 2
 	  },
 	  "Hyper": {
 		  "desc": "Hyper is insanely agile on their feet.",
@@ -233,21 +246,20 @@
 		  "amount_of_hits": 3,
 		  "duration": 4,
 		  "additional_speed_level": 1,
-		  "speed_cap": 6
+		  "speed_cap": 4
 	  },
 	  "Rogue": {
 		  "desc": "Rogue is a master of stealth whom may go completely invisible.",
 		  "cost": 1650,
 		  "icon": "PAPER",
-		  "passive": true,
+		  "passive": false,
 		  "active": true,
-		  "passive_ability": "Your attacks deal additional damage based on the missing health of the target.",
-		  "active_ability": "Go completely invisible, you also gain speed for the duration.",
-		  "details1": "Can still damage themselves from Hedgehog passive ability.",
-		  "cooldown": 60,
+		  "passive_ability": "No passive ability.",
+		  "active_ability": "Go completely invisible, you also gain additional levels of sharpness for the duration.",
+		  "details1": "Rogue has permanent Speed 1.",
+		  "cooldown": 35,
 		  "duration": 8,
-		  "speed_amplifier": 2,
-		  "damage": 0.25
+		  "additional_sharpness_level": 2
 	  },
 	  "Phoenix": {
 		  "desc": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
@@ -255,13 +267,13 @@
 		  "icon": "MAGMA_CREAM",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Health restoration by soups is increased by 20%",
+		  "passive_ability": "Health restoration by soups is increased by 25%",
 		  "active_ability": "Gain the ability to double jump and dash horizontally.",
 		  "details1": "May not launch themselves upwards or downwards if applicable.",
 		  "details2": "Should negate all forms of fall damage.",
 		  "cooldown_double_jump": 0,
 		  "cooldown_dash": 8,
-		  "heal_ratio": 1.20,
+		  "heal-ratio": 1.25,
 		  "double_jump": 5,
 		  "dash_amount": 5
 	  },
@@ -273,6 +285,7 @@
 		  "active": true,
 		  "passive_ability": "For every takedown you are granted double gold and golden apples.",
 		  "active_ability": "Consuming a golden apple will cleanse all debuffs.",
+		  "details2": "Pirate has permanent Speed 1.",
 		  "gold_modifier": 2,
 		  "golden_apples": 3
 	  }
@@ -294,19 +307,20 @@
 		  "ignition_duration": 6
 	  },
 	  "Scout": {
-		  "desc": "Scout is extremely dangerous due to withering arrows which denies healing.",
+		  "desc": "Scout is extremely dangerous due to withering arrows which suffocates healing.",
 		  "cost": 2650,
 		  "icon": "CHAINMAIL_HELMET",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Every third hit on the same target applies wither and grants invisibility for a short duration.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Whilst the enemy is withered, Immortal Wounds is applied, all health restoration from soups is denied.",
+		  "details1": "Whilst the enemy is withered, Immortal Wounds is applied.",
 		  "details2": "Scout has permanent Speed 1.",
 		  "amount_of_hits": 3,
 		  "duration": 2,
+		  "invisibility_duration": 1,
 		  "wither_amplifier": 3,
-		  "antiheal_ratio": 1.0
+		  "antiheal-ratio": 0.6
 	  },
 	  "Artillery": {
 		  "desc": "Artillery has impeccable damage but has to be careful.",
@@ -348,12 +362,13 @@
 		  "active_ability": "Stun nearby players in a radius of 5 blocks for a short duration, if at least one player is stunned, restore full health.",
 		  "details1": "The stunned players may not be able to move at all, however they should be able to freely move their direction they are facing and still damage nearby players.",
 		  "details2": "Do not restore any health if nobody was stunned in the area, and put the ability on cooldown.",
-		  "details3": "Star has permanent Health Boost 15 and Slowness 1",
+		  "details3": "Star has permanent Health Boost 10 and Slowness 1",
 		  "cooldown": 45,
 		  "duration": 5,
 		  "stun_radius": 5,
 		  "stun_duration": 3,
-		  "heal": 80,
+		  "heal": 30,
+		  "amount_of_hits": 20,
 		  "slowness_amplifier": 2,
 		  "blind_amplifier": 1
 	  },
@@ -370,7 +385,7 @@
 		  "duration": 4,
 		  "blast_radius": 8,
 		  "blast_damage": 8,
-		  "heal": 0.05
+		  "heal-ratio": 0.05
 	  },
 	  "Hedgehog": {
 		  "desc": "Hedgehog is extremely resiliant and shrugs damage off with ease.",
@@ -381,10 +396,10 @@
 		  "passive_ability": "Thorn half of the opponents pre-mitigated melee damage back to the opponent.",
 		  "active_ability": "Gain resistance 2 for a duration.",
 		  "details1": "Does not thorn projectile damage only melee damage.",
-		  "cooldown": 20,
-		  "duration": 8,
+		  "cooldown": 30,
+		  "duration": 6,
 		  "resistance_amplifier": 2,
-		  "passive_thorn": 0.50
+		  "passive_thorn": 0.15
 	  },
 	  "Juggernaut": {
 		  "desc": "Juggernaut is incredibly massive, being able to face tank anything.",
