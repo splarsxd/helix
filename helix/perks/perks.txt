@@ -2,7 +2,7 @@ Domination:
 * Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
 * Cap of 10 stacks. (40x Melee | 10x Ranged)
 * When at max stacks you gain an additional sharpness or power level.
-* All Domination stacks reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
+* All Domination stacks reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
 * Icon: Diamond
 
 Sugar Rush:
@@ -11,41 +11,39 @@ Sugar Rush:
 * Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
 * Icon: Sugar
 
-Endurance:
+Resilience:
 * Gain resistance (2 Melee | 1 Ranged) for (2s Melee | 2s Ranged) seconds and regeneration (2 Melee | 1 Ranged) for (5s Melee | 5s Ranged) seconds upon taking damage.
 * Cooldown: 20 seconds. (When the effect has expired, the cooldown timer will start.)
-* Icon: Iron Ingot
+* Icon: Golden Apple
 
 Exterminate:
 * Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
 * Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
 * Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
-* Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
+* Hits will be reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
 * Icon: Redstone
-
-Anchor:
-* Horizontal knockback is removed from both you and your opponent.
-* Cooldown: None
-* Icon: Anvil
 
 Dissolve:
 * Gain 50% cooldown reduction on all abilities and Refills.
 * Cooldown: None
 * Icon: Glistering Melon
 
+Anchor:
+* Horizontal knockback is removed from both you and your opponent.
+* Cooldown: None
+* Icon: Anvil
+
 Immunity:
 * You are immune to all debuffs, this also disables anchor.
 * Cooldown: None
 * Icon: Milk Bucket
 
-Resilience:
-* Gain (2 Melee | 1 Ranged) rows of absorption hearts after not taking damage for 10 seconds.
-* While affected with absorption, gain protection (1 Melee | 1 Ranged) on all armour equipment.
-* Cooldown: 10 seconds. (Cooldown begins upon taking damage.)
-* Icon: Golden Apple
+Endurance:
+* Gain protection (1 Melee | 1 Ranged) on all armour equipment.
+* Cooldown: None.
+* Icon: Iron Ingot
 
 Combo Star:
-* Every consecutive hit on the same target will increase your damage by (5% Melee | 10% Ranged), up to 50% for (5s Melee | 10s Ranged) seconds.
-* Capped at (10x Melee | 5x Ranged).
+* Every 3rd hit you do to the same target without being hit by the target will hit your target an additional time.
 * Cooldown: None
 * Icon: Pufferfish
