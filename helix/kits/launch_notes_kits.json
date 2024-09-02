@@ -368,7 +368,7 @@
 		  "stun_radius": 5,
 		  "stun_duration": 3,
 		  "heal": 30,
-		  "amount_of_hits": 20,
+		  "amount_of_hits": 30,
 		  "slowness_amplifier": 2,
 		  "blind_amplifier": 1
 	  },
