@@ -4,29 +4,30 @@
 	"Brawler": {
 	  "Knight": null,
 	  "Alpha": "Active: 50s Cooldown, 15s Duration",
-	  "Viking": "Active: 40s Cooldown, 8s Duration | Passive: 8s",
-	  "Basilisk": "Passives: 1: (Poison: 3s Duration), 2: (Speed: 3s Duration), 3: (Antiheal: 3s Duration)",
-	  "Warrior": "Passive: 6s Duration",
-	  "Slayer": "Active: 70s Cooldown, 10s Duration",
-	  "Challenger": "Active: 120s Cooldown",
-	  "Shaman": "Active: 80s Cooldown, 4s Duration, Slow: 10s Duration",
-	  "Vampire": "Active: 25s Cooldown, 10s Duration"
+	  "Viking": "Active: 30s Cooldown, 8s Duration | Passive: 8s",
+	  "Basilisk": "Passives: 1: (Poison: 5s Duration), 2: (Speed: 5s Duration), 3: (Antiheal: 5s Duration)",
+	  "Warrior": "Passive: 15s Duration",
+	  "Slayer": "Active: 40s Cooldown, 10s Duration",
+	  "Challenger": "Active: 80s Cooldown",
+	  "Shaman": "Active: 50s Cooldown, 4s Duration, Slow: 10s Duration",
+	  "Vampire": "Active: 25s Cooldown, 10s Duration",
+	  "Alchemist": null
 	},
 	
     "Duelist": {
 	  "Fisherman": "Active: 7s Cooldown",
 	  "Bomber": null,
-	  "Ninja": "Active: 11s Cooldown | Passive: 1s Duration | Enderpearl Cooldown: 4s",
-	  "Monkey": "Actives: 1: (5s Cooldown), 2: (20s Cooldown), 3: (10s Cooldown, 4s Duration)",
+	  "Ninja": "Active: 11s Cooldown | Passive: 1s Duration | Enderpearl Cooldown: 2s",
+	  "Monkey": "Actives: 1: (6s Cooldown), 2: (20s Cooldown, 2s Duration)",
 	  "Hyper": "Passive: 4s Duration",
-	  "Rogue": "Active: 60s Cooldown, 8s Duration",
+	  "Rogue": "Active: 35s Cooldown, 8s Duration",
 	  "Phoenix": "Active: 8s Cooldown",
-	  "Pirate": "Active: 3s Duration"
+	  "Pirate": null
 	},
 
     "Ranged": {
 	  "Inferno": "Passive: 6s Duration",
-	  "Scout": "Passives: 1: (Wither: 2s Duration), 2: (Invisibility: 2s Duration), 3: (Antiheal: 2s Duration)",
+	  "Scout": "Passives: 1: (Wither: 2s Duration), 2: (Invisibility: 1s Duration), 3: (Antiheal: 2s Duration)",
 	  "Artillery": "Passive: 5s Cooldown",
 	  "Snowman": "Passive: 3s Duration"
 	},
@@ -34,7 +35,7 @@
     "Tank": {
 	  "Star": "Active: 45s Cooldown, 3s Duration | Passive: 5s Duration",
 	  "Dragon": "Active: 40s Cooldown, 4s Duration",
-	  "Hedgehog": "Active: 20s Cooldown, 8s Duration",
+	  "Hedgehog": "Active: 30s Cooldown, 6s Duration",
 	  "Juggernaut": "Active: 50s Cooldown, 10s Duration",
 	  "Behemoth": "Active: 25s Cooldown, 5s Duration"
 	}
