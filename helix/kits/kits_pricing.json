@@ -11,8 +11,9 @@
 	  "Challenger": 1250,
 	  "Shaman": 1250,
 	  "Vampire": 1250,
+	  "Alchemist": 1250,
 
-	  "Total": 10002
+	  "Total": 11252
 	},
 
 	"Duelist": {
@@ -47,6 +48,6 @@
 	  "Total": 12800
 	},
 
-	"Total": 42302
+	"Total": 43552
   }
 }
