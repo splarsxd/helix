@@ -4,15 +4,16 @@
 	"Brawler": {
 	  "desc": "Monstrous fighters in battle that deal a lot damage.",
 
-	  "Knight": "Upon takedown, Knight fully heals and replenishes their set of soups.",
+	  "Knight": "Knight replenishes their resources with each takedown.",
 	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
 	  "Viking": "Viking is a relentless force driven by rage, feared amongst everyone.",
 	  "Basilisk": "Basilisk strives in long term battles poisoning opponents.",
-	  "Warrior": "For every takedown Warrior is granted great buffs.",
+	  "Warrior": "Warrior is blessed by the heavens after each takedown.",
 	  "Slayer": "Slayer is unmatched in raw brutal strength.",
 	  "Challenger": "Challenger may weaken a soul until either one is vanquished.",
 	  "Shaman": "Shaman may enter spirit mode to gain advantage in combat.",
-	  "Vampire": "Vampire sustains by draining the lifeforce of their opponents."
+	  "Vampire": "Vampire sustains by draining the lifeforce of their opponents.",
+	  "Alchemist": "Alchemist wield forbidden brews, using magical potions to gain the upper hand in battle."
 	},
 	
     "Duelist": {
@@ -32,7 +33,7 @@
 	  "desc": "Damage opponents from afar whilst keeping your distance.",
 
 	  "Inferno": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
-	  "Scout": "Scout is extremely dangerous due to withering arrows which denies healing.",
+	  "Scout": "Scout is extremely dangerous due to withering arrows which suffocates healing.",
 	  "Artillery": "Artillery has impeccable damage but has to be careful.",
 	  "Snowman": "Snowman slows opponents and is quick on their feet."
 	},
