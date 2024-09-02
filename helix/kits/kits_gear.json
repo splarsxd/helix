@@ -64,6 +64,13 @@
             "chestplate": "LEATHER_CHESTPLATE: #993333",
             "leggings": "LEATHER_LEGGINGS: #993333",
             "boots": "LEATHER_BOOTS: #993333"
+        },
+        "Alchemist": {
+            "weapon": "IRON_SWORD",
+            "helmet": "LEATHER_HELMET: #6699D8",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "LEATHER_LEGGINGS",
+            "boots": "LEATHER_BOOTS: #6699D8"
         }
       },
   
@@ -159,7 +166,7 @@
   
       "Tank": {
         "Star": {
-            "weapon": "STONE_SWORD",
+            "weapon": "WOOD_SWORD",
             "helmet": "DIAMOND_HELMET",
             "chestplate": "DIAMOND_CHESTPLATE",
             "leggings": "DIAMOND_LEGGINGS",
@@ -173,7 +180,7 @@
             "boots": "IRON_BOOTS"
         },
         "Hedgehog": {
-            "weapon": "STONE_SWORD",
+            "weapon": "WOOD_SWORD",
             "helmet": "IRON_HELMET",
             "chestplate": "DIAMOND_CHESTPLATE",
             "leggings": "DIAMOND_LEGGINGS",
