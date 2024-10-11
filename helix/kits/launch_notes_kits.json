@@ -66,7 +66,7 @@
 		  "duration": 5,
 		  "speed_amplifier": 1,
 		  "poison_amplifier": 1,
-		  "antiheal-ratio": 0.2
+		  "antiheal-ratio": 0.20
 	  },
 	  "Warrior": {
 		  "desc": "Warrior is blessed by the heavens after each takedown.",
@@ -158,10 +158,10 @@
 		"active_ability": "No ability activation.",
 		"details1": "Spawns with 3 splash harming potions.",
 		"potions": [
-			"Splash Potion of Harming       | n/a | 2x | 100% Chance",
-			"Splash Potion of Speed 1       | 10s | 1x | 50% Chance",
-			"Splash Potion of Absorption 4  | 10s | 1x | 40% Chance",
-			"Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
+			"1. Splash Potion of Harming       | n/a | 2x | 100% Chance",
+			"2. Splash Potion of Speed 1       | 10s | 1x | 50% Chance",
+			"2. Splash Potion of Absorption 4  | 10s | 1x | 40% Chance",
+			"2. Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
 		]
 	  }
 	},
@@ -196,8 +196,9 @@
 		  "additional_tnt": 8,
 		  "gold_modifier": 3,
 		  "radius": 3,
-		  "explosion_damage": 5,
-		  "reduced_explosion_damage": 2.5,
+		  "explosion_damage": 5.0,
+		  "bomber_reduced_explosion_damage": 2.5,
+		  "self_reduced_explosion_damage": 1.0,
 		  "explosion_knockback_type": "Perimeter"
 	  },
 	  "Ninja": {
@@ -273,7 +274,7 @@
 		  "details2": "Should negate all forms of fall damage.",
 		  "cooldown_double_jump": 0,
 		  "cooldown_dash": 8,
-		  "heal-ratio": 1.25,
+		  "heal-ratio": 1.20,
 		  "double_jump": 5,
 		  "dash_amount": 5
 	  },
