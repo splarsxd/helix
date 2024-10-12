@@ -139,7 +139,7 @@
 		  "icon": "RED_ROSE",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Lifesteal 80% of damage dealt post-mitigation.",
+		  "passive_ability": "Lifesteal 80% of damage dealt post-mitigation and deal additional damage based on the missing health of the target.",
 		  "active_ability": "Entering a bloodlust grants speed and increases lifesteal to 160% for a duration.",
 		  "details1": "Will not spawn with any soups and also cannot use soups to restore health and can neither access refills.",
 		  "cooldown": 25,
@@ -274,7 +274,7 @@
 		  "details2": "Should negate all forms of fall damage.",
 		  "cooldown_double_jump": 0,
 		  "cooldown_dash": 8,
-		  "heal-ratio": 1.20,
+		  "heal-ratio": 1.25,
 		  "double_jump": 5,
 		  "dash_amount": 5
 	  },
