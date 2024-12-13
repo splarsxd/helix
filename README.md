@@ -1,5 +1,5 @@
 # helix
-## helix kitpvp documentation</br>
+## helix souppvp documentation</br>
 * Loadouts
 * Abilities
 * Descriptions
