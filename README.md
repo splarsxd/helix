@@ -1,5 +1,5 @@
 # helix
-## helix souppvp documentation</br>
+## helix soup kitpvp documentation</br>
 * Loadouts
 * Abilities
 * Descriptions
@@ -10,7 +10,7 @@
 * Counters
 * Functionlity
 * Perks
-* Easter Eggs
+* Quests
 * Statistics
 * Calculations
 * Damage Calculator (Python & Exe Crossplatform)
