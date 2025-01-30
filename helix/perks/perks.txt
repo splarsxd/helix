@@ -1,49 +1,52 @@
-Domination:
-* Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
-* Cap of 10 stacks. (40x Melee | 10x Ranged)
-* When at max stacks you gain an additional sharpness or power level.
-* All Domination stacks reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
-* Icon: Diamond
+Overpower: "Enhanced offensive power and burst damage"
+    Domination:
+    * Every hit grants stacks of Domination. (0.25x stacks for Melee | 1x stacks for Ranged)
+    * Cap of 10 stacks. (40x Melee | 10x Ranged)
+    * When at max stacks you gain an additional sharpness or power level.
+    * All Domination stacks reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
+    * Icon: Diamond
 
-Sugar Rush:
-* Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
-* Cooldown: 10 seconds. (When the effect has expired, the cooldown timer will start.)
-* Hits will be reset if you leave combat for more than (3s Melee | 6s Ranged) seconds.
-* Icon: Sugar
+    Exterminate:
+    * Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
+    * Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
+    * Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
+    * Hits will be reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
+    * Icon: Redstone
 
-Resilience:
-* Gain resistance (2 Melee | 1 Ranged) for (2s Melee | 2s Ranged) seconds and regeneration (2 Melee | 1 Ranged) for (5s Melee | 5s Ranged) seconds upon taking damage.
-* Cooldown: 20 seconds. (When the effect has expired, the cooldown timer will start.)
-* Icon: Golden Apple
+    Combo Star:
+    * Every 3rd hit you do to the same target without being hit by the target will hit your target an additional time.
+    * Cooldown: None
+    * Icon: Pufferfish
 
-Exterminate:
-* Applying 3 hits on the same target will cause your target to take (3 Melee | 4 Ranged) hearts of pre-mitigation damage.
-* Cooldown: 30 seconds. (The effect is instant damage, so the cooldown timer will start right after the damage has been applied.)
-* Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown.
-* Hits will be reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
-* Icon: Redstone
+Unbreakable: "Survivability and defense"
+    Resilience:
+    * Gain resistance (2 Melee | 1 Ranged) for (2s Melee | 2s Ranged) seconds and regeneration (2 Melee | 1 Ranged) for (5s Melee | 5s Ranged) seconds upon taking damage.
+    * Cooldown: 20 seconds. (When the effect has expired, the cooldown timer will start.)
+    * Icon: Golden Apple
 
-Dissolve:
-* Gain 50% cooldown reduction on all abilities and Refills.
-* Cooldown: None
-* Icon: Glistering Melon
+    Endurance:
+    * Gain protection (1 Melee | 1 Ranged) on all armour equipment.
+    * Cooldown: None.
+    * Icon: Iron Ingot
 
-Anchor:
-* Horizontal knockback is removed from both you and your opponent.
-* Cooldown: None
-* Icon: Anvil
+    Immunity:
+    * You are immune to all debuffs, this also disables anchor.
+    * Cooldown: None
+    * Icon: Milk Bucket
 
-Immunity:
-* You are immune to all debuffs, this also disables anchor.
-* Cooldown: None
-* Icon: Milk Bucket
+Momentum: "Tempo and control"
+    Sugar Rush:
+    * Applying 3 hits on any target will give you a surge of movement (Speed2 Melee | Speed1 Ranged) for (5s Melee | 5s Ranged) seconds.
+    * Cooldown: 10 seconds. (When the effect has expired, the cooldown timer will start.)
+    * Hits will be reset if you leave combat for more than (5s Melee | 10s Ranged) seconds.
+    * Icon: Sugar
 
-Endurance:
-* Gain protection (1 Melee | 1 Ranged) on all armour equipment.
-* Cooldown: None.
-* Icon: Iron Ingot
+    Dissolve:
+    * Gain 50% cooldown reduction on all abilities and Refills.
+    * Cooldown: None
+    * Icon: Glistering Melon
 
-Combo Star:
-* Every 3rd hit you do to the same target without being hit by the target will hit your target an additional time.
-* Cooldown: None
-* Icon: Pufferfish
+    Anchor:
+    * Horizontal knockback is removed from both you and your opponent.
+    * Cooldown: None
+    * Icon: Anvil
