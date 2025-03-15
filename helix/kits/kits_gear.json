@@ -71,6 +71,13 @@
             "chestplate": "IRON_CHESTPLATE",
             "leggings": "LEATHER_LEGGINGS",
             "boots": "LEATHER_BOOTS: #6699D8"
+        },
+        "Wrath": {
+            "weapon": "STONE_SWORD",
+            "helmet": "AIR",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "IRON_LEGGINGS",
+            "boots": "GOLD_BOOTS"
         }
       },
   
@@ -130,6 +137,13 @@
             "chestplate": "GOLD_CHESTPLATE",
             "leggings": "IRON_LEGGINGS",
             "boots": "IRON_BOOTS"
+        },
+        "Remnant": {
+            "weapon": "IRON_SWORD",
+            "helmet": "DIAMOND_HELMET",
+            "chestplate": "IRON_CHESTPLATE",
+            "leggings": "LEATHER_LEGGINGS: #4C4C4C",
+            "boots": "GOLD_BOOTS"
         }
       },
   
@@ -161,6 +175,13 @@
             "chestplate": "LEATHER_CHESTPLATE: #FFFFFF",
             "leggings": "LEATHER_LEGGINGS: #FFFFFF",
             "boots": "LEATHER_BOOTS: #FFFFFF"
+        },
+        "Wisp": {
+            "weapon": "WOOD_SWORD & BOW: Infinity",
+            "helmet": "AIR",
+            "chestplate": "AIR",
+            "leggings": "LEATHER_LEGGINGS: #4C7F99",
+            "boots": "AIR"
         }
       },
   
