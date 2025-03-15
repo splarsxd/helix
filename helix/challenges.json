@@ -1,0 +1,25 @@
+{
+    "Challenges": {
+        "Daily": {
+            "Gold_per_Challenge": 10,
+            "Kills": 25,
+            "Soups": 100,
+            "Tanked": 200,
+            "Abilities": 15,
+            "Arrows": 50
+        },
+        "Weekly": {
+            "Gold_per_Challenge": 20,
+            "Kills": 100,
+            "Soups": 1000,
+            "Tanked": 5000,
+            "Abilities": 200
+        },
+        "Seasonal": {
+            "Gold_per_Challenge": 50,
+            "Kills": 1000,
+            "Soups": 10000,
+            "Tanked": 100000
+        }
+    }
+}
