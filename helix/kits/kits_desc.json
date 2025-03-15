@@ -13,7 +13,8 @@
 	  "Challenger": "Challenger may weaken a soul until either one is vanquished.",
 	  "Shaman": "Shaman may enter spirit mode to gain advantage in combat.",
 	  "Vampire": "Vampire sustains by draining the lifeforce of their opponents.",
-	  "Alchemist": "Alchemist wield forbidden brews, using magical potions to gain the upper hand in battle."
+	  "Alchemist": "Alchemist wield forbidden brews, using magical potions to gain the upper hand in battle.",
+	  "Wrath": "Wrath overwhelms all opposition, crushing opponents with raw power."
 	},
 	
     "Duelist": {
@@ -26,16 +27,18 @@
 	  "Hyper": "Hyper is insanely agile on their feet.",
 	  "Rogue": "Rogue is a master of stealth whom may go completely invisible.",
 	  "Phoenix": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
-	  "Pirate": "Pirate excels at plundering, earning gold and golden apples for each takedown."
+	  "Pirate": "Pirate excels at plundering, earning gold and golden apples for each takedown.",
+	  "Remnant": "Remnant lingers between life and death, striking fear into opponents."
 	},
 
     "Ranged": {
 	  "desc": "Damage opponents from afar whilst keeping your distance.",
 
-	  "Inferno": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
+	  "Inferno": "Inferno shoots flaming arrows that sets opponents ablaze.",
 	  "Scout": "Scout is extremely dangerous due to withering arrows which suffocates healing.",
 	  "Artillery": "Artillery has impeccable damage but has to be careful.",
-	  "Snowman": "Snowman slows opponents and is quick on their feet."
+	  "Snowman": "Snowman slows opponents and is quick on their feet.",
+	  "Wisp": "Wisp shrouds opponents in total darkness."
 	},
 
     "Tank": {
