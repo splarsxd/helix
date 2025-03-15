@@ -4,14 +4,15 @@
 	"Brawler": {
 	  "Knight": null,
 	  "Alpha": "Active: 50s Cooldown, 15s Duration",
-	  "Viking": "Active: 30s Cooldown, 8s Duration | Passive: 8s",
+	  "Viking": "Active: 30s Cooldown, 8s Duration | Passive: 8s Duration",
 	  "Basilisk": "Passives: 1: (Poison: 5s Duration), 2: (Speed: 5s Duration), 3: (Antiheal: 5s Duration)",
 	  "Warrior": "Passive: 15s Duration",
 	  "Slayer": "Active: 40s Cooldown, 10s Duration",
 	  "Challenger": "Active: 80s Cooldown",
 	  "Shaman": "Active: 50s Cooldown, 4s Duration, Slow: 10s Duration",
 	  "Vampire": "Active: 25s Cooldown, 10s Duration",
-	  "Alchemist": null
+	  "Alchemist": null,
+	  "Wrath": "Active: 35s Cooldown, 8s Duration | Passive: 10s Duration"
 	},
 	
     "Duelist": {
@@ -22,14 +23,16 @@
 	  "Hyper": "Passive: 4s Duration",
 	  "Rogue": "Active: 35s Cooldown, 8s Duration",
 	  "Phoenix": "Active: 8s Cooldown",
-	  "Pirate": null
+	  "Pirate": null,
+	  "Remnant": "Active: 20s Cooldown, 10s Duration | Passive: 7s Duration"
 	},
 
     "Ranged": {
 	  "Inferno": "Passive: 6s Duration",
 	  "Scout": "Passives: 1: (Wither: 2s Duration), 2: (Invisibility: 1s Duration), 3: (Antiheal: 2s Duration)",
 	  "Artillery": "Passive: 5s Cooldown",
-	  "Snowman": "Passive: 3s Duration"
+	  "Snowman": "Passive: 3s Duration",
+	  "Wisp": "Active: 25s Cooldown, 4s Duration | Passive: 3s Duration"
 	},
 
     "Tank": {
@@ -37,7 +40,7 @@
 	  "Dragon": "Active: 40s Cooldown, 4s Duration",
 	  "Hedgehog": "Active: 30s Cooldown, 6s Duration",
 	  "Juggernaut": "Active: 50s Cooldown, 10s Duration",
-	  "Behemoth": "Active: 25s Cooldown, 5s Duration"
+	  "Behemoth": "Active: 35s Cooldown, 5s Duration"
 	}
   }
 }
