@@ -11,9 +11,10 @@
 	  "Warrior": "DIAMOND_HELMET",
 	  "Slayer": "BLAZE_POWDER",
 	  "Challenger": "GLOWSTONE_DUST",
-	  "Shaman": "GHAST_TEAR",
+	  "Shaman": "STRING",
 	  "Vampire": "RED_ROSE",
-	  "Alchemist": "POTION #16460"
+	  "Alchemist": "POTION #16460",
+	  "Wrath": "FIREWORK_CHARGE"
 	},
 	
 	"Duelist": {
@@ -26,7 +27,8 @@
 	  "Hyper": "FEATHER",
 	  "Rogue": "PAPER",
 	  "Phoenix": "MAGMA_CREAM",
-	  "Pirate": "GOLD_INGOT"
+	  "Pirate": "GOLD_INGOT",
+	  "Remnant": "FLINT"
 	},
 	
 	"Ranged": {
@@ -35,7 +37,8 @@
 	  "Inferno": "BOW",
 	  "Scout": "CHAINMAIL_HELMET",
 	  "Artillery": "ARROW",
-	  "Snowman": "SNOWBALL"
+	  "Snowman": "SNOWBALL",
+	  "Wisp": "GHAST_TEAR"
 	},
 	
 	"Tank": {
