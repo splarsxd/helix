@@ -3,51 +3,54 @@
   {
 	"Brawler": {
 	  "Knight": 0,
-	  "Alpha": 1250,
-	  "Viking": 1250,
-	  "Basilisk": 1250,
-	  "Warrior": 1252,
-	  "Slayer": 1250,
-	  "Challenger": 1250,
-	  "Shaman": 1250,
-	  "Vampire": 1250,
-	  "Alchemist": 1250,
+	  "Alpha": 120,
+	  "Viking": 120,
+	  "Basilisk": 120,
+	  "Warrior": 120,
+	  "Slayer": 120,
+	  "Challenger": 120,
+	  "Shaman": 120,
+	  "Vampire": 120,
+	  "Alchemist": 120,
+	  "Wrath": 120,
 
-	  "Total": 11252
+	  "Total": 1200
 	},
 
 	"Duelist": {
 	  "Fisherman": 0,
-	  "Bomber": 1650,
-	  "Ninja": 1650,
-	  "Monkey": 1650,
-	  "Hyper": 1650,
-	  "Rogue": 1650,
-	  "Phoenix": 1650,
-	  "Pirate": 1650,
+	  "Bomber": 175,
+	  "Ninja": 175,
+	  "Monkey": 175,
+	  "Hyper": 175,
+	  "Rogue": 175,
+	  "Phoenix": 175,
+	  "Pirate": 175,
+	  "Remnant": 175,
 
-	  "Total": 11550
+	  "Total": 1400
 	},
 
 	"Ranged": {
 	  "Inferno": 0,
-	  "Scout": 2650,
-	  "Artillery": 2650,
-	  "Snowman": 2650,
+	  "Scout": 250,
+	  "Artillery": 250,
+	  "Snowman": 250,
+	  "Wisp": 250,
 
-	  "Total": 7950
+	  "Total": 1000
 	},
 
 	"Tank": {
 	  "Star": 0,
-	  "Dragon": 3200,
-	  "Hedgehog": 3200,
-	  "Juggernaut": 3200,
-	  "Behemoth": 3200,
+	  "Dragon": 350,
+	  "Hedgehog": 350,
+	  "Juggernaut": 350,
+	  "Behemoth": 350,
 
-	  "Total": 12800
+	  "Total": 1400
 	},
 
-	"Total": 43552
+	"Total": 5000
   }
 }
