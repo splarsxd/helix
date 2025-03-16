@@ -21,7 +21,7 @@
 	  },
 	  "Alpha": {
 		  "desc": "Alpha becomes a lot more fierceful with the pack.",
-		  "cost": 1250,
+		  "cost": 120,
 		  "icon": "BONE",
 		  "passive": false,
 		  "active": true,
@@ -38,7 +38,7 @@
 	  },
 	  "Viking": {
 		  "desc": "Viking is a relentless force driven by rage, feared amongst everyone.",
-		  "cost": 1250,
+		  "cost": 120,
 		  "icon": "DIAMOND_AXE",
 		  "passive": true,
 		  "active": true,
@@ -55,7 +55,7 @@
 	  },
 	  "Basilisk": {
 		  "desc": "Basilisk strives in long term battles poisoning opponents.",
-		  "cost": 1250,
+		  "cost": 120,
 		  "icon": "FERMENTED_SPIDER_EYE",
 		  "passive": true,
 		  "active": false,
@@ -70,11 +70,11 @@
 	  },
 	  "Warrior": {
 		  "desc": "Warrior is blessed by the heavens after each takedown.",
-		  "cost": 1252,
+		  "cost": 120,
 		  "icon": "DIAMOND_HELMET",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "For every takedown you are granted strength, speed, resistance and regeneration for a duration.",
+		  "passive_ability": "For every takedown you are granted great buffs for a duration.",
 		  "active_ability": "No ability activation.",
 		  "details1": "The great buffs resets on takedown, it does not stack, also gain protection 1 on your helmet.",
 		  "details2": "Immune to all negative effects during great buffs.",
@@ -88,7 +88,7 @@
 	  },
 	  "Slayer": {
 		  "desc": "Slayer is unmatched in raw brutal strength.",
-		  "cost": 1250,
+		  "cost": 120,
 		  "icon": "BLAZE_POWDER",
 		  "passive": true,
 		  "active": true,
@@ -101,7 +101,7 @@
 	  },
 	  "Challenger": {
 		  "desc": "Challenger may weaken a soul until either one is vanquished.",
-		  "cost": 1250,
+		  "cost": 120,
 		  "icon": "GLOWSTONE_DUST",
 		  "passive": true,
 		  "active": true,
@@ -115,8 +115,8 @@
 	  },
 	  "Shaman": {
 		  "desc": "Shaman may enter spirit mode to gain advantage in combat.",
-		  "cost": 1250,
-		  "icon": "GHAST_TEAR",
+		  "cost": 120,
+		  "icon": "STRING",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Heal a portion of your damage dealt post-mitigation and take reduced damage.",
@@ -135,7 +135,7 @@
 	  },
 	  "Vampire": {
 		  "desc": "Vampire sustains by draining the lifeforce of their opponents.",
-		  "cost": 1250,
+		  "cost": 120,
 		  "icon": "RED_ROSE",
 		  "passive": true,
 		  "active": true,
@@ -150,20 +150,34 @@
 		  "speed_amplifier": 2
 	  },
 	  "Alchemist": {
-		"desc": "Alchemist wield forbidden magical brews to gain the upper hand in battle.",
-		"cost": 1250,
-		"icon": "POTION #16460",
-		"passive": true,
-		"active": false,
-		"passive_ability": "For every takedown, you brew arcane potions.",
-		"active_ability": "No ability activation.",
-		"details1": "Spawns with 3 splash harming potions.",
-		"potions": [
-			"1. Splash Potion of Harming       | n/a | 2x | 100% Chance",
-			"2. Splash Potion of Speed 1       | 10s | 1x | 50% Chance",
-			"2. Splash Potion of Absorption 4  | 10s | 1x | 40% Chance",
-			"2. Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
+		  "desc": "Alchemist wield forbidden magical brews to gain the upper hand in battle.",
+		  "cost": 120,
+		  "icon": "POTION #16460",
+		  "passive": true,
+		  "active": false,
+		  "passive_ability": "For every takedown, you brew arcane potions.",
+		  "active_ability": "No ability activation.",
+		  "details1": "Spawns with 3 splash harming potions and has a cap of 9 maximum potions.",
+		  "details2": "Players affected by Haste are granted flight.",
+		  "potions": [
+			  "1. Splash Potion of Harming       | n/a | 3x | 120% Chance",
+			  "2. Splash Potion of Absorption 4  | 10s | 1x | 55% Chance",
+			  "2. Splash Potion of Haste 1       | 10s | 1x | 35% Chance",
+			  "2. Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
 		]
+	  },
+	  "Wrath": {
+		  "desc": "Wrath overwhelms all opposition, crushing opponents with raw power.",
+		  "cost": 120,
+		  "icon": "FIREWORK_CHARGE",
+		  "passive": true,
+		  "active": true,
+		  "passive_ability": "For every 50 hits you start dealing pre-mitigation damage for a duration.",
+		  "active_ability": "Disables enemy ability activations for a duration.",
+		  "amount_of_hits": 50,
+		  "cooldown": 35,
+		  "disable_duration": 8,
+		  "pre-mitigation_duration": 10
 	  }
 	},
 
@@ -186,7 +200,7 @@
 	  },
 	  "Bomber": {
 		  "desc": "Bomber causes devastating area damage with explosive attacks.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon": "TNT",
 		  "passive": true,
 		  "active": false,
@@ -204,7 +218,7 @@
 	  },
 	  "Ninja": {
 		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon": "SLIME_BALL",
 		  "passive": true,
 		  "active": true,
@@ -222,7 +236,7 @@
 	  },
 	  "Monkey": {
 		  "desc": "Monkey is a trickster whom has mastered the art of confusion.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon1": "BLAZE_ROD",
 		  "icon2": "Paper",
 		  "passive": false,
@@ -237,7 +251,7 @@
 	  },
 	  "Hyper": {
 		  "desc": "Hyper is insanely agile on their feet.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon": "FEATHER",
 		  "passive": true,
 		  "active": false,
@@ -252,7 +266,7 @@
 	  },
 	  "Rogue": {
 		  "desc": "Rogue is a master of stealth whom may go completely invisible.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon": "PAPER",
 		  "passive": false,
 		  "active": true,
@@ -265,7 +279,7 @@
 	  },
 	  "Phoenix": {
 		  "desc": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon": "MAGMA_CREAM",
 		  "passive": true,
 		  "active": true,
@@ -281,15 +295,30 @@
 	  },
 	  "Pirate": {
 		  "desc": "Pirate excels at plundering, earning gold and golden apples for each takedown.",
-		  "cost": 1650,
+		  "cost": 175,
 		  "icon": "GOLD_INGOT",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "For every takedown you are granted double gold and golden apples.",
 		  "active_ability": "Consuming a golden apple will cleanse all debuffs.",
-		  "details2": "Pirate has permanent Speed 1.",
+		  "details1": "Pirate has permanent Speed 1.",
 		  "gold_modifier": 2,
 		  "golden_apples": 3
+	  },
+	  "Remnant": {
+		  "desc": "Remnant lingers between life and death, striking fear into opponents.",
+		  "cost": 175,
+		  "icon": "FLINT",
+		  "passive": true,
+		  "active": true,
+		  "passive_ability": "Upon fatal damage, become untargetable for a duration, taking revenge within this time revives you.",
+		  "active_ability": "Cast a fireball to knock opponents back and inflict blindness for a duration.",
+		  "details1": "Reviving sets the player health prior to taking fatal damage.",
+		  "cooldown": 20,
+		  "limbo_duration": 7,
+		  "blindness_amplifier": 1,
+		  "blindness_duration": 10,
+		  "knockback_amount": 1
 	  }
 	},
 
@@ -299,22 +328,23 @@
 		"icon": "BOW",
 
 	  "Inferno": {
-		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze on arrow hit.",
+		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze.",
 		  "cost": 0,
 		  "icon": "BOW",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Your arrows sets targets ablaze for a duration.",
+		  "passive_ability": "Sets targets ablaze on arrow hit for a duration.",
 		  "active_ability": "No ability activation.",
+		  "amount_of_hits": 1,
 		  "ignition_duration": 6
 	  },
 	  "Scout": {
 		  "desc": "Scout is extremely dangerous due to withering arrows which suffocates healing.",
-		  "cost": 2650,
+		  "cost": 250,
 		  "icon": "CHAINMAIL_HELMET",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Every third hit on the same target applies wither and grants invisibility for a short duration.",
+		  "passive_ability": "Every third arrow hit on the same target applies wither and grants invisibility for a short duration.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Whilst the enemy is withered, Immortal Wounds is applied.",
 		  "details2": "Scout has permanent Speed 1.",
@@ -326,7 +356,7 @@
 	  },
 	  "Artillery": {
 		  "desc": "Artillery has impeccable damage but has to be careful.",
-		  "cost": 2650,
+		  "cost": 250,
 		  "icon": "ARROW",
 		  "passive": true,
 		  "active": false,
@@ -337,15 +367,31 @@
 	  },
 	  "Snowman": {
 		  "desc": "Snowman slows opponents and is quick on their feet.",
-		  "cost": 2650,
+		  "cost": 250,
 		  "icon": "SNOWBALL",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Apply slowness on arrow hit for a short duration.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Snowman has permanent Speed 1.",
+		  "amount_of_hits": 1,
 		  "duration": 3,
 		  "slowness_amplifier": 1
+	  },
+	  "Wisp": {
+		  "desc": "Wisp shrouds opponents in total darkness.",
+		  "cost": 250,
+		  "icon": "FLINT",
+		  "passive": true,
+		  "active": true,
+		  "passive_ability": "Apply blindness on arrow hit for a short duration.",
+		  "active_ability": "Gain a haze of speed for a short duration.",
+		  "amount_of_hits": 1,
+		  "cooldown": 25,
+		  "speed_amplifier": 6,
+		  "speed_duration": 4,
+		  "blindness_amplifier": 1,
+		  "blindness_duration": 3
 	  }
 	},
 
@@ -360,7 +406,7 @@
 		  "icon": "NETHER_STAR",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Apply a strong slowness and blindness every 30th hit for a duration.",
+		  "passive_ability": "Apply a strong slowness and blindness every 30th hit for a short duration.",
 		  "active_ability": "Stun nearby players in a radius of 5 blocks for a short duration, if at least one player is stunned, restore full health.",
 		  "details1": "The stunned players may not be able to move at all, however they should be able to freely move their direction they are facing and still damage nearby players.",
 		  "details2": "Do not restore any health if nobody was stunned in the area, and put the ability on cooldown.",
@@ -376,12 +422,12 @@
 	  },
 	  "Dragon": {
 		  "desc": "Dragon is a scary combatant whom blasts targets aflame in an area.",
-		  "cost": 3200,
+		  "cost": 350,
 		  "icon": "FIREBALL",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Regenerate 5% maximum health every second.",
-		  "active_ability": "Blasts enemies in a radius of 8 blocks to deal 4 hearts of pre-mitigation damage and also ignites blasted opponents for a short duration.",
+		  "active_ability": "Blasts enemies in a radius to deal pre-mitigation damage and also sets blasted opponents ablaze for a short duration.",
 		  "details1": "Dragon has permanent Fire Resistance 1.",
 		  "cooldown": 40,
 		  "duration": 4,
@@ -391,7 +437,7 @@
 	  },
 	  "Hedgehog": {
 		  "desc": "Hedgehog is extremely resiliant and shrugs damage off with ease.",
-		  "cost": 3200,
+		  "cost": 350,
 		  "icon": "NETHER_BRICK_ITEM",
 		  "passive": true,
 		  "active": true,
@@ -405,7 +451,7 @@
 	  },
 	  "Juggernaut": {
 		  "desc": "Juggernaut is incredibly massive, being able to face tank anything.",
-		  "cost": 3200,
+		  "cost": 350,
 		  "icon": "ORANGE_DYE",
 		  "passive": true,
 		  "active": true,
@@ -420,17 +466,17 @@
 	  },
 	  "Behemoth": {
 		  "desc": "Behemoth is an ungodly titan, standing unbroken amidst the chaos.",
-		  "cost": 3200,
+		  "cost": 350,
 		  "icon": "EMERALD",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Gain resistance for every 20% of maximum health lost.",
-		  "active_ability": "Gain absorption hearts for a duration.",
-		  "details1": "Maximum Resistance level stacking reached at 20% of maximum health.",
-		  "cooldown": 25,
+		  "passive_ability": "Gain resistance for every 25% of maximum health lost.",
+		  "active_ability": "Gain absorption hearts for a short duration.",
+		  "details1": "Maximum Resistance level stacking reached at 25% of maximum health.",
+		  "cooldown": 35,
 		  "duration": 5,
 		  "additional_resistance": 1,
-		  "resistance_for_maximum_health_lost": 0.20
+		  "absorption_amplifier": 5
 	  }
 	}
   }
