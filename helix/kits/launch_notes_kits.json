@@ -160,7 +160,7 @@
 		  "details1": "Spawns with 3 splash harming potions and has a cap of 9 maximum potions.",
 		  "details2": "Players affected by Haste are granted flight.",
 		  "potions": [
-			  "1. Splash Potion of Harming       | n/a | 3x | 120% Chance",
+			  "1. Splash Potion of Harming       | n/a | 3x | 100% Chance",
 			  "2. Splash Potion of Absorption 4  | 10s | 1x | 55% Chance",
 			  "2. Splash Potion of Haste 1       | 10s | 1x | 35% Chance",
 			  "2. Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
@@ -177,7 +177,7 @@
 		  "amount_of_hits": 50,
 		  "cooldown": 35,
 		  "disable_duration": 8,
-		  "pre-mitigation_duration": 10
+		  "pre-mitigation_duration": 8
 	  }
 	},
 
