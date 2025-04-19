@@ -157,13 +157,11 @@
 		  "active": false,
 		  "passive_ability": "For every takedown, you brew arcane potions.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Spawns with 3 splash harming potions and has a cap of 9 maximum potions.",
-		  "details2": "Players affected by Haste are granted flight.",
+		  "details1": "Spawns with 3 splash harming potions and has a cap of 6 total potions.",
 		  "potions": [
-			  "1. Splash Potion of Harming       | n/a | 3x | 100% Chance",
-			  "2. Splash Potion of Absorption 4  | 10s | 1x | 55% Chance",
-			  "2. Splash Potion of Haste 1       | 10s | 1x | 35% Chance",
-			  "2. Splash Potion of Strength 1    | 4s  | 1x | 10% Chance"
+			  "Splash Potion of Harming       | n/a | 3x | 80% Chance",
+			  "Splash Potion of Absorption 4  | 10s | 1x | 18% Chance",
+			  "Splash Potion of Strength 1    | 4s  | 1x | 2% Chance"
 		]
 	  },
 	  "Wrath": {
