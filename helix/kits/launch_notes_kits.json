@@ -419,7 +419,7 @@
 		  "blind_amplifier": 1
 	  },
 	  "Dragon": {
-		  "desc": "Dragon is a scary combatant whom blasts targets aflame in an area.",
+		  "desc": "Dragon is a scary combatant whom blasts targets aflame.",
 		  "cost": 350,
 		  "icon": "FIREBALL",
 		  "passive": true,
@@ -439,13 +439,13 @@
 		  "icon": "NETHER_BRICK_ITEM",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Thorn half of the opponents pre-mitigated melee damage back to the opponent.",
+		  "passive_ability": "Reflect 15% of the opponents pre-mitigated melee damage.",
 		  "active_ability": "Gain resistance 2 for a duration.",
-		  "details1": "Does not thorn projectile damage only melee damage.",
+		  "details1": "Does not reflect projectile damage only melee damage.",
 		  "cooldown": 30,
 		  "duration": 6,
 		  "resistance_amplifier": 2,
-		  "passive_thorn": 0.15
+		  "passive_reflect": 0.15
 	  },
 	  "Juggernaut": {
 		  "desc": "Juggernaut is incredibly massive, being able to face tank anything.",
