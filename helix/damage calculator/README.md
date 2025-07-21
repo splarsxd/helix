@@ -1,5 +1,5 @@
 # damage calculator & damage checker
-calculator: minecraft damage calculator made by splars#1252 for helix souppvp documentation calculations</br>
+minecraft damage calculator made by splars#1252 for helix souppvp documentation and calculations</br>
 calculator: check damage pre-mitigation and post-mitigation and depending variety of variables for kitpvp</br>
 checker: check amount of damage and hits it takes for a value to get to the closest integer</br>
 Supports: Cross-platform (Windows, Mac and Linux.)
