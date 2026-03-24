@@ -10,7 +10,7 @@ Overpower "Enhanced offensive power and burst damage"
     * Hits will reset if you leave combat
 
     Combo Star:
-    * Every 3rd hit you do to the same target without being hit by the target will hit your target an additional time (IDK HOW TO WORD THIS BETTER HELP SINDRE LOL)
+    * Every 3rd hit you do to the same target without being hit by the target will hit your target an additional time
 
 Unbreakable "Survivability and defense"
     Resilience:
