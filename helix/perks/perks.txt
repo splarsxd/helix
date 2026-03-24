@@ -12,7 +12,7 @@ Overpower: "Enhanced offensive power and burst damage"
     * Icon: Redstone
 
     Combo Star:
-    * Every third consecutive hit on the same target without being hit, will hit the target an additional time.
+    * Every 3rd consecutive hit on the same target without being hit, will hit the target an additional time.
     * Cooldown: None
     * Icon: Pufferfish
 
