@@ -1,0 +1,37 @@
+Overpower "Enhanced offensive power and burst damage"
+    Domination:
+    * Constant fighting will grant you an additional sharpness or power level
+    * Resets if you leave combat
+
+    Exterminate:
+    * Applying 3 hits on the same target will cause your target to take damage
+    * Cooldown: 30 seconds
+    * Killing an opponent will reset the cooldown of Exterminate, regardless of the remaining cooldown
+    * Hits will reset if you leave combat
+
+    Combo Star:
+    * Every 3rd hit you do to the same target without being hit by the target will hit your target an additional time (IDK HOW TO WORD THIS BETTER HELP SINDRE LOL)
+
+Unbreakable "Survivability and defense"
+    Resilience:
+    * Gain resistance and regeneration for a short duration upon taking damage
+    * Cooldown: 20 seconds
+
+    Endurance:
+    * Tanking hits will grant you an protection
+    * Resets if you leave combat
+
+    Immunity:
+    * You are immune to all debuffs, this also disables anchor
+
+Momentum "Tempo and control"
+    Sugar Rush:
+    * Applying 3 hits on any target will give you a surge of speed for a short duration
+    * Cooldown: 10 seconds
+    * Hits will reset if you leave combat
+
+    Dissolve:
+    * Gain 50% cooldown reduction on all abilities and Refills
+
+    Anchor:
+    * Horizontal knockback is removed from both you and your opponent
