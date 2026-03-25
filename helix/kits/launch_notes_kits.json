@@ -25,11 +25,12 @@
 		  "icon": "BONE",
 		  "passive": false,
 		  "active": true,
-		  "passive_ability": "No passive ability.",
+		  "passive_ability": "Extend your summon duration per takedown.",
 		  "active_ability": "Summon wolves that attacks your last hit target.",
 		  "details1": "Both you and your wolves gain speed during the duration of the ability.",
 		  "details2": "The wolves should be able to damage themselves from the Hedgehog passive ability.",
 		  "cooldown": 50,
+		  "extend": 10,
 		  "duration": 15,
 		  "wolves_amount": 6,
 		  "wolf_health": 20,
@@ -37,7 +38,7 @@
 		  "speed_amplifier": 1
 	  },
 	  "Viking": {
-		  "desc": "Viking is a relentless force driven by rage, feared amongst everyone.",
+		  "desc": "Viking is a relentless force that weakens attackers and strikes his target with lightning.",
 		  "cost": 120,
 		  "icon": "DIAMOND_AXE",
 		  "passive": true,
@@ -66,55 +67,60 @@
 		  "duration": 5,
 		  "speed_amplifier": 1,
 		  "poison_amplifier": 1,
-		  "antiheal-ratio": 0.20
+		  "antiheal": 1
 	  },
 	  "Warrior": {
-		  "desc": "Warrior is blessed by the heavens after each takedown.",
+		  "desc": "Warrior is blessed by the heavens.",
 		  "cost": 120,
 		  "icon": "DIAMOND_HELMET",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "For every takedown you are granted great buffs for a duration.",
+		  "passive_ability": "Health restoration by soups is increased by 1 health and for every takedown you are granted heavenly buffs for a duration.",
 		  "active_ability": "No ability activation.",
-		  "details1": "The great buffs resets on takedown, it does not stack, also gain protection 1 on your helmet.",
-		  "details2": "Immune to all negative effects during great buffs.",
-		  "great_buffs": {
+		  "details1": "The heavenly buffs resets on takedown, it does not stack, also gain protection 1 on your helmet.",
+		  "details2": "Immune to all negative effects during heavenly buffs.",
+		  "health_restoration": 1,
+		  "heavenly_buffs": {
 			"strength_amplifier": 1,
 			"speed_amplifier": 1,
 			"resistance_amplifier": 1,
 			"regeneration_amplifier": 3
 		  },
-		  "great_buffs_duration": 15
+		  "heavenly_buffs_duration": 15
 	  },
 	  "Slayer": {
-		  "desc": "Slayer is unmatched in raw brutal strength.",
+		  "desc": "Slayer is unmatched in raw strength.",
 		  "cost": 120,
 		  "icon": "BLAZE_POWDER",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Restores health when successfully landing a critical strike.",
-		  "active_ability": "Grants additional levels of sharpness for a duration.",
+		  "passive_ability": "Maximize fury to critically strike for a duration.",
+		  "active_ability": "Gain additional levels of sharpness for a duration.",
+		  "details1": "Start decaying fury after 10 seconds of inactive combat.",
 		  "cooldown": 40,
-		  "duration": 10,
-		  "heal": 2,
-		  "additional_sharpness_level": 2
+		  "fury_hits": 100,
+		  "fury_decay": 1,
+		  "fury_duration": 10,
+		  "sharpness_duration": 10,
+		  "sharpness_level": 2
 	  },
 	  "Challenger": {
-		  "desc": "Challenger may weaken a soul until either one is vanquished.",
+		  "desc": "Challenger weakens a soul until either one is vanquished.",
 		  "cost": 120,
 		  "icon": "GLOWSTONE_DUST",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Deal additional pre-mitigation damage every third hit.",
 		  "active_ability": "Permanently weaken your selected target untill either one dies.",
-		  "details1": "Cannot weaken Warrior while affected by Great Buffs.",
+		  "details1": "Cannot weaken Warrior while affected by Heavenly Buffs.",
+		  "details2": "If you select another target, the original target's weakness is removed.",
 		  "cooldown": 80,
 		  "amount_of_hits": 3,
 		  "premitigation_damage": 2,
 		  "weakness_amplifier": 1
 	  },
 	  "Shaman": {
-		  "desc": "Shaman may enter spirit mode to gain advantage in combat.",
+		  "desc": "Shaman is a mystical combatant that steals buffs.",
 		  "cost": 120,
 		  "icon": "STRING",
 		  "passive": true,
@@ -125,7 +131,7 @@
 		  "details2": "Puts ability on cooldown even if the target has no effects to steal, since slow is still applied.",
 		  "details3": "Effects last as long as you are in spirit mode and are given back to the original player when exiting spirit mode.",
 		  "details4": "Refresh the duration of spirit mode by hitting a player.",
-		  "details5": "Shaman is unable to steal Great Buffs from Warrior nor apply a slow during Great Buffs, still puts the ability on cooldown.",
+		  "details5": "Shaman is unable to steal Heavenly Buffs from Warrior nor apply a slow during Heavenly Buffs, still puts the ability on cooldown.",
 		  "cooldown": 50,
 		  "duration": 4,
 		  "heal-ratio": 0.20,
@@ -134,7 +140,7 @@
 		  "slow_duration": 10
 	  },
 	  "Vampire": {
-		  "desc": "Vampire sustains by draining the lifeforce of their opponents.",
+		  "desc": "Vampire drains the lifeforce of their opponents.",
 		  "cost": 120,
 		  "icon": "RED_ROSE",
 		  "passive": true,
@@ -150,14 +156,15 @@
 		  "speed_amplifier": 2
 	  },
 	  "Alchemist": {
-		  "desc": "Alchemist wield forbidden magical brews to gain the upper hand in battle.",
+		  "desc": "Alchemist is a master of brews that crafts arcane potions from fallen foes.",
 		  "cost": 120,
 		  "icon": "POTION #16460",
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "For every takedown, you brew arcane potions.",
 		  "active_ability": "No ability activation.",
-		  "details1": "Spawns with 3 splash harming potions and has a cap of 6 total potions.",
+		  "details1": "Spawns with 3 splash harming potions and has a cap of 6 total harming potions.",
+		  "details2": "The potions should override soups in inventory priority.",
 		  "potions": [
 			  "Splash Potion of Harming       | n/a | 3x | 80% Chance",
 			  "Splash Potion of Absorption 4  | 10s | 1x | 18% Chance",
@@ -185,24 +192,25 @@
 		"icon": "DIAMOND_SWORD",
 
 	  "Fisherman": {
-		  "desc": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
+		  "desc": "Fisherman can teleport hooked enemies to them or may leap forward on marked location.",
 		  "cost": 0,
 		  "icon": "FISHING_ROD",
 		  "passive": false,
 		  "active": true,
-		  "passive_ability": "No passive ability.",
+		  "passive_ability": "Apply slowness for a short duration on-hook.",
 		  "active_ability": "Teleports hooked players to your location or leap forward.",
 		  "details1": "Teleported players will be facing the direction you are facing when teleporting them.",
 		  "details2": "Fisherman is granted Projectile Protection 10, Feather Falling 2 on Leggings.",
-		  "cooldown": 7
+		  "cooldown": 7,
+		  "duration": 2
 	  },
 	  "Bomber": {
-		  "desc": "Bomber causes devastating area damage with explosive attacks.",
+		  "desc": "Bomber causes devastating area damage with explosives.",
 		  "cost": 175,
 		  "icon": "TNT",
 		  "passive": true,
 		  "active": false,
-		  "passive_ability": "Takedown with TNT grants more TNT and triple gold.",
+		  "passive_ability": "Takedowns grants TNT and takedowns with TNT grants triple gold.",
 		  "active_ability": "No ability activation.",
 		  "details1": "Bomber is granted Blast Protection 10 and Feather Falling 5 on Boots.",
 		  "tnt": 16,
@@ -215,7 +223,7 @@
 		  "explosion_knockback_type": "Perimeter"
 	  },
 	  "Ninja": {
-		  "desc": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
+		  "desc": "Ninja is a shadow assassin that teleports behind targets to dodge incoming attacks.",
 		  "cost": 175,
 		  "icon": "SLIME_BALL",
 		  "passive": true,
@@ -248,7 +256,7 @@
 		  "duration": 2
 	  },
 	  "Hyper": {
-		  "desc": "Hyper is insanely agile on their feet.",
+		  "desc": "Hyper is an agile scout that gains immense speed as they strike targets.",
 		  "cost": 175,
 		  "icon": "FEATHER",
 		  "passive": true,
@@ -268,26 +276,24 @@
 		  "icon": "PAPER",
 		  "passive": false,
 		  "active": true,
-		  "passive_ability": "No passive ability.",
-		  "active_ability": "Go completely invisible, you also gain additional levels of sharpness for the duration.",
+		  "passive_ability": "Attacks from behind deal 2 more damage.",
+		  "active_ability": "Go completely invisible for a duration.",
 		  "details1": "Rogue has permanent Speed 1.",
 		  "cooldown": 35,
 		  "duration": 8,
-		  "additional_sharpness_level": 2
+		  "damage_amplifier": 2
 	  },
 	  "Phoenix": {
-		  "desc": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
+		  "desc": "Phoenix is a soaring bird of fire that dashes with boundless freedom through the air.",
 		  "cost": 175,
 		  "icon": "MAGMA_CREAM",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Health restoration by soups is increased by 25%",
-		  "active_ability": "Gain the ability to double jump and dash horizontally.",
-		  "details1": "May not launch themselves upwards or downwards if applicable.",
-		  "details2": "Should negate all forms of fall damage.",
+		  "passive_ability": "Fall damage is negated.",
+		  "active_ability": "Gain the ability to double jump and dash.",
+		  "details1": "Can only double jump from ground not air.",
 		  "cooldown_double_jump": 0,
 		  "cooldown_dash": 8,
-		  "heal-ratio": 1.25,
 		  "double_jump": 5,
 		  "dash_amount": 5
 	  },
@@ -311,7 +317,8 @@
 		  "active": true,
 		  "passive_ability": "Upon fatal damage, become untargetable for a duration, taking revenge within this time revives you.",
 		  "active_ability": "Cast a fireball to knock opponents back and inflict blindness for a duration.",
-		  "details1": "Reviving sets the player health prior to taking fatal damage.",
+		  "details1": "Entering Limbo restores the player to full health and removes all armor for the duration until revive / death.",
+		  "details2": "Reviving sets the player health prior to taking fatal damage and restore all armour.",
 		  "cooldown": 20,
 		  "limbo_duration": 7,
 		  "blindness_amplifier": 1,
@@ -332,12 +339,19 @@
 		  "passive": true,
 		  "active": false,
 		  "passive_ability": "Sets targets ablaze on arrow hit for a duration.",
-		  "active_ability": "No ability activation.",
+		  "active_ability": "Start shooting explosive hellfire arrows.",
+		  "cooldown": 15,
+		  "duration": 4,
 		  "amount_of_hits": 1,
-		  "ignition_duration": 6
+		  "ignition_duration": 6,
+		  "radius": 2,
+		  "explosion_damage": 3.0,
+		  "bomber_reduced_explosion_damage": 1.5,
+		  "self_reduced_explosion_damage": 1.0,
+		  "explosion_knockback_type": "Perimeter"
 	  },
 	  "Scout": {
-		  "desc": "Scout is extremely dangerous due to withering arrows which suffocates healing.",
+		  "desc": "Scout is a lethal archer that uses withering arrows to suffocate their prey and vanish from sight.",
 		  "cost": 250,
 		  "icon": "CHAINMAIL_HELMET",
 		  "passive": true,
@@ -350,7 +364,7 @@
 		  "duration": 2,
 		  "invisibility_duration": 1,
 		  "wither_amplifier": 3,
-		  "antiheal-ratio": 0.6
+		  "antiheal": 2
 	  },
 	  "Artillery": {
 		  "desc": "Artillery has impeccable damage but has to be careful.",
@@ -377,7 +391,7 @@
 		  "slowness_amplifier": 1
 	  },
 	  "Wisp": {
-		  "desc": "Wisp shrouds opponents in total darkness.",
+		  "desc": "Wisp is a spectral archer that shrouds its opponents in total darkness.",
 		  "cost": 250,
 		  "icon": "FLINT",
 		  "passive": true,
@@ -399,7 +413,7 @@
 		"icon": "DIAMOND_CHESTPLATE",
 
 	  "Star": {
-		  "desc": "Star is forged with immense density emitting powerful darkness.",
+		  "desc": "Star is a dense celestial titan that stuns nearby players to restore its health.",
 		  "cost": 0,
 		  "icon": "NETHER_STAR",
 		  "passive": true,
@@ -419,7 +433,7 @@
 		  "blind_amplifier": 1
 	  },
 	  "Dragon": {
-		  "desc": "Dragon is a scary combatant whom blasts targets aflame.",
+		  "desc": "Dragon is a legendary combatant whom blasts targets aflame.",
 		  "cost": 350,
 		  "icon": "FIREBALL",
 		  "passive": true,
@@ -434,7 +448,7 @@
 		  "heal-ratio": 0.05
 	  },
 	  "Hedgehog": {
-		  "desc": "Hedgehog is extremely resiliant and shrugs damage off with ease.",
+		  "desc": "Hedgehog is extremely resilient that reflects melee damage back at attackers.",
 		  "cost": 350,
 		  "icon": "NETHER_BRICK_ITEM",
 		  "passive": true,
@@ -448,7 +462,7 @@
 		  "passive_reflect": 0.15
 	  },
 	  "Juggernaut": {
-		  "desc": "Juggernaut is incredibly massive, being able to face tank anything.",
+		  "desc": "Juggernaut is a massive giant that gains permanent health for every takedown.",
 		  "cost": 350,
 		  "icon": "ORANGE_DYE",
 		  "passive": true,
@@ -463,7 +477,7 @@
 		  "additional_health_boost": 1
 	  },
 	  "Behemoth": {
-		  "desc": "Behemoth is an ungodly titan, standing unbroken amidst the chaos.",
+		  "desc": "Behemoth is an ungodly titan that gains resistance as its health drops.",
 		  "cost": 350,
 		  "icon": "EMERALD",
 		  "passive": true,
