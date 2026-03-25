@@ -1,7 +1,8 @@
 {
 	"Quests": {
-		"Battle_of_the_Ages": "If either Slayer or Challenger kills one another, they will be granted a permanent sharpness level on their weapon.",
-		"Flames_of_the_Ancient": "If either Phoenix or Dragon kills one another, they will be granted a permanent 5% additional ratio on their passive.",
-		"Song_of_the_Sea": "If either Fisherman or Pirate kills one another, they will be granted 10 gold."
+		"Battle_of_the_Ages": "If either Slayer or Challenger kills one another, they will be granted the Legendary title.",
+		"Flames_of_the_Ancient": "If either Phoenix or Dragon kills one another, they will be granted the Immortal title.",
+		"Song_of_the_Sea": "If either Fisherman or Pirate kills one another, they will be granted the Sovereign title.",
+		"Judgement_of_the_Heavens": "If either Warrior or Wrath kills one another, they will be granted the Exalted title."
 	}
 }
