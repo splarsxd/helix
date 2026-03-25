@@ -271,7 +271,7 @@
 		  "speed_cap": 4
 	  },
 	  "Rogue": {
-		  "desc": "Rogue is a master of stealth whom may go completely invisible.",
+		  "desc": "Rogue is a master of stealth and strikes harder from the back.",
 		  "cost": 175,
 		  "icon": "PAPER",
 		  "passive": false,
@@ -413,7 +413,7 @@
 		"icon": "DIAMOND_CHESTPLATE",
 
 	  "Star": {
-		  "desc": "Star is a dense celestial titan that stuns nearby players to restore its health.",
+		  "desc": "Star is a celestial titan that stuns nearby players to restore its health.",
 		  "cost": 0,
 		  "icon": "NETHER_STAR",
 		  "passive": true,
