@@ -6,28 +6,28 @@
 
 	  "Knight": "Knight replenishes their resources with each takedown.",
 	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
-	  "Viking": "Viking is a relentless force driven by rage, feared amongst everyone.",
+	  "Viking": "Viking is a relentless force that weakens attackers and strikes his target with lightning.",
 	  "Basilisk": "Basilisk strives in long term battles poisoning opponents.",
-	  "Warrior": "Warrior is blessed by the heavens after each takedown.",
-	  "Slayer": "Slayer is unmatched in raw brutal strength.",
-	  "Challenger": "Challenger may weaken a soul until either one is vanquished.",
-	  "Shaman": "Shaman may enter spirit mode to gain advantage in combat.",
-	  "Vampire": "Vampire sustains by draining the lifeforce of their opponents.",
-	  "Alchemist": "Alchemist wield forbidden brews, using magical potions to gain the upper hand in battle.",
+	  "Warrior": "Warrior is blessed by the heavens.",
+	  "Slayer": "Slayer is unmatched in raw strength.",
+	  "Challenger": "Challenger weakens a soul until either one is vanquished.",
+	  "Shaman": "Shaman is a mystical combatant that steals buffs.",
+	  "Vampire": "Vampire drains the lifeforce of their opponents.",
+	  "Alchemist": "Alchemist is a master of brews that crafts arcane potions from fallen foes.",
 	  "Wrath": "Wrath overwhelms all opposition, crushing opponents with raw power."
 	},
 	
     "Duelist": {
 	  "desc": "Specialises in aggressive playstyles to outplay an opponent.",
 
-	  "Fisherman": "Fisherman may teleport hooked enemies to them or may leap forward on marked location.",
-	  "Bomber": "Bomber causes devastating area damage with explosive attacks.",
-	  "Ninja": "Ninja is able to quickly position themselves behind their target in the blink of an eye.",
+	  "Fisherman": "Fisherman can teleport hooked enemies to them or may leap forward on marked location.",
+	  "Bomber": "Bomber causes devastating area damage with explosives.",
+	  "Ninja": "Ninja is a shadow assassin that teleports behind targets to dodge incoming attacks.",
 	  "Monkey": "Monkey is a trickster whom has mastered the art of confusion.",
-	  "Hyper": "Hyper is insanely agile on their feet.",
-	  "Rogue": "Rogue is a master of stealth whom may go completely invisible.",
-	  "Phoenix": "Phoenix soars unfettered, dashing with boundless freedom in any direction.",
-	  "Pirate": "Pirate excels at plundering, earning gold and golden apples for each takedown.",
+	  "Hyper": "Hyper is an agile scout that gains immense speed as they strike targets.",
+	  "Rogue": "Rogue is a master of stealth and strikes harder from the back.",
+	  "Phoenix": "Phoenix is a soaring bird of fire that dashes with boundless freedom through the air.",
+	  "Pirate": "Pirate excels at plundering, earning gold and golden apples for each takedown",
 	  "Remnant": "Remnant lingers between life and death, striking fear into opponents."
 	},
 
@@ -35,20 +35,20 @@
 	  "desc": "Damage opponents from afar whilst keeping your distance.",
 
 	  "Inferno": "Inferno shoots flaming arrows that sets opponents ablaze.",
-	  "Scout": "Scout is extremely dangerous due to withering arrows which suffocates healing.",
+	  "Scout": "Scout is a lethal archer that uses withering arrows to suffocate their prey and vanish from sight.",
 	  "Artillery": "Artillery has impeccable damage but has to be careful.",
 	  "Snowman": "Snowman slows opponents and is quick on their feet.",
-	  "Wisp": "Wisp shrouds opponents in total darkness."
+	  "Wisp": "Wisp is a spectral archer that shrouds its opponents in total darkness."
 	},
 
     "Tank": {
 	  "desc": "Endure brutal amounts of unimaginable damage.",
 
-	  "Star": "Star is forged with immense density emitting powerful darkness.",
-	  "Dragon": "Dragon is a scary combatant whom blasts targets aflame.",
-	  "Hedgehog": "Hedgehog is extremely resiliant and shrugs damage off with ease.",
-	  "Juggernaut": "Juggernaut is incredibly massive, being able to face tank anything.",
-	  "Behemoth": "Behemoth is an ungodly titan, standing unbroken amidst the chaos."
+	  "Star": "Star is a celestial titan that stuns nearby players to restore its health.",
+	  "Dragon": "Dragon is a legendary combatant whom blasts targets aflame.",
+	  "Hedgehog": "Hedgehog is extremely resilient that reflects melee damage back at attackers.",
+	  "Juggernaut": "Juggernaut is a massive giant that gains permanent health for every takedown.",
+	  "Behemoth": "Behemoth is an ungodly titan that gains resistance as its health drops."
 	}
   }
 }
