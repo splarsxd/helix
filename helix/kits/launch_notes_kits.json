@@ -202,6 +202,7 @@
 		  "details1": "Teleported players will be facing the direction you are facing when teleporting them.",
 		  "details2": "Fisherman is granted Projectile Protection 10, Feather Falling 2 on Leggings.",
 		  "cooldown": 7,
+		  "passive_cooldown": 4,
 		  "duration": 2
 	  },
 	  "Bomber": {
