@@ -235,30 +235,31 @@
 		  }
 	  },
   	  "Wrath": {
-		  "desc": "Wrath overwhelms all opposition by an adaptive combat style.",
+		  "desc": "Wrath overwhelms all opposition when Enraged.",
 		  "type": "Brawler",
           "cost": 120,
     	  "icon": "FIREWORK_CHARGE",
     	  "passive": true,
     	  "active": true,
-    	  "passive_ability": "Hitting an opponent shifts your form based on their class archetype.",
-    	  "active_ability": "Activate a unique power based on your current form.",
-    	  "details1": "Hitting Brawlers/Tanks grants Brawler form. Hitting Duelists/Ranged grants Duelist form.",
-		  "details2": "Spawn with no active ability but gain one when you hit someone.",
-		  "details3": "Ability item overrides soups in inventory priority. (Hotbar Slot: 2)",
+    	  "passive_ability": "Stack fury by fighting and become Enraged for a duration.",
+    	  "active_ability": "Consumes all fury and disables enemy ability activations for a duration in a radius.",
+    	  "details1": "When Enraged and you are unable to soup and use the active ability.",
+		  "details2": "When you become Enraged, burst a roar as an audio clue.",
+		  "details3": "Start decaying fury after 10 seconds of inactive combat.",
     	  "passive_ability_info": {
-			"cooldown": 10,
-			"brawler_form": "Lifesteal 20% of damage dealt post-mitigation and deal pre-mitigation damage every fifth hit.",
-			"duelist_form": "Permanent Speed 2."
+			"fury_per_hit_dealt": 6,
+			"fury_per_hit_taken": 4,
+			"max_fury": 100,
+			"fury_decay_idle": 5,
+			"fury_enraged_decay": 6.66,
+			"enraged_duration": 15,
+			"enraged_power": "Lifesteal 75% of damage dealt and deal pre-mitigation damage."
     	  },
 		  "active_ability_info": {
-			"brawler_active": "Disables enemy ability activations for a duration in a radius.",
-			"brawler_cooldown": 35,
-			"brawler_disable_duration": 14,
-			"brawler_disable_radius": 6,
-			"duelist_active": "Dash in the direction you are looking.",
-			"duelist_cooldown": 6,
-			"duelist_dash_amount": 4
+			"cooldown": 35,
+			"set_fury": 0,
+			"disable_duration": 8,
+			"disable_radius": 6
 		  }
 	  }
 	},
@@ -615,7 +616,7 @@
 		  "icon": "NETHER_BRICK_ITEM",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Reflect damage pre-mitigated melee damage.",
+		  "passive_ability": "Reflects pre-mitigated melee damage.",
 		  "active_ability": "Gain resistance 2 for a duration.",
 		  "details1": "Does not reflect projectile damage only melee damage.",
 		  "passive_ability_info": {
