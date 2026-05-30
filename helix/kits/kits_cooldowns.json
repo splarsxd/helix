@@ -12,7 +12,7 @@
 	  "Shaman": "Active: 50s Cooldown, 4s Duration, Slow: 10s Duration",
 	  "Vampire": "Active: 25s Cooldown, 10s Duration",
 	  "Alchemist": "Active: 10s Cooldown",
-	  "Wrath": "Active: 35s Cooldown, 6s Duration | Passive: 15s Duration"
+	  "Wrath": "Active: 35s Cooldown, 8s Duration | Passive: 15s Duration"
 	},
 	
     "Duelist": {
