@@ -2,7 +2,7 @@
   "Kits":
   {
 	"Brawler": {
-		"desc": "Brawlers are monstrous fighters in battle that deal a lot damage.",
+		"desc": "Brawlers are monstrous fighters in battle that deal a lot of damage.",
 		"type": "Melee",
 		"icon": "FIREBALL",
 
@@ -36,7 +36,7 @@
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Extend your summon duration per takedown.",
-		  "active_ability": "Summon wolves that attacks your last hit target.",
+		  "active_ability": "Summon wolves that attack your last hit target.",
 		  "details1": "Both you and your wolves gain speed during the duration of the ability.",
 		  "details2": "The wolves should be able to damage themselves from the Hedgehog passive ability.",
 		  "passive_ability_info": {
@@ -73,7 +73,7 @@
 		  }
 	  },
 	  "Basilisk": {
-		  "desc": "Basilisk strives in long term battles poisoning opponents.",
+		  "desc": "Basilisk thrives in long term battles poisoning opponents.",
 		  "cost": 120,
 		  "icon": "FERMENTED_SPIDER_EYE",
 		  "passive": true,
@@ -97,7 +97,7 @@
 		  }
 	  },
 	  "Warrior": {
-		  "desc": "Warrior is holy champion blessed by the heavens.",
+		  "desc": "Warrior is a holy champion blessed by the heavens.",
 		  "cost": 120,
 		  "icon": "DIAMOND_HELMET",
 		  "passive": true,
@@ -128,7 +128,7 @@
 		  "passive_ability_info": {
 			"fury_per_hit": 5,
 			"max_fury": 100,
-			"fury_decay_idle": 5,
+			"fury_decay_idle": 10,
 			"fury_decay_duration": 10
 		  },
 		  "active_ability_info": {
@@ -138,7 +138,7 @@
 		  }
 	  },
 	  "Challenger": {
-		  "desc": "Challenger is a master duelist that weakens a souls.",
+		  "desc": "Challenger is a master duelist that weakens souls.",
 		  "cost": 120,
 		  "icon": "GLOWSTONE_DUST",
 		  "passive": true,
@@ -168,7 +168,7 @@
 		  "details2": "Refresh the duration of the effects by hitting a player.",
 		  "details3": "Effects are given back to the original player when decayed.",
 		  "details4": "Shaman is unable to steal Heavenly Buffs from Warrior nor apply a slow during Heavenly Buffs, still puts the ability on cooldown.",
-		  "details5": "When you take fatal damage, one of your horcruxes available(oldest to recent) breaks and sets your health to 10hp.",
+		  "details5": "When you take fatal damage, one of your horcruxes available (oldest to recent) breaks and sets your health to 10hp.",
 		  "details6": "Anyone can break your horcruxes even yourself.",
 		  "passive_ability_info": {
 			"horcrux_block": "50% BEACON / 35% DRAGON_EGG / 15% GOLD_BLOCK",
@@ -235,16 +235,15 @@
 		  }
 	  },
   	  "Wrath": {
-		  "desc": "Wrath overwhelms all opposition when Enraged.",
-		  "type": "Brawler",
+		  "desc": "Wrath overwhelms all opposition when enraged.",
           "cost": 120,
     	  "icon": "FIREWORK_CHARGE",
     	  "passive": true,
     	  "active": true,
-    	  "passive_ability": "Stack fury by fighting and become Enraged for a duration.",
+    	  "passive_ability": "Stack fury by fighting and become enraged for a duration.",
     	  "active_ability": "Consumes all fury and disables enemy ability activations for a duration in a radius.",
-    	  "details1": "When Enraged and you are unable to soup and use the active ability.",
-		  "details2": "When you become Enraged, burst a roar as an audio clue.",
+    	  "details1": "When enraged and you are unable to soup and use the active ability.",
+		  "details2": "When you become enraged, burst a roar as an audio clue.",
 		  "details3": "Start decaying fury after 10 seconds of inactive combat.",
     	  "passive_ability_info": {
 			"fury_per_hit_dealt": 6,
@@ -294,7 +293,7 @@
 		  "icon": "TNT",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Takedowns grants TNT and speed for a duration.",
+		  "passive_ability": "Takedowns grant TNT and speed for a duration.",
 		  "active_ability": "Instantly ignites placed TNT deal area damage and significant knockback.",
 		  "details1": "Bomber is granted Blast Protection 10 and Feather Falling 5 on Boots.",
 		  "details2": "The TNT should override soups in inventory priority.",
@@ -322,7 +321,7 @@
 		  "active_ability": "Teleport behind your last hit target or closest target.",
 		  "details1": "The ability should not be put on cooldown if no one is in range.",
 		  "details2": "Spawns with 8 enderpearls, every takedown grants new enderpearls with a cap of 16.",
-		  "details3": "Enderpearl teleportation also apply the passive.",
+		  "details3": "Enderpearl teleportation also applies the passive.",
 		  "details4": "Ninja is granted Feather Falling 10 on Boots.",
 		  "passive_ability_info": {
 			"enderpearls_per_kill": 2,
@@ -342,7 +341,7 @@
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "10% chance to change the opponents weapon to another slot in their hotbar.",
-		  "active_ability": "Become totally invisible(Targetable) for a short duration and leave behind a clone.",
+		  "active_ability": "Become totally invisible (Targetable) for a short duration and leave behind a clone.",
 		  "details1": "The clone will stand still and poof for the same duration you are invisible, if a player hits the clone they are inflicted blindness.",
 		  "details2": "Monkey is granted Projectile Protection 6 on Leggings.",
 		  "passive_ability_info": {
@@ -396,10 +395,10 @@
 		  "icon": "MAGMA_CREAM",
 		  "passive": true,
 		  "active": true,
-		  "passive_ability": "Fall damage is negated and everytime you dash you gain absorption for a short duration.",
+		  "passive_ability": "Fall damage is negated and every time you dash you gain absorption for a short duration.",
 		  "active_ability": "Gain the ability to double jump and dash.",
 		  "details1": "Can only double jump from ground not air.",
-		  "details2": "Dashing/doublejumping through someone ignites them for a short duration.",
+		  "details2": "Dashing/double jumping through someone ignites them for a short duration.",
 		  "details3": "Phoenix has permanent Speed 1.",
 		  "passive_ability_info": {},
 		  "active_ability_info": {
@@ -459,7 +458,7 @@
 		"icon": "BOW",
 
 	  "Inferno": {
-		  "desc": "Inferno shoots flaming arrows that sets opponents ablaze.",
+		  "desc": "Inferno shoots flaming arrows that set opponents ablaze.",
 		  "cost": 0,
 		  "icon": "BOW",
 		  "passive": true,
@@ -520,7 +519,7 @@
 	  "Snowman": {
 		  "desc": "Snowman slows opponents and is quick on their feet.",
 		  "cost": 250,
-		  "icon": "SNOWBALL",
+		  "icon": "SNOW_BALL",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Apply slowness on arrow hit for a short duration.",
@@ -541,11 +540,11 @@
 	  "Wisp": {
 		  "desc": "Wisp is a spectral archer that is extremely lethal.",
 		  "cost": 250,
-		  "icon": "FLINT",
+		  "icon": "GHAST_TEAR",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Mark opponents with your arrow hits for a duration.",
-		  "active_ability": "Blinds and stuns all your marked targets for a short duration, arrow hits on stunned targets deals massive damage.",
+		  "active_ability": "Blinds and stuns all your marked targets for a short duration, arrow hits on stunned targets deal massive damage.",
 		  "passive_ability_info": {
 			"mark_duration": 6
 		  },
@@ -631,7 +630,7 @@
 	  "Juggernaut": {
 		  "desc": "Juggernaut is a massive giant that gains permanent health for every takedown.",
 		  "cost": 350,
-		  "icon": "ORANGE_DYE",
+		  "icon": "INK_SACK:14",
 		  "passive": true,
 		  "active": true,
 		  "passive_ability": "Increase health for every takedown.",
