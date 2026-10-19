@@ -2,19 +2,19 @@
   "Kits":
   {
 	"Brawler": {
-	  "desc": "Brawlers are monstrous fighters in battle that deal a lot damage.",
+	  "desc": "Brawlers are monstrous fighters in battle that deal a lot of damage.",
 
 	  "Knight": "A loyal knight of the Kingdom that is promised a promotion to Royalty.",
 	  "Alpha": "Alpha becomes a lot more fierceful with the pack.",
 	  "Viking": "Viking is a relentless force that weakens attackers and strikes lightning.",
-	  "Basilisk": "Basilisk strives in long term battles poisoning opponents.",
-	  "Warrior": "Warrior is holy champion blessed by the heavens.",
+	  "Basilisk": "Basilisk thrives in long term battles poisoning opponents.",
+	  "Warrior": "Warrior is a holy champion blessed by the heavens.",
 	  "Slayer": "Slayer is unmatched in raw strength.",
-	  "Challenger": "Challenger is a master duelist that weakens a souls.",
+	  "Challenger": "Challenger is a master duelist that weakens souls.",
 	  "Shaman": "Shaman is a mystical combatant that casts dark magics.",
 	  "Vampire": "Vampire drains the lifeforce of their opponents.",
 	  "Alchemist": "Alchemist is a master of brews that crafts arcane potions.",
-	  "Wrath": "Wrath overwhelms all opposition when Enraged."
+	  "Wrath": "Wrath overwhelms all opposition when enraged."
 	},
 	
     "Duelist": {
@@ -34,7 +34,7 @@
     "Ranged": {
 	  "desc": "Damage opponents from afar whilst keeping your distance.",
 
-	  "Inferno": "Inferno shoots flaming arrows that sets opponents ablaze.",
+	  "Inferno": "Inferno shoots flaming arrows that set opponents ablaze.",
 	  "Scout": "Scout is a lethal archer that suffocates their prey.",
 	  "Artillery": "Artillery has impeccable damage but has to be careful.",
 	  "Snowman": "Snowman slows opponents and is quick on their feet.",
