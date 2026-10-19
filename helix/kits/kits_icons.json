@@ -37,7 +37,7 @@
 	  "Inferno": "BOW",
 	  "Scout": "CHAINMAIL_HELMET",
 	  "Artillery": "ARROW",
-	  "Snowman": "SNOWBALL",
+	  "Snowman": "SNOW_BALL",
 	  "Wisp": "GHAST_TEAR"
 	},
 	
@@ -47,7 +47,7 @@
 	  "Star": "NETHER_STAR",
 	  "Dragon": "FIREBALL",
 	  "Hedgehog": "NETHER_BRICK_ITEM",
-	  "Juggernaut": "ORANGE_DYE",
+	  "Juggernaut": "INK_SACK:14",
 	  "Behemoth": "EMERALD"
 	}
   }
