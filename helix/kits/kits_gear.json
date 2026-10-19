@@ -219,7 +219,7 @@
             "helmet": "DIAMOND_HELMET",
             "chestplate": "DIAMOND_CHESTPLATE",
             "leggings": "IRON_LEGGINGS",
-            "boost": "DIAMOND_BOOTS"
+            "boots": "DIAMOND_BOOTS"
         }
       }
     }
